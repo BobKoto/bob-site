@@ -4,8 +4,10 @@ title: "First Blog Post"
 This is Bob's first blog.
 I'm doing this as part of github's github-pages tutorial.
 
+Stay tuned for more nonsense.
+
 Remember your intent is almost always your destiny!
 
 Thank You
 
-3rd try :(
+
