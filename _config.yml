@@ -1,7 +1,7 @@
-#theme: minima
- remote_theme: pages-themes/architect@v0.2.0
- plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: minima
+ #remote_theme: pages-themes/architect@v0.2.0
+ #plugins:
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
 author: Bob K
 description: Fill the world with irony and nonsense - 2 of my few talents.
 
