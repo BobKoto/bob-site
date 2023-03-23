@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: My Second Post
 date: 2023-03-21 13:00:00 -0700
 categories: [blog, jekyll]
