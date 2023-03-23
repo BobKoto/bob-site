@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: default
 title: My First Post
 date: 2023-03-21 13:00:00 -0700
 categories: [blog, jekyll]
 tags: [jekyll, tutorial]
 ---
-Welcome to my first post!
+Welcome to my first post!  (with layout : defalt)
 
 
 title: "First Blog Post"
