@@ -10,6 +10,6 @@ Welcome to my first post!
 
 This is 2nd post.
 
-Next we try some othen themes.
+Next we try some other themes.
 
 bye 4 now
