@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: My Second Post
 date: 2023-03-21 13:00:00 -0700
 categories: [blog, jekyll]
@@ -10,6 +10,6 @@ Welcome to my first post!
 
 This is 2nd post.
 
-Next we try some othen themes.
+Next we try some other themes.
 
 bye 4 now
