@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Bob Koto Initial Page"
-permalink: /URL-PATH
+#permalink: /URL-PATH
 ---
 
 
