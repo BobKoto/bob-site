@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-Here we are in a branch that we want to use so we no longer commit directly to Main. 
+
+##Here we are on a local copy of the repo
+
+Testing local git changes - so we can work locally 
+
+Here we are in a branch that we want to use so we no longer commit directly to Main. (ok this works)
 
 And we used --- layout: default --- only for matter
 
