@@ -2,7 +2,7 @@
 layout: default
 ---
 
-##Here we are on a local copy of the repo
+## Here we are on a local copy of the repo
 
 Testing local git changes - so we can work locally 
 
