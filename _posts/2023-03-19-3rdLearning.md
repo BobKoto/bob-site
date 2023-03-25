@@ -6,6 +6,9 @@ layout: default
 
 ## And now we used Visual Studio to edit this...
 
+## Actually that was Visual Studio Code
+now we're in Visual Studio
+
 Testing local git changes - so we can work locally 
 
 Here we are in a branch that we want to use so we no longer commit directly to Main. (ok this works)
