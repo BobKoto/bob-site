@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "image01"
+title: "Image01"
 ---
 
 
