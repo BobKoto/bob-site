@@ -1,14 +1,13 @@
-    <style>
-      body {
-        background-color: lightblue;
-      }
-    </style>
+
 
 ---
 layout: page
 title: "Image01"
 ---
-
+<style>
+      body {
+        background-color: lightblue;
+      }
 
 
 ## Clicking on the Robot takes you to the Eye..
@@ -23,4 +22,9 @@ title: "Image01"
 *Our Robot Icon. Click to see the Eye.*
 
 
-Or you can go back to the blog posts.
+Or you can go back to the blog posts. 
+
+
+
+</style>
+
