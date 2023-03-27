@@ -1,12 +1,14 @@
----
-layout: page
-title: "Image01"
----
     <style>
       body {
         background-color: lightblue;
       }
     </style>
+
+---
+layout: page
+title: "Image01"
+---
+
 
 
 ## Clicking on the Robot takes you to the Eye..
