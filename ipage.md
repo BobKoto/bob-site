@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About1"
-permalink: /about/
+#permalink: /about/
 ---
 
 
