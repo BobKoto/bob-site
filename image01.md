@@ -4,7 +4,12 @@ title: "Image01"
 ---
 
 
-[![PasageIcon](/assets/PasageIcon.png)] (https://bobkoto.github.io/bob-site/graphics01)
+
+
+[![PassageIcon][icon-image]][graphics01-link]
+
+[icon-image]: /assets/PasageIcon.png "A cute cat"
+[graphics01-link]: https://bobkoto.github.io/bob-site/graphics01 "Go to Graphics01"
 
 >
 
