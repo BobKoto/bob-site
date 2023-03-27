@@ -4,8 +4,8 @@ title: "Image01"
 ---
 
 
-![PasageIcon](/assets/PasageIcon.png)
+[![PasageIcon](/assets/PasageIcon.png)] (https/bobkoto.github.io/bob-site/graphics01)
 
 >
 
-*Our Robot Icon.*
+*Our Robot Icon. Click to see the Eye.*
