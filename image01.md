@@ -3,6 +3,20 @@ layout: page
 title: "Image01"
 ---
 
+<!DOCTYPE html>
+<html>
+<html lang="en-US">
+  </head>
+  <head>
+
+    <style>
+      body {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  </html>
+
 ## Clicking on the Robot takes you to the Eye..
 
 [![PassageIcon][icon-image]][graphics01-link]
