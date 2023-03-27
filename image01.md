@@ -9,7 +9,7 @@ title: "Image01"
         background-color: lightblue;
       }
 </style>
-<body>
+
 ## Clicking on the Robot takes you to the Eye..
 
 [![PassageIcon][icon-image]][graphics01-link]
@@ -23,4 +23,3 @@ title: "Image01"
 
 
 Or you can go back to the blog posts. 
-</body>
