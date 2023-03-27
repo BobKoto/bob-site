@@ -1,9 +1,9 @@
 
-
 ---
 layout: page
 title: "Image01"
 ---
+
 <style>
       body {
         background-color: lightblue;
