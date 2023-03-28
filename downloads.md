@@ -8,6 +8,6 @@ title: "Downloads"
 A test text file:
 
 
-#[Download File Name](/downloads/bob-site-text01.txt){: .btn .btn-blue }
+<!-- #[Download File Name](/downloads/bob-site-text01.txt){: .btn .btn-blue } -->
 
-[bob-site-text01.txt](/downloads/bob-site-text01.txt){: .btn .btn-blue }
+[bob-site-text01.txt](https://bobkoto.github.io/bob-site/downloads/bob-site-text01.txt){: .btn .btn-blue }
