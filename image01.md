@@ -13,8 +13,8 @@ title: "Image01"
 
 [![PassageIcon][icon-image]][graphics01-link]
 
-[icon-image]: assets/PasageIcon.png "A cute cat"
-[graphics01-link]: https://bobkoto.github.io/bob-site/graphics01 "Go to Graphics01"
+[icon-image]: assets/PasageIcon.png "A cute x-rayed cat that will take you to the Eye page"
+[graphics01-link]: https://bobkoto.github.io/bob-site/graphics02 "Go to Graphics01"
 
 >
 
