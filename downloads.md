@@ -14,3 +14,10 @@ A test text file:
 
 
 [Download bob-site-text01.txt]({{ site.baseurl }}/_downloads/bob-site-text01.txt){: .btn .btn-blue }
+
+
+
+[Download x.txt]({{ site.baseurl }}/_downloads/x.txt){: .btn .btn-blue }
+
+
+[full url for x.txt](https://bobkoto.github.io/bob-site/_downloads/x.txt){: .btn .btn-blue } 
