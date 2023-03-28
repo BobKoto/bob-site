@@ -5,10 +5,14 @@ title: "About1"
 ---
 
 
-## Hello from the Bob Koto About Page (not a post, mind you!)
+## Hello 
 
-This is a start. 
+This site has 2 purposes:
 
-There will surely be more that you or any SEO will not care about...
+1. Show screen shots of games and other software I have and am currently creating 
+
+2. A general blog with some fun and interesting quotes and thoughts I want to share with you.
+
+There will surely be more that you or the SEO gods will not care about...
 
 And then there will be even more.
