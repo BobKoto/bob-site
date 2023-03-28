@@ -1,6 +1,6 @@
 ===
 layout: page
-Title: "Downloads"
+title: "Downloads"
 ===
 
 ## This is the Downloads page:
