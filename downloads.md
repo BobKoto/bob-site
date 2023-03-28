@@ -1,7 +1,7 @@
-===
+---
 layout: page
 title: "Downloads"
-===
+---
 
 ## This is the Downloads page:
 
