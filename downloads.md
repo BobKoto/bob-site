@@ -20,4 +20,4 @@ A test text file:
 [Download x.txt]({{ site.baseurl }}/_downloads/x.txt){: .btn .btn-blue }
 
 
-[full url for x.txt](https://bobkoto.github.io/bob-site/_downloads/x.txt){: .btn .btn-blue } 
+[full url for x.txt](https://bobkoto.github.io/bob-site/_downloads/x.txt/){: .btn .btn-blue } 
