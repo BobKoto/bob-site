@@ -3,6 +3,12 @@ layout: page
 title: "Downloads"
 ---
 
+<style>
+      body {
+        background-color: lightblue;
+      }
+</style>
+
 ## This is the Downloads page:
 
 A test text file:

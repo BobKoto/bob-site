@@ -4,6 +4,11 @@ title: "About1"
 #permalink: /about/
 ---
 
+<style>
+      body {
+        background-color: lightblue;
+      }
+</style>
 
 ## Hello 
 
