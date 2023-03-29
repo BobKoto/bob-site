@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="{{ '/_sass/styles.css' | relative_url }}">
 </head>
