@@ -9,4 +9,4 @@ title: Home
 Above in the file is only a matter entry "title: Home"
 
 <!-- do we need <script> in fron of this? -->
-<script src="scripts/main.js"></script>
+<script src="./scripts/main.js"></script>
