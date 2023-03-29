@@ -2,7 +2,11 @@
 title: Home
 ---
 
-
+<style>
+      body {
+        background-color: lightblue;
+      }
+</style>
 
 ## Here we enter a line into index.md 
 
