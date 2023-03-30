@@ -16,6 +16,7 @@ frankie.name;
 frankie.introduceSelf();
 // "Hi! I'm Frankie."
 // Get the elements you want to manipulate
+
 const title = document.getElementById('title');
 const text = document.getElementById('text');
 const button = document.getElementById('btn');
