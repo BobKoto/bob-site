@@ -3,6 +3,8 @@ function Person(name) {
   this.name = name;
   this.introduceSelf = function () {
     console.log(`Hi! I'm ${this.name}.`);
+    text.textContent += ' Hi! Im' ;
+    text.textContent +=  ${this.name};
    // document.write ${this.name};
   };
 }
@@ -25,7 +27,9 @@ const button = document.getElementById('btn');
 title.textContent = 'Hello, World!';
 
 // Add some text to the <p> element
-text.textContent += ' This is some more text.';
+text.textContent += ' This is some more text. ';
+
+
 
 // Add an event listener to the button to change its text when clicked
 button.addEventListener('click', function() {
