@@ -17,7 +17,7 @@ title: "Script Practice"
     <h1 id="title">Hello World 131</h1>
     <p id="text">This is some text.</p>
     <button id="btn">Click Me</button>
-    <script src="basicobject.js"></script> 
+    <script src="./scripts/basicobject.js"></script> 
   </body>
 
 <!-- <script src="./scripts/basicobject.js"></script> -->
