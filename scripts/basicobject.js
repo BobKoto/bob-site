@@ -9,7 +9,7 @@ const button = document.getElementById('btn');
   this.introduceSelf = function () {
     console.log(`Hi! I'm ${this.name}.`);
    // text.textContent += ' Hi! Im' ;
-    text.textContent +=  this.name;
+    text.textContent += "  hi this is " + this.name;
    // document.write ${this.name};
   };
 }
