@@ -32,5 +32,5 @@ text.textContent += ' This is some more text. ';
 // Add an event listener to the button to change its text when clicked
 button.addEventListener('click', function() {
   button.textContent = 'Clicked!';
-  text.textContent = '  Hi this is BOB';
+  text.textContent = "  Hi this is BOB.";
 });
