@@ -33,4 +33,5 @@ text.textContent += ' This is some more text. ';
 button.addEventListener('click', function() {
   button.textContent = 'Clicked!';
   text.textContent = "  Hi this is BOB.";
+  title.textContent = "Hello, World! BOB IS HERE!";
 });
