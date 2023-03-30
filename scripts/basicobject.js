@@ -25,14 +25,12 @@ frankie.introduceSelf();
 
 
 // Change the text of the <h1> element
-title.textContent = 'Hello, World!';
+title.textContent = 'Hello, World! 217 in script';
 
 // Add some text to the <p> element
 text.textContent += ' This is some more text. ';
-
-
-
 // Add an event listener to the button to change its text when clicked
 button.addEventListener('click', function() {
   button.textContent = 'Clicked!';
+  text.textContent += "  Hi this is BOB";
 });
