@@ -8,9 +8,7 @@ weight: 60
       body {
         background-color: lightblue;
       }
-</style>
 
-<style>
   .btn2 {
     background-color: blue;
     color: white;

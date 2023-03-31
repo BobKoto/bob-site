@@ -31,14 +31,15 @@ title.textContent = document.title + 'Hello, World! 217 in script';
 
 // Add some text to the <p> element
 text.textContent += ' This is some more text. ';
+
+button2.addEventListener('click', function() {
+  button2.textContent = 'b2 Clicked!';
+  text2.textContent = " BUTTON2 was clicked. Now let's show some interesting stuff!...";
+});
 // Add an event listener to the button to change its text when clicked
 button.addEventListener('click', function() {
   button.textContent = 'Clicked!';
   text.textContent = "  Hi this is BOB.";
   title.textContent = "Hello, World! BOB IS HERE!";
   text2.textContent += " we show this after the button is clicked";
-});
-button2.addEventListener('click', function() {
-  button2.textContent = 'b2 Clicked!';
-  text2.textContent = " BUTTON 2 was clicked. Now let's show some interesting stuff!...";
 });
