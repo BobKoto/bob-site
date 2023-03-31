@@ -29,12 +29,14 @@ weight: 60
     <h1 id="title">Hello World 257</h1>
     <p id="text">This is some text.</p>
     <button id="btn">Click Me</button>
-    <button id="btn2">Interesting Info</button>
         <p id="text2">This is some text in text2 that we're gonna use for showing browser stuff.</p>
+
+    <button id="btn2">Interesting Info</button>
+
     <script src="./scripts/basicobject.js"></script> 
     <p> ..... </p>
     <button id= "btn3">BUTTON3</button>
-            <p id="text3">This is some text in text3 that we're gonna use to do nothing.</p>
+            <p id="text3">This is some text in text3 that we're gonna do nothing with.</p>
   </body>
 
 <!-- <script src="./scripts/basicobject.js"></script> -->

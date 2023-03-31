@@ -2,6 +2,7 @@
 
 const button = document.getElementById('btn');
 const button2 = document.getElementById('btn2');
+const button3 = document.getElementById('btn3');
 function Person(name) {
 const title = document.getElementById('title');
 const text = document.getElementById('text');
@@ -45,6 +46,6 @@ button.addEventListener('click', function() {
   text2.textContent += " we show this after the button is clicked";
 });
 button3.addEventListener('click', function() {
-  button.textContent = 'b3 Clicked!';
+  button3.textContent = 'b3 Clicked!';
   text3.textContent = " BUTTON3 was clicked. Now let's do nothing...";
 });
