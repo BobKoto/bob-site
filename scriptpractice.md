@@ -31,7 +31,7 @@ weight: 60
     <button id="btn">Click Me</button>
         <p id="text2">This is some text in text2 that we're gonna use for showing browser stuff.</p>
     <script src="./scripts/basicobject.js"></script> 
-    <button id="btn2">Interesting Info</button>
+    <button2 id="btn2">Interesting Info</button2>
   </body>
 
 <!-- <script src="./scripts/basicobject.js"></script> -->
