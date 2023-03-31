@@ -9,7 +9,7 @@ title: "Script Practice"
       }
 </style>
 
-## Here we enter a line into Script Practice dot MD followed by inserted HTML
+## This line is in Script Practice dot MD followed by inserted HTML
   <head>
     <title>DOM Manipulation Example</title>
   </head>

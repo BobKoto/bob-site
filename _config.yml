@@ -3,7 +3,7 @@ theme: minima
  #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
 author: Bob K
-description: Fill the world with irony and nonsense - 2 of my few talents (find this in _config.yml).
+description: Fill the world with irony and nonsense - 2 of my few talents 
 sass:
   sass_dir: _sass
   style: compressed
