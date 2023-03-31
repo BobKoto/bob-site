@@ -1,6 +1,7 @@
 // JavaScript source code
 
 const button = document.getElementById('btn');
+const button2 = document.getElementById('btn2');
 function Person(name) {
 const title = document.getElementById('title');
 const text = document.getElementById('text');
@@ -36,4 +37,8 @@ button.addEventListener('click', function() {
   text.textContent = "  Hi this is BOB.";
   title.textContent = "Hello, World! BOB IS HERE!";
   text2.textContent += " we show this after the button is clicked";
+});
+button2.addEventListener('click', function() {
+  button.textContent = 'b2 Clicked!';
+  text2.textContent = " BUTTON 2 was clicked. Now let's show some interesting stuff!...";
 });
