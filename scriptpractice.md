@@ -18,6 +18,7 @@ weight: 60
     <h1 id="title">Hello World 257</h1>
     <p id="text">This is some text.</p>
     <button id="btn">Click Me</button>
+        <p id="text2">This is some text in text2 that we're gonna use for showing browser stuff.</p>
     <script src="./scripts/basicobject.js"></script> 
   </body>
 
