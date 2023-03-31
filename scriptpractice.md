@@ -33,7 +33,7 @@ weight: 60
     <script src="./scripts/basicobject.js"></script> 
     <button id="btn2">Interesting Info</button>
     <p> ..... </p>
-    button id= "btn3">BUTTON3</button>
+    <button id= "btn3">BUTTON3</button>
   </body>
 
 <!-- <script src="./scripts/basicobject.js"></script> -->
