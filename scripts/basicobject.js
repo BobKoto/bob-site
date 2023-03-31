@@ -6,6 +6,7 @@ function Person(name) {
 const title = document.getElementById('title');
 const text = document.getElementById('text');
 const text2 = document.getElementById('text2');
+const text3 = document.getElementById('text3');
 
   this.name = name;
   this.introduceSelf = function () {
@@ -42,4 +43,8 @@ button.addEventListener('click', function() {
   text.textContent = "  Hi this is BOB.";
   title.textContent = "Hello, World! BOB IS HERE!";
   text2.textContent += " we show this after the button is clicked";
+});
+button3.addEventListener('click', function() {
+  button.textContent = 'b3 Clicked!';
+  text3.textContent = " BUTTON3 was clicked. Now let's do nothing...";
 });

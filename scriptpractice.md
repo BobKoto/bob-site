@@ -34,7 +34,7 @@ weight: 60
     <script src="./scripts/basicobject.js"></script> 
     <p> ..... </p>
     <button id= "btn3">BUTTON3</button>
-
+            <p id="text3">This is some text in text3 that we're gonna use to do nothing.</p>
   </body>
 
 <!-- <script src="./scripts/basicobject.js"></script> -->
