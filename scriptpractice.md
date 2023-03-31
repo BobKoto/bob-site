@@ -11,7 +11,7 @@ weight: 60
 </style>
 
 <style>
-  .my-button {
+  .btn2 {
     background-color: blue;
     color: white;
     font-size: 20px;
