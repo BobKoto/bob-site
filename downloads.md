@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Downloads"
+weight: 40
 ---
 
 <style>

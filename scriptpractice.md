@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Script Practice"
+weight: 60
 ---
 
 <style>

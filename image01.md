@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Image01"
+weight: 20
 ---
 
 <style>

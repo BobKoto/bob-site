@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Graphics02"
+weight: 30
 ---
 
 This line is above the style and body HTML entries in this file.
