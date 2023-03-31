@@ -39,6 +39,6 @@ button.addEventListener('click', function() {
   text2.textContent += " we show this after the button is clicked";
 });
 button2.addEventListener('click', function() {
-  button.textContent = 'b2 Clicked!';
+  button2.textContent = 'b2 Clicked!';
   text2.textContent = " BUTTON 2 was clicked. Now let's show some interesting stuff!...";
 });
