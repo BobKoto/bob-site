@@ -20,8 +20,8 @@ title: "Image02"
   text-align: center;
 }
 .grid-image {
-  <!-- width: 25%; -->
-  height: 25%;
+  width: 40%;
+  <!-- height: 25%; -->
 }
 
       img {
@@ -50,7 +50,7 @@ title: "Image02"
 
 
 the orphans:
-wrapped in an html div with H20% & W40%:
+wrapped in an html div with only W40%:
 <div>
   <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; width:40%">
   <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; width:40%">
