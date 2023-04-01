@@ -5,16 +5,16 @@ title: "Image02"
 
 <div class="grid-container">
   <div class="grid-item">
-    <img src="/path/to/graphic1.png">
+    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
   </div>
   <div class="grid-item">
-    <img src="/path/to/graphic2.png">
+    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
   </div>
   <div class="grid-item">
-    <img src="/path/to/graphic3.png">
+    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
   </div>
   <div class="grid-item">
-    <img src="/path/to/graphic4.png">
+    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
   </div>
 </div>
 
@@ -41,9 +41,7 @@ title: "Image02"
       }
 </style>
 
-<img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
-
-<img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
+the orphans:
 
 <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
 
