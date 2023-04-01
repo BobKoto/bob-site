@@ -3,21 +3,6 @@ layout: page
 title: "Image02"
 ---
 
-<div class="grid-container">
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
-  </div>
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
-  </div>
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
-  </div>
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
-  </div>
-</div>
-
 <style>
       body {
         background-color: lightblue;
@@ -46,6 +31,23 @@ title: "Image02"
         margin-bottom: 20px;
       }
 </style>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
+  </div>
+  <div class="grid-item">
+    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
+  </div>
+  <div class="grid-item">
+    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
+  </div>
+  <div class="grid-item">
+    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
+  </div>
+</div>
+
+
 
 the orphans:
 
