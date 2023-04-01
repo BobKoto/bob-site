@@ -50,10 +50,10 @@ title: "Image02"
 
 
 the orphans:
-wrapped in an html div:
+wrapped in an html div with 20% H&W:
 <div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; width:20%">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; width:30%">
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:20%; width:20%">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:20%; width:20%">
 </div>
 
 as original:
