@@ -3,6 +3,7 @@ theme: minima
 header_pages:
   - index.md
   - image01.md
+  - image02.md
   - graphics02.md
   - downloads.md
   - ipage.md
