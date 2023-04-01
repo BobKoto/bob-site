@@ -34,6 +34,11 @@ title: "Image02"
   padding: 10px;
   text-align: center;
 }
+.grid-image {
+  width: 300px;
+  height: 300px;
+}
+
       img {
         width: 25%;
         height: 25%;
