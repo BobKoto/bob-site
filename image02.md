@@ -3,7 +3,7 @@ layout: page
 title: "Image02"
 ---
 
-the grid images are set to w200px, use grid-image , comment out img
+the grid images , first row, are set to style w25%, use grid-image , comment out img
 
 <style>
       body {
@@ -24,7 +24,7 @@ the grid images are set to w200px, use grid-image , comment out img
 
 .grid-image {
   width: 200px;
-<!-- height: 25%;  -->
+  height: 200px; 
 
 }
 <!--
@@ -38,10 +38,10 @@ the grid images are set to w200px, use grid-image , comment out img
 
 <div class="grid-container">
   <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
+    <img src="{{ site.baseurl }}/assets/PasageIcon.png" style = "width: 25%" alt="Description the Robot Icon">
   </div>
   <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
+    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style = "width: 25%" alt="Description the Eye">
   </div>
   <div class="grid-item">
     <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
