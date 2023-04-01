@@ -3,6 +3,8 @@ layout: page
 title: "Image02"
 ---
 
+the grid is 25x25
+
 <style>
       body {
         background-color: lightblue;
@@ -20,8 +22,8 @@ title: "Image02"
   text-align: center;
 }
 .grid-image {
-  width: 40%;
-  <!-- height: 25%; -->
+  width: 25%;
+ height: 25%;
 }
 
       img {
@@ -47,13 +49,11 @@ title: "Image02"
   </div>
 </div>
 
-
-
 the orphans:
-wrapped in an html div with only W40%:
+wrapped in an html div with passageicon w40%   and Eye 25x25
 <div>
   <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; width:40%">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; width:40%">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%">
 </div>
 
 as original:
