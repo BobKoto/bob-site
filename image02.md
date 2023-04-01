@@ -51,6 +51,4 @@ title: "Image02"
 
 the orphans:
 
-<img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
-
-<img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
+<img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon"> <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
