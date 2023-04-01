@@ -52,8 +52,8 @@ title: "Image02"
 the orphans:
 wrapped in an html div:
 <div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; width:30%">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; width:30%">
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; width:40%">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; width:60%">
 </div>
 
 as original:
