@@ -2,6 +2,7 @@
 layout: page
 title: "Image02"
 ---
+<time datetime="23:45" pubdate>11:45 PM</time>
 
 the grid images , first row, are set to style w25%, use grid-image , comment out img
 
@@ -23,17 +24,15 @@ the grid images , first row, are set to style w25%, use grid-image , comment out
 }
 
 .grid-image {
-  width: 200px;
-  height: 200px; 
+  width: 300px;
+  height: 300px; 
 
 }
-<!--
       img {
         width: 25%;
         height: 25%; 
         margin-bottom: 20px;
       }
- -->
 </style>
 
 <div class="grid-container">
