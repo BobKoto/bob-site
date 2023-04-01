@@ -2,7 +2,7 @@
 layout: page
 title: "Image02"
 ---
-<time datetime="23:45" pubdate>11:45 PM</time>
+<time datetime="16:15" pubdate>4:15 PM</time>
 
 the grid images , first row, are set to style w25%, use grid-image , comment out img
 
@@ -29,8 +29,8 @@ the grid images , first row, are set to style w25%, use grid-image , comment out
 
 }
       img {
-        width: 25%;
-        height: 25%; 
+        width: 300px;
+        height: 300px; 
         margin-bottom: 20px;
       }
 </style>
