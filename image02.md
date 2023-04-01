@@ -3,7 +3,7 @@ layout: page
 title: "Image02"
 ---
 
-the grid images are set to 25% x 25%  use grid-image , comment out img
+the grid images are set to w50%, use grid-image , comment out img
 
 <style>
       body {
@@ -23,8 +23,8 @@ the grid images are set to 25% x 25%  use grid-image , comment out img
 }
 
 .grid-image {
-  width: 25%;
- height: 25%;
+  width: 50%;
+<!-- height: 25%;  -->
 
 }
 <!--
