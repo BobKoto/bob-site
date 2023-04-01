@@ -3,7 +3,7 @@ layout: page
 title: "Image02"
 ---
 
-the grid is 25x25
+the grid images are set to 25% x 25%
 
 <style>
       body {
@@ -21,15 +21,16 @@ the grid is 25x25
   padding: 10px;
   text-align: center;
 }
+<!--
 .grid-image {
   width: 25%;
  height: 25%;
+ -->
 }
 
       img {
         width: 25%;
         height: 25%; 
-
         margin-bottom: 20px;
       }
 </style>
