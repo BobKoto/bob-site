@@ -35,13 +35,13 @@ title: "Image02"
   text-align: center;
 }
 .grid-image {
-  width: 300px;
-  height: 300px;
+  width: 25%;
+  height: 25%;
 }
 
       img {
-        width: 25%;
-        height: 25%;
+        width: 300px;
+        height: 300px;
         margin-bottom: 20px;
       }
 </style>
