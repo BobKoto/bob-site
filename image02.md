@@ -3,7 +3,7 @@ layout: page
 title: "Image02"
 ---
 
-the grid images are set to 25% x 25%
+the grid images are set to 25% x 25%  use grid-image , comment out img
 
 <style>
       body {
@@ -21,18 +21,19 @@ the grid images are set to 25% x 25%
   padding: 10px;
   text-align: center;
 }
-<!--
+
 .grid-image {
   width: 25%;
  height: 25%;
- -->
-}
 
+}
+<!--
       img {
         width: 25%;
         height: 25%; 
         margin-bottom: 20px;
       }
+ -->
 </style>
 
 <div class="grid-container">
@@ -53,8 +54,9 @@ the grid images are set to 25% x 25%
 the orphans:
 wrapped in an html div with BOTH  passageicon and Eye @ 25x25
 <div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:40px">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%">
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:40px;" alt="A Robot Icon">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%;" alt="A human Eye">
+
 </div>
 
 as original:
