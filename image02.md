@@ -30,7 +30,7 @@ title: "Image02"
 }
 
 .grid-item {
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
   padding: 10px;
   text-align: center;
 }
@@ -40,8 +40,9 @@ title: "Image02"
 }
 
       img {
-        width: 300px;
-        height: 300px;
+ <!--       width: 300px;
+        height: 300px;  -->
+
         margin-bottom: 20px;
       }
 </style>
