@@ -19,8 +19,8 @@ title: "Image02"
       }
 </style>
 
-<img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
+<img1 src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
 
 A line between the images.
 
-<img1 src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
+<img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
