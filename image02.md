@@ -12,14 +12,9 @@ title: "Image02"
         height: 25%;
         margin-bottom: 20px;
       }
-      img1 {
-        width: 25%;
-        height: 25%;
-        margin-bottom: 20px;
-      }
 </style>
 
-<img1 src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
+<img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
 
 A line between the images.
 
