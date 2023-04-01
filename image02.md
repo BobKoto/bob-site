@@ -52,7 +52,7 @@ the grid is 25x25
 the orphans:
 wrapped in an html div with BOTH  passageicon and Eye @ 25x25
 <div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%">
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:40px">
   <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%">
 </div>
 
