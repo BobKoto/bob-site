@@ -37,7 +37,7 @@ the grid images , first row, are set to style w25%, use grid-image , comment out
 
 <div class="grid-container">
   <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/PasageIcon.png" style = "width: 25%" alt="Description the Robot Icon">
+    <img src="{{ site.baseurl }}/assets/PasageIcon.png" style = "width: 25%; height:25%" alt="Description the Robot Icon">
   </div>
   <div class="grid-item">
     <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style = "width: 25%" alt="Description the Eye">
