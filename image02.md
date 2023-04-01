@@ -27,8 +27,8 @@ the grid is 25x25
 }
 
       img {
- <!--       width: 300px;
-        height: 300px;  -->
+        width: 25%;
+        height: 25%; 
 
         margin-bottom: 20px;
       }
