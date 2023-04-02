@@ -95,6 +95,7 @@ a second row ? (between <div>s)
    <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="height:25%; width:25%" alt="A pinball game">
 </div>
                                And a caption for our centered graphic
+
 <!--
 as original:
 <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon"> 
