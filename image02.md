@@ -8,11 +8,6 @@ title: "Image02"
   <p id="time"></p>
 </div>
 -->
-<div style="display: inline-block;">
-  <span>Time is now:</span> 
-  <span id="hours"></span>:
-  <span id="minutes"></span>:
-</div>
 
 <script>
   var time = document.getElementById("time");
@@ -21,6 +16,12 @@ title: "Image02"
   var minutes = currentTime.getMinutes();
   time.innerHTML = hours + ":" + minutes;
 </script>
+
+<div style="display: inline-block;">
+  <span>Time is now:</span> 
+  <span id="hours"></span>:
+  <span id="minutes"></span>:
+</div>
 
 
 the grid images , first row, are set to style w25%, use grid-image , comment out img
