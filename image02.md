@@ -68,15 +68,15 @@ All stripped except in-line images
 the orphans:
 wrapped in an html div with BOTH  passageicon and Eye @ 25x25
 <div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:40px;" alt="A Robot Icon">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A human Eye">
-  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A pinball game">
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:10px;" alt="A Robot Icon">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A human Eye">
+  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
 </div>
 a second row ? (between <div>s)
 <div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:40px;" alt="A Robot Icon">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A human Eye">
-  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A pinball game">
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:10px;" alt="A Robot Icon">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A human Eye">
+  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
 </div>
 <!--
 as original:
