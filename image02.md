@@ -11,7 +11,8 @@ title: "Image02"
 
 <div style="display: inline-block;">
   <span>Time is now: </span> 
-  <span id="time"></span>:
+  <span id="time"></span>  yes the time
+  and this we put on a new line in the html source  
  <!-- <span id="minutes"></span>: -->
 </div>
 
