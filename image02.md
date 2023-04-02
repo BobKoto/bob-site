@@ -25,8 +25,19 @@ All stripped except in-line images
 </style>
 
 
-                                just 1 with centered content 
 <div style="display:flex; justify-content:center; align-items:center;">
    <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="height:25%; width:25%" alt="A pinball game">
 </div>
-                               And a caption for our centered graphic
+
+<div style="text-align:center">
+
+A 3D, yes 3D, simple pinball game for Android (thiis text centered with html)
+
+</div>
+
+
+<div style="display:flex; justify-content:center; align-items:center;">
+   <img src="{{ site.baseurl }}/assets/Spacergy1.jpg" style="height:25%; width:25%" alt="A pinball game">
+</div>
+
+                               A 3D Arcade style game for Android (this text centered manually)
