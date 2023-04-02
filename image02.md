@@ -16,15 +16,14 @@ title: "Image02"
   time.innerHTML = hours + ":" + minutes;
 </script>
 
-
 All stripped except in-line images 
 
 <style>
       body {
         background-color: lightblue;
       }
-  </style>
-  <!--
+</style>
+<!--
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -49,7 +48,8 @@ All stripped except in-line images
         margin-bottom: 20px;
       }
 </style>
-
+-->
+<!--
 <div class="grid-container">
   <div class="grid-item">
     <img src="{{ site.baseurl }}/assets/PasageIcon.png" style = "width: 25%; height:25%" alt="Description the Robot Icon">
