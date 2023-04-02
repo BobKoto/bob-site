@@ -2,7 +2,7 @@
 layout: page
 title: "Image02"
 ---
-
+## Game screen shots
 <div style="display: inline-block;">
   <span>Time is now: </span> 
   <span id="time"></span>  
@@ -23,71 +23,6 @@ All stripped except in-line images
         background-color: lightblue;
       }
 </style>
-<!--
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px;
-}
-
-.grid-item {
-  border: 5px solid #ccc;
-  padding: 10px;
-  text-align: center;
-}
-
-.grid-image {
-  width: 300px;
-  height: 300px; 
-
-}
-      img {
-        width: 300px;
-        height: 300px; 
-        margin-bottom: 20px;
-      }
-</style>
--->
-<!--
-<div class="grid-container">
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/PasageIcon.png" style = "width: 25%; height:25%" alt="Description the Robot Icon">
-  </div>
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style = "width: 25%; height:25%" alt="Description the Eye">
-  </div>
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon">
-  </div>
-  <div class="grid-item">
-    <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
-  </div>
-</div>
--->
-the orphans:
-wrapped in an html div with BOTH  passageicon and Eye @ 25x25
-<div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:10px;" alt="A Robot Icon">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A human Eye">
-  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
-</div>
-a second row ? (between <div>s)
-<div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:10px;" alt="A Robot Icon">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A human Eye">
-  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
-</div>
-
-<div>
-  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:10px;" alt="A Robot Icon">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A human Eye">
-  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
-</div>
-
-<div>
-  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
-</div>
 
 
                                 just 1 with centered content 
@@ -95,9 +30,3 @@ a second row ? (between <div>s)
    <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="height:25%; width:25%" alt="A pinball game">
 </div>
                                And a caption for our centered graphic
-
-<!--
-as original:
-<img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon"> 
-<img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
--->
