@@ -78,6 +78,24 @@ a second row ? (between <div>s)
   <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A human Eye">
   <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
 </div>
+
+<div>
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:10px;" alt="A Robot Icon">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A human Eye">
+  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
+</div>
+
+<div>
+  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:10px" alt="A pinball game">
+</div>
+
+just 1 with centered content 
+<div style="display:flex; justify-content:center; align-items:center;">
+   <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="height:25%; width:25%" alt="A pinball game">
+  <h1>This is centered</h1>
+  <p>Some text</p>
+</div>
+
 <!--
 as original:
 <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon"> 
