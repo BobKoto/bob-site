@@ -2,18 +2,10 @@
 layout: page
 title: "Image02"
 ---
-<!--
-<div>
-  <p>The current time is:</p>
-  <p id="time"></p>
-</div>
--->
 
 <div style="display: inline-block;">
   <span>Time is now: </span> 
-  <span id="time"></span>  yes the time
-  and this we put on a new line in the html source  
- <!-- <span id="minutes"></span>: -->
+  <span id="time"></span>  
 </div>
 
 <script>
@@ -25,12 +17,14 @@ title: "Image02"
 </script>
 
 
-the grid images , first row, are set to style w25%, use grid-image , comment out img
+All stripped except in-line images 
 
 <style>
       body {
         background-color: lightblue;
       }
+  </style>
+  <!--
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -70,15 +64,22 @@ the grid images , first row, are set to style w25%, use grid-image , comment out
     <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
   </div>
 </div>
-
+-->
 the orphans:
 wrapped in an html div with BOTH  passageicon and Eye @ 25x25
 <div>
   <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:40px;" alt="A Robot Icon">
-  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%;" alt="A human Eye">
-
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A human Eye">
+  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A pinball game">
 </div>
-
+a second row ? (between <div>s)
+<div>
+  <img src="{{ site.baseurl }}/assets/PasageIcon.png" style="display:inline-block; height:25%; width:25%; margin-right:40px;" alt="A Robot Icon">
+  <img src="{{ site.baseurl }}/assets/myGraphic.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A human Eye">
+  <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" style="display:inline-block; height:25%; width:25%; margin-right:40px" alt="A pinball game">
+</div>
+<!--
 as original:
 <img src="{{ site.baseurl }}/assets/PasageIcon.png" alt="Description the Robot Icon"> 
 <img src="{{ site.baseurl }}/assets/myGraphic.jpg" alt="Description the Eye">
+-->
