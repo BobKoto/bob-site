@@ -2,7 +2,19 @@
 layout: page
 title: "Image02"
 ---
-<time datetime="16:15" pubdate>4:15 PM</time>
+<div>
+  <p>The current time is:</p>
+  <p id="time"></p>
+</div>
+
+<script>
+  var time = document.getElementById("time");
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  time.innerHTML = hours + ":" + minutes;
+</script>
+
 
 the grid images , first row, are set to style w25%, use grid-image , comment out img
 
