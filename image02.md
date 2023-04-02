@@ -2,9 +2,16 @@
 layout: page
 title: "Image02"
 ---
+<!--
 <div>
   <p>The current time is:</p>
   <p id="time"></p>
+</div>
+-->
+<div style="display: inline-block;">
+  <span>Time is now:</span> 
+  <span id="hours"></span>:
+  <span id="minutes"></span>:
 </div>
 
 <script>
