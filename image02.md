@@ -2,6 +2,10 @@
 layout: page
 title: "Image02..."
 ---
+<script>
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "GAME SCREEN SHOTS...";
+<script>
 <!--  ## Game screen shots  -->
 <div style="display: inline-block;">
   <span>Time is now: </span> 
@@ -15,10 +19,7 @@ title: "Image02..."
   var minutes = currentTime.getMinutes();
   time.innerHTML = hours + ":" + minutes;
 </script>
-<script>
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "GAME SCREEN SHOTS...";
-<script>
+
 All stripped except in-line images 
 
 <style>
