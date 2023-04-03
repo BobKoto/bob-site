@@ -27,7 +27,7 @@ All stripped except in-line images
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/" title="A pinball image tooltip and the way home, for now"> 
         <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
-             style="height:25%; width:25; justify-content:center; align-items:center%" 
+             style="height:25%; width:25%; justify-content:center; align-items:center" 
              alt="A pinball game"> 
     </a>
 </div>
