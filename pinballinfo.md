@@ -13,4 +13,4 @@ You can find the project at
 
 Gameplay is physics based.
 
-Go back to website here {{ site.baseurl }}/image02.md
+Go back to website here "https://bobkoto.github.io/bob-site/image02"
