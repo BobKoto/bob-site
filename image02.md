@@ -15,7 +15,10 @@ title: "Image02..."
   var minutes = currentTime.getMinutes();
   time.innerHTML = hours + ":" + minutes;
 </script>
-
+<script>
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "GAME SCREEN SHOTS...";
+<script>
 All stripped except in-line images 
 
 <style>
