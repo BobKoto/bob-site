@@ -29,7 +29,7 @@ All stripped except in-line images
 </style>
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
-    <a href="https://bobkoto.github.io/bob-site/" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
+    <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
     title="A pinball image tooltip and the way home, for now"> 
         <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
              style="height:75%; width:75%; justify-content:center; align-items:center" 
@@ -44,7 +44,7 @@ A 3D, yes 3D, simple pinball game for Android
  </div>
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
-    <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
+    <a href="https://bobkoto.github.io/bob-site/" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
     title="A 3D Arcade game image tooltip and the way home, for now"> 
         <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
              style="height:75%; width:75%; justify-content:center; align-items:center" 
