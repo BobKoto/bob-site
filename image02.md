@@ -25,22 +25,27 @@ All stripped except in-line images
 </style>
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
-    <a href="https://bobkoto.github.io/bob-site/" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
+    <a href="https://bobkoto.github.io/bob-site/" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
     title="A pinball image tooltip and the way home, for now"> 
         <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
-             style="height:50%; width:50%; justify-content:center; align-items:center" 
+             style="height:75%; width:75%; justify-content:center; align-items:center" 
              alt="A pinball game"> 
     </a>
 </div>
 
 <div style="text-align:center">
-<p> </p>
+ <p> </p>
 A 3D, yes 3D, simple pinball game for Android
-<p> </p>
-</div>
+ <p> </p>
+ </div>
 
-<div style="display:flex; justify-content:center; align-items:center;">
-   <img src="{{ site.baseurl }}/assets/Spacergy1.jpg" style="height:50%; width:50%" alt="A pinball game">
+<div style="display:flex; justify-content:center; align-items:center; width: 100%;">
+    <a href="https://bobkoto.github.io/bob-site/" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
+    title="A 3D Arcade game image tooltip and the way home, for now"> 
+        <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
+             style="height:75%; width:75%; justify-content:center; align-items:center" 
+             alt="A 3D Arcade game">
+    </a>
 </div>
 
 <div style="text-align:center">
