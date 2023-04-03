@@ -5,7 +5,7 @@ title: "Image02..."
 <script>
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "GAME SCREEN SHOTS...";
-<script>
+</script>
 <!--  ## Game screen shots  -->
 <div style="display: inline-block;">
   <span>Time is now: </span> 
