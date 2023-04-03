@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Image02"
+title: "Image02 Game Screen Shots"
 ---
-## Game screen shots
+<!--  ## Game screen shots  -->
 <div style="display: inline-block;">
   <span>Time is now: </span> 
   <span id="time"></span>  
@@ -30,8 +30,8 @@ All stripped except in-line images
 </div>
 
 <div style="text-align:center">
-
-A 3D, yes 3D, simple pinball game for Android (thiis text centered with html)
+<p> </p>
+A 3D, yes 3D, simple pinball game for Android
 
 </div>
 
@@ -40,4 +40,10 @@ A 3D, yes 3D, simple pinball game for Android (thiis text centered with html)
    <img src="{{ site.baseurl }}/assets/Spacergy1.jpg" style="height:25%; width:25%" alt="A pinball game">
 </div>
 
-                               A 3D Arcade style game for Android (this text centered manually)
+<div style="text-align:center">
+
+ A 3D Arcade style game for Android
+
+</div>
+
+
