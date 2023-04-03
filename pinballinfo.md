@@ -4,13 +4,10 @@ title: "Pinball Info"
 ---
 
 This simple, easy to play, Android based pinball game was developed in Unity.
-You can find the project at
-<div style="display:flex">
-    <a href="https://github.com/bobkoto/touchinput1" 
-    </a>
-</div>
+
+You can find the pinball project at [link to project](https://github.com/bobkoto/touchinput1/)
 
 
 Gameplay is physics based.
 
-Go back to website here https://bobkoto.github.io/bob-site/image02
+Go back to screen shots page here [link back to screenshots page] (https://bobkoto.github.io/bob-site/image02)
