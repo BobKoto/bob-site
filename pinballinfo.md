@@ -10,8 +10,9 @@ Gameplay is physics based. To make it a bit interesting I included auditory (bes
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
 On ball in play 2, the game surface changes like this:
-[![PinballIcon][icon-image]]
-[icon-image]: assets/IllusionPinball2.jpg "Ball 2 playing surface and yes there is an illusion..."
+
+![Ball2 image](assets/IllusionPinball2.jpg)
+"Ball 2 playing surface and yes there is an illusion..."
 
 On ball in play 3, the game surface changes like this:
 [![PinballIcon][icon-image]]
