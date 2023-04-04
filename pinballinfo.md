@@ -16,12 +16,12 @@ Gameplay is physics based. To make it more fun and interesting I included audito
 
 On ball in play 2, the game surface looks like this:
 
-![Ball2 image](assets/IllusionPinball2.jpg){: width="75%" height="75%"}
+![Ball2 image](assets/IllusionPinball2.jpg){: width="75%" height="75%"} <br>
 "Ball 2 playing surface and yes there is an illusion..."
 
 On ball in play 3, the game surface looks like this:
 
-![Ball3 image](assets/IllusionPinball3.jpg){: width="75%" height="75%"}
+![Ball3 image](assets/IllusionPinball3.jpg){: width="75%" height="75%"} <br>
 "Ball 3 playing surface and yes there is more obviously an illusion..."
 
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
