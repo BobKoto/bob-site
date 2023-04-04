@@ -12,13 +12,16 @@ tags: [jekyll, tutorial]
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 Thank You
-  
-  
-  
-  
-  
-  
-   
-
+<br>
 *Stay tuned for more nonsense.*
