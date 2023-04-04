@@ -8,7 +8,8 @@ title: "Pinball Info"
       }
 </style>
 I created this simple, easy to play, Android based pinball in Unity and C#.
-It's so easy and relaxing to play maybe I should have called it Chillusion. &#128512;   or :smile:
+It's so easy and relaxing to play maybe I should have called it Chillusion. &#128512;  &#x1F600;
+
 
 Gameplay is physics based. To make it more fun and interesting I included auditory (best with ear phones) and optical illusions.
 
