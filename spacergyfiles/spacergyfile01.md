@@ -7,4 +7,5 @@ for spacergyfile01
 
 ### Test
 
-Next page [link text]{{ site.baseurl }}/spacergyfiles/spacergyfile02.md
+[Next Page](https://bobkoto.github.io/bob-site/spacergyfiles/spacergyfile02)
+
