@@ -8,7 +8,7 @@ header_pages:
   - downloads.md
   - ipage.md
   - scriptpractice.md
-
+  #in header_pages the filenames listed are those in the project/on disk - titles within the files are what appear on pages
  #remote_theme: pages-themes/architect@v0.2.0
  #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
