@@ -2,10 +2,15 @@
 layout: page
 title: "Pinball Info"
 ---
-
+<style>
+      body {
+        background-color: lightblue;
+      }
+</style>
 I created this simple, easy to play, Android based pinball in Unity and C#.
+It's so easy and relaxing to play maybe I should have called it Chillusion. :smile:
 
-Gameplay is physics based. To make it a bit interesting I included auditory (best with ear phones) and optical illusions.
+Gameplay is physics based. To make it more fun and interesting I included auditory (best with ear phones) and optical illusions.
 
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
@@ -22,3 +27,7 @@ On ball in play 3, the game surface looks like this:
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
 Find the pinball project at [Pinball project](https://github.com/bobkoto/touchinput1/) aka touchinput1
+
+Note: As code goes it could be better and neater. That said, I play tested this on a mid-range Android phone - Galaxy J7.
+I consistently played for an hour or more with little drain on the battery and only (sometimes) the physics 
+getting "flaky" and sending the ball out of play. Probably easy to fix - but I moved on. 
