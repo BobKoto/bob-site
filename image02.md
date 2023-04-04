@@ -20,7 +20,6 @@ myHeading.textContent = "GAME SCREEN SHOTS...";
   time.innerHTML = hours + ":" + minutes;
 </script>
 
-All stripped except in-line images 
 
 <style>
       body {
