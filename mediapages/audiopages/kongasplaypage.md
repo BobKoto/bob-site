@@ -20,7 +20,7 @@ The Kongas are amazing. Click play for a pick me up!
 <script>
 function showText() {
   let myHeader = document.getElementById("now-wasnt-that-nice");
-  myHeader.innerHTML = "Nice!!!";
+  myHeader.innerHTML = "<br>{5} Nice!!! Keep going...";
 }
 </script>
 
