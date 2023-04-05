@@ -15,12 +15,15 @@ The Kongas are amazing. Click play for a pick me up!
   <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg" >
 </audio>
 
+<h1 id="now-wasnt-that-nice">Now, that was nice!!</h1>
+
 <script>
 function showText() {
+  const myMessage= document.querySelector("h1");
   var message = document.createElement("p");
-  message.textContent = "Audio finished playing!  Now, wasn't that nice?";
+  // message.textContent = "Audio finished playing!  Now, wasn't that nice?";
   //document.body.appendChild(message);
-    document.write(message);
+  myMessage.textContent = "Yes it was nice!";
 }
 </script>
 
