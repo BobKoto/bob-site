@@ -19,7 +19,7 @@ The Kongas are amazing. Click play for a pick me up!
 
 <script>
 function showText() {
-  const myMessage= document.querySelector("h1");
+  const myMessage= document.querySelector("now-wasnt-that-nice");
   var message = document.createElement("p");
   // message.textContent = "Audio finished playing!  Now, wasn't that nice?";
   //document.body.appendChild(message);
