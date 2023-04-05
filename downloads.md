@@ -28,4 +28,5 @@ Here we can either download files to the Downloads directory or play/display the
 
 [Download Kongas](https://BobKoto.github.io/bob-site/downloads/kongas.ogg){: .btn .btn-blue, download="kongas.ogg"  } 
 
+[Play the Kongas on a Page ]({{ site.baseurl }}/mediapages/audiopages/kongasplaypage){: .btn .btn-blue }
 
