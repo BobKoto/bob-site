@@ -12,7 +12,22 @@ title: "Play the Kongas for a Pick Me Up!"
 The Kongas are amazing. Click the play button below for a pickup!
 
 <audio controls>
-  <source src="/downloads/kongas.ogg" type="audio/ogg">
+  <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg">
 </audio>
 
 # Now, wasn't that nice?
+
+<!--
+<audio src="your-audio-file.mp3" controls onended="showText()"> 
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+function showText() {
+  var message = document.createElement("p");
+  message.textContent = "Audio finished playing!";
+  document.body.appendChild(message);
+}
+</script>
+-->
+
