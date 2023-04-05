@@ -15,16 +15,12 @@ The Kongas are amazing. Click play for a pick me up!
   <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg" >
 </audio>
 
-<h1 id="now-wasnt-that-nice">Now, that was nice originally!!</h1>
+<h1 id="now-wasnt-that-nice"> </h1>
 
 <script>
 function showText() {
   let myHeader = document.getElementById("now-wasnt-that-nice");
-  myHeader.innerHTML = "This is the new text!  Yes it was nice secondarily!";
-
-  // var myMessage = document.createElement("p");
- //  myMessage.textContent = "Yes it was nice secondarily!";
-  // document.body.appendChild(myMessage);
+  myHeader.innerHTML = "Nice!!!";
 }
 </script>
 
