@@ -18,12 +18,15 @@ The Kongas are amazing. Click play for a pick me up!
 <h1 id="now-wasnt-that-nice">Now, that was nice originally!!</h1>
 
 <script>
-function showText() {
+function showText() 
+{
    var myMessage = document.querySelector("now-wasnt-that-nice");
+   myMessage.textContent = "Yes it was nice secondarily!";
+   document.body.appendChild(message);
+}
+</script>
+<!--
   //var message = document.createElement("p");
   // message.textContent = "Audio finished playing!  Now, wasn't that nice?";
   //document.body.appendChild(message);
-  myMessage.textContent = "Yes it was nice secondarily!";
-}
-</script>
-
+  -->
