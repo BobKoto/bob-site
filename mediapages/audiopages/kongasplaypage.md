@@ -19,13 +19,14 @@ The Kongas are amazing. Click play for a pick me up!
 function showText() {
   var message = document.createElement("p");
   message.textContent = "Audio finished playing!  Now, wasn't that nice?";
-  document.body.appendChild(message);
+  document.body.write(message);
 }
 </script>
 
-<h1 id="end-play">Now, wasn’t that nice?</h1>
-
 <!--
+<h1 id="end-play">Now, wasn’t that nice?</h1>
+<h1 id="now-wasnt-that-nice">Now, wasn’t that nice?</h1>
+
 <audio src="your-audio-file.mp3" controls onended="showText()"> 
   Your browser does not support the audio element.
 </audio>
