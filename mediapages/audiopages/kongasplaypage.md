@@ -12,7 +12,7 @@ title: "Play the Kongas for a Pick Me Up!"
 The Kongas are amazing. Click play for a pick me up!
 
 <audio controls>
-  <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg";onended="showText()" >
+  <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg";controls onended="showText()" >
 </audio>
 
 <script>
