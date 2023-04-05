@@ -23,20 +23,3 @@ function showText() {
 }
 </script>
 
-<!--
-<h1 id="end-play">Now, wasn’t that nice?</h1>
-<h1 id="now-wasnt-that-nice">Now, wasn’t that nice?</h1>
-
-<audio src="your-audio-file.mp3" controls onended="showText()"> 
-  Your browser does not support the audio element.
-</audio>
-
-<script>
-function showText() {
-  var message = document.createElement("p");
-  message.textContent = "Audio finished playing!";
-  document.body.appendChild(message);
-}
-</script>
--->
-
