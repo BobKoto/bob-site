@@ -15,7 +15,7 @@ The Kongas are amazing. Click play for a pick me up!
   <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg" >
 </audio>
 
-<p id="now-wasnt-that-nice">Now, that was nice!!</p>
+<h1 id="now-wasnt-that-nice">Now, that was nice originally!!</h1>
 
 <script>
 function showText() {
@@ -23,7 +23,7 @@ function showText() {
   var message = document.createElement("p");
   // message.textContent = "Audio finished playing!  Now, wasn't that nice?";
   //document.body.appendChild(message);
-  myMessage.textContent = "Yes it was nice!";
+  myMessage.textContent = "Yes it was nice secondarily!";
 }
 </script>
 
