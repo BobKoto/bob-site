@@ -9,11 +9,19 @@ title: "Play the Kongas for a Pick Me Up!"
 </style>
 # The Kongas
 
-The Kongas are amazing. Click the play button below for a pickup!
+The Kongas are amazing. Click play for a pick me up!
 
 <audio controls>
-  <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg">
+  <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg";onended="showText()" >
 </audio>
+
+<script>
+function showText() {
+  var message = document.createElement("p");
+  message.textContent = "Audio finished playing!  Now, wasn't that nice?";
+  document.body.appendChild(message);
+}
+</script>
 
 # Now, wasn't that nice?
 
