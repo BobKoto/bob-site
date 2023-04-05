@@ -15,7 +15,7 @@ The Kongas are amazing. Click play for a pick me up!
   <source src="https://bobkoto.github.io/bob-site/downloads/kongas.ogg" type="audio/ogg" >
 </audio>
 
-<h1 id="now-wasnt-that-nice">Now, that was nice!!</h1>
+<p id="now-wasnt-that-nice">Now, that was nice!!</p>
 
 <script>
 function showText() {
