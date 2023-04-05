@@ -23,7 +23,7 @@ Here we can either download files to the Downloads directory or play/display the
 
 <!-- [Download x.txt]({{ site.baseurl }}/_downloads/x.txt){: .btn .btn-blue, download="x.txt" } -->
 
-
+[Play the Kongas](https://BobKoto.github.io/bob-site/downloads/kongas.ogg){: .btn .btn-blue } 
 
 [Download bob-site-text01.txt]({{ site.baseurl }}/downloads/bob-site-text01.txt){: .btn .btn-blue, download="x.txt"  }
 
@@ -36,4 +36,4 @@ Here we can either download files to the Downloads directory or play/display the
 
 [Download Kongas](https://BobKoto.github.io/bob-site/downloads/kongas.ogg){: .btn .btn-blue, download="kongas.ogg"  } 
 
-[Play the Kongas](https://BobKoto.github.io/bob-site/downloads/kongas.ogg){: .btn .btn-blue } 
+
