@@ -19,9 +19,12 @@ The Kongas are amazing. Click play for a pick me up!
 
 <script>
 function showText() {
-   var myMessage = document.createElement("p");
-   myMessage.textContent = "Yes it was nice secondarily!";
-   document.body.appendChild(myMessage);
+  let myHeader = document.getElementById("now-wasnt-that-nice");
+  myHeader.innerHTML = "This is the new text!  Yes it was nice secondarily!";
+
+  // var myMessage = document.createElement("p");
+ //  myMessage.textContent = "Yes it was nice secondarily!";
+  // document.body.appendChild(myMessage);
 }
 </script>
 
