@@ -1,8 +1,13 @@
 ---
 title: Home
 weight: 10
+# index is the 1st page shown 
 ---
-
+  <head>
+    {% if site.favicon %}
+    <link rel="shortcut icon" type="image/png" href="{{ site.favicon }}">
+    {% endif %}
+  </head>
 <style>
       body {
         background-color: lightblue;
