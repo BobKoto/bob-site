@@ -1,5 +1,5 @@
 theme: minima
-
+favicon: /assets/PassageFavicon.png
 header_pages:
   - index.md
   - image01.md
