@@ -14,6 +14,7 @@ weight: 10
 </style>
 
 ## Here we enter a line into index.md 
+### This site is under construction but feel free to look around.
 
 Above in the file is only a matter entry "title: Home"
 
