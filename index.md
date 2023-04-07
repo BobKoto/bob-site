@@ -4,6 +4,7 @@ weight: 10
 # index is the 1st page shown 
 ---
 {% include custom-head.html %}
+<link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
 
 <style>
       body {
