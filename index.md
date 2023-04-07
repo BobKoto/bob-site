@@ -3,10 +3,8 @@ title: Home
 weight: 10
 # index is the 1st page shown 
 ---
-<head>
-<link rel="shortcut icon" type="image/png" 
-      href="{{ "favicon.png"  | absolute_url }}">
-      </head>
+{% include custom-head.html %}
+
 <style>
       body {
         background-color: lightblue;
