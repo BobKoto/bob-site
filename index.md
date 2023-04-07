@@ -3,6 +3,13 @@ title: Home
 weight: 10
 # index is the 1st page shown 
 ---
+<script>
+  var link = document.createElement('link');
+  link.rel = 'shortcut icon';
+  link.type = 'image/png';
+  link.href = 'https://bobkoto.github.io/bob-site/favicon.png';
+  document.head.appendChild(link);
+</script>
 {% include custom-head.html %}
 <head>
 <link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
@@ -12,6 +19,7 @@ weight: 10
         background-color: lightblue;
       }
 </style>
+
 
 ## Here we enter a line into index.md 
 ### This site is under construction but feel free to look around.
