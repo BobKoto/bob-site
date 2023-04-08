@@ -5,7 +5,7 @@ date: 2023-03-21 13:00:00 -0700
 categories: [blog, jekyll]
 tags: [jekyll, tutorial]
 ---
-<script src="../scripts/favicon.js"></script>
+<script src="/bob-site/scripts/favicon.js"></script>
 <style>
       body {
         background-color: lightblue;
