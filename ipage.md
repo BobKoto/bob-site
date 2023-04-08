@@ -4,7 +4,7 @@ title: "About"
 weight: 50
 #permalink: /about/
 ---
-
+<script src="./scripts/favicon.js"></script>
 <style>
       body {
         background-color: lightblue;
