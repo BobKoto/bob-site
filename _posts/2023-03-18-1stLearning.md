@@ -21,7 +21,7 @@ tags: [jekyll, tutorial]
 <br>
 <br>
 <br>
-### More ambiguos quotes to come!!!
+### More ambiguous quotes to come!!!
 <br>
 <br>
 <br>
