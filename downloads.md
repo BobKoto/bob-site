@@ -3,7 +3,7 @@ layout: page
 title: "Downloads"
 weight: 40
 ---
-
+<script src="./scripts/favicon.js"></script>
 <style>
       body {
         background-color: lightblue;
