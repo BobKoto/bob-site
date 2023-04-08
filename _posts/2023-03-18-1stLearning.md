@@ -5,10 +5,14 @@ date: 2023-03-21 13:00:00 -0700
 categories: [blog, jekyll]
 tags: [jekyll, tutorial]
 ---
+<script src="./scripts/favicon.js"></script>
+<style>
+      body {
+        background-color: lightblue;
+      }
+</style>
 
-
-
-### Remember your intent is almost always your destiny!
+### Remember your intent is almost always your destiny.
 
 
 
@@ -17,6 +21,7 @@ tags: [jekyll, tutorial]
 <br>
 <br>
 <br>
+### More ambiguos quotes to come!!!
 <br>
 <br>
 <br>

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<script src="./scripts/favicon.js"></script>
 <style>
       body {
         background-color: lightblue;
