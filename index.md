@@ -3,13 +3,7 @@ title: Home
 weight: 10
 # index is the 1st page shown 
 ---
-<script>
-  var link = document.createElement('link');
-  link.rel = 'shortcut icon';
-  link.type = 'image/png';
-  link.href = 'https://bobkoto.github.io/bob-site/favicon.png';
-  document.head.appendChild(link);
-</script>
+<script src="./scripts/favicon.js"></script>
 {% include custom-head.html %}
 <head>
 <link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
