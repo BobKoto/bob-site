@@ -3,7 +3,7 @@ layout: page
 title: "Graphics02"
 weight: 30
 ---
-
+<script src="./scripts/favicon.js"></script>
 This line is above the style and body HTML entries in this file.
 
 <style>

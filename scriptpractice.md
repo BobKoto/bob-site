@@ -3,7 +3,7 @@ layout: page
 title: "Script Practice"
 weight: 60
 ---
-
+<script src="./scripts/favicon.js"></script>
 <style>
       body {
         background-color: lightblue;

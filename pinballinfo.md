@@ -2,6 +2,7 @@
 layout: page
 title: "Pinball Info"
 ---
+<script src="./scripts/favicon.js"></script>
 <style>
       body {
         background-color: lightblue;
