@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Image02..."
+title: "Gallery"
 ---
 <script src="./scripts/favicon.js"></script>
 <script>
