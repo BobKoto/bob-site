@@ -11,7 +11,6 @@ tags: [jekyll, tutorial]
         background-color: lightblue;
       }
 </style>
-##1st Learning no dot ....
 <br>
 <br>
 ### Remember your intent is almost always your destiny.
