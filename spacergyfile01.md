@@ -29,12 +29,17 @@ A sample of Level 2, wormhole, game play.
 
 
 # Tech Notes: 
-3D casual arcade game for Android created in Unity and C#.
+3D pinball game for Android created in Unity and C#.
 
+Uses physics and is scaled to the size and slope of the playing surface, and (even) pinball size and mass, as best as my non-physics mind could do.
+
+As code goes (early in my Unity/C# journey) it could be way better and neater. 
 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
-often playing for an hour or more with little drain on the battery. S
+often playing for an hour or more with little drain on the battery. Sometimes, after an hour or so the handhelds 
+got "flaky" and sent the ball out of play. (Physics system? device? not sure)
 
+Probably easy to fix - but I moved on as I wouldn't expect nor encourage anyone to play that long. 
 
 
 Find this project at [Pinball project](https://github.com/bobkoto/touchinput1/) aka touchinput1

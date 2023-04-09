@@ -44,7 +44,7 @@ A 3D, yes 3D, simple pinball game for Android
  </div>
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
-    <a href="https://bobkoto.github.io/bob-site/spacergyfiles/spacergyfile01" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
+    <a href="https://bobkoto.github.io/bob-site/spacergyfile01" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
     title="3D Arcade game: Space the Final Dumpster. Click for info..."> 
         <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
              style="height:75%; width:75%; justify-content:center; align-items:center" 
