@@ -8,9 +8,11 @@ title: "Space... the Final Dumpster"
         background-color: lightblue;
       }
 </style>
-This is an Android based 3D arcade game with 2 levels. &#128512; 
+This is an Android based 3D arcade game with 2 levels that run for just 60 seconds. &#128512; 
 
-Gameplay uses a mobile joystick to intercept or evade objects. 
+Gameplay uses a mobile on-screen joystick to move your spaceship and intercept or evade objects. 
+Player can set their preferred joystick position - left, center, or right.
+Level 1 has 3 player selectable speed setttings.  
 
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
@@ -29,17 +31,11 @@ A sample of Level 2, wormhole, game play.
 
 
 # Tech Notes: 
-3D pinball game for Android created in Unity and C#.
+3D casual arcade game for Android created in Unity and C#.
 
-Uses physics and is scaled to the size and slope of the playing surface, and (even) pinball size and mass, as best as my non-physics mind could do.
-
-As code goes (early in my Unity/C# journey) it could be way better and neater. 
+A variation of endless runner (on Z axis)
 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
-often playing for an hour or more with little drain on the battery. Sometimes, after an hour or so the handhelds 
-got "flaky" and sent the ball out of play. (Physics system? device? not sure)
+often playing for an hour or more with little drain on the battery. 
 
-Probably easy to fix - but I moved on as I wouldn't expect nor encourage anyone to play that long. 
-
-
-Find this project at [Pinball project](https://github.com/bobkoto/touchinput1/) aka touchinput1
+Find this project at [Spacergy project](https://github.com/bobkoto/spacergy/) 
