@@ -32,12 +32,16 @@ The Space Junk level 1 game speed setup:
 ![Level1Setup image](assets/Spacergy6.jpg){: width="75%" height="75%"} <br>
 Level 1 has 3 speeds to choose from. The default is slowest.
 
-Some actual play:
+
+# A video of actual play:
 <video width="640" height="360" controls>
   <source src="{{ site.baseurl }}/assets/SpaceJunkSweeper1.mp4"  type="video/mp4">
   
   Your browser does not support the video.
 </video>
+That "Doh" you heard is because you should not hit a blue satellite.
+<br>
+<br>
 
 The Wormhole level 2:
 
@@ -51,7 +55,7 @@ Level 2, wormhole, game play. The red streak is a menace that got vaporized by o
 # Tech Notes: 
 3D casual arcade game for Android created in Unity and C#.
 
-A variation of endless runner (on Z axis)
+A variation of object pooled endless runner (on Z axis)
 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
 often playing for an hour or more with little drain on the battery. 
