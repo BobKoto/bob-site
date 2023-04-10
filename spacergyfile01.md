@@ -29,9 +29,15 @@ Level 1, space junk, gameplay. If we can send a Tesla to space why not soda mach
 
 The Space Junk level 1 game speed setup:
 
-![Level1Setup image](assets/Spacergy3.jpg){: width="75%" height="75%"} <br>
+![Level1Setup image](assets/Spacergy6.jpg){: width="75%" height="75%"} <br>
 Level 1 has 3 speeds to choose from. The default is slowest.
 
+Some actual play:
+<video width="640" height="360" controls>
+  <source src="{{ site.baseurl }}/assets/SpaceJunkSweeper1.mp4"  type="video/mp4">
+  
+  Your browser does not support the video.
+</video>
 
 The Wormhole level 2:
 
