@@ -6,6 +6,7 @@ header_pages:
   - image02.md
   - graphics02.md
   - downloads.md
+  - media.md
   - ipage.md
   - scriptpractice.md
   #in header_pages the filenames listed are those in the project/on disk - titles within the files are what appear on pages
