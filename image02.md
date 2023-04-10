@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Gallery"
+title: "Game Gallery"
 ---
 <script src="./scripts/favicon.js"></script>
 <script>
@@ -30,7 +30,7 @@ myHeading.textContent = "GAME SCREEN SHOTS...";
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
-    title="Illusions 3D pinball game. Click for info..."> 
+    title="Illusions 3D pinball game. Click image for info..."> 
         <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
              style="height:75%; width:75%; justify-content:center; align-items:center" 
              alt="A pinball game"> 
@@ -45,7 +45,7 @@ A 3D, yes 3D, simple pinball game for Android
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/spacergyfile01" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
-    title="3D Arcade game: Space the Final Dumpster. Click for info..."> 
+    title="3D Arcade game: Space the Final Dumpster. Click image for info..."> 
         <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
              style="height:75%; width:75%; justify-content:center; align-items:center" 
              alt="A 3D Arcade game">

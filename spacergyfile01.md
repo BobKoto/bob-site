@@ -14,17 +14,29 @@ Gameplay uses a mobile on-screen joystick to move your spaceship and intercept o
 Player can set their preferred joystick position - left, center, or right.
 Level 1 has 3 player selectable speed setttings.  
 
+
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
-The Space Junk level looks like this:
+The Game Opening screen:
+
+![GameOpen image](assets/Spacergy1.jpg){: width="75%" height="75%"} <br>
+Game start, level select.
+
+The Space Junk level 1:
 
 ![Level1 image](assets/Spacergy3.jpg){: width="75%" height="75%"} <br>
-"A sample of Level 1, space junk, gameplay."
+Level 1, space junk, gameplay. If we can send a Tesla to space why not soda machines too. &#128512; 
 
-The Wormhole level looks like this:
+The Space Junk level 1 game speed setup:
+
+![Level1Setup image](assets/Spacergy3.jpg){: width="75%" height="75%"} <br>
+Level 1 has 3 speeds to choose from. The default is slowest.
+
+
+The Wormhole level 2:
 
 ![Level2 image](assets/Spacergy5.jpg){: width="75%" height="75%"} <br>
-A sample of Level 2, wormhole, game play.
+Level 2, wormhole, game play. The red streak is a menace that got vaporized by our shielded ship.
 
 
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)

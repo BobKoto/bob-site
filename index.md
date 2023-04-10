@@ -15,10 +15,8 @@ weight: 10
 </style>
 
 
-## Here we enter a line into index.md 
-### This site is under construction but feel free to look around.
+### This site is under construction but feel free to look around. All links should work.
 
-Above in the file is only a matter entry "title: Home"
 
 <!-- do we need <script> in fron of this? -->
 <script src="./scripts/main.js"></script>
