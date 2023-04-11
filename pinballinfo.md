@@ -11,7 +11,7 @@ title: "Pinball Info"
 This Android based 3D pinball game is easy to play and relaxing. Maybe I should have called it Chillusion. &#128512; 
 
 
-Gameplay is physics based. Auditory (best with earphones) and optical illusions add some fun.
+ Auditory (best with earphones) and optical illusions add some fun, and a trance-like relaxation.
 
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
@@ -24,6 +24,14 @@ On ball in play 3, the game surface looks like this:
 
 ![Ball3 image](assets/IllusionPinball3.jpg){: width="75%" height="75%"} <br>
 "Ball 3 playing surface and yes there is more obviously an illusion..." And did that guy just turn into a basket of fruit?
+
+# Video of ball 1 being shot into play:
+<video width="640" height="360" controls>
+  <source src="{{ site.baseurl }}/assets/Pinball1.mp4"  type="video/mp4">
+  
+  Your browser does not support the video.
+</video>
+Ok, give me more! And we will... 
 
 
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
