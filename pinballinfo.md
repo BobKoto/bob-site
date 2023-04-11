@@ -26,7 +26,7 @@ On ball in play 3, the game surface looks like this:
 "Ball 3 playing surface and yes there is more obviously an illusion..." And did that guy just turn into a basket of fruit?
 
 # Video of ball 1 being shot into play:
-<video width="640" height="360" controls>
+<video width="960" height="540" controls>
   <source src="{{ site.baseurl }}/assets/Pinball1.mp4"  type="video/mp4">
   
   Your browser does not support the video.
