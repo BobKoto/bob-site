@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Pinball Info"
+title: "Illusion Pinball"
 ---
 <script src="./scripts/favicon.js"></script>
 <style>

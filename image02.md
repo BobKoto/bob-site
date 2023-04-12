@@ -7,7 +7,7 @@ title: "Game Gallery"
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "GAME SCREEN SHOTS...";
 </script>
-<!--  ## Game screen shots  -->
+<!--  ## Game screen shots  we had time in here mostly to check if we needed to refresh a webpage in early development 
 <div style="display: inline-block;">
   <span>Time is now: </span> 
   <span id="time"></span>  
@@ -20,7 +20,7 @@ myHeading.textContent = "GAME SCREEN SHOTS...";
   var minutes = currentTime.getMinutes();
   time.innerHTML = hours + ":" + minutes;
 </script>
-
+-->
 
 <style>
       body {
