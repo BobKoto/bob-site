@@ -23,9 +23,9 @@ And, secondarily to share with you some thoughts in posts, and interesting and m
 
 I started this site from scratch around the 3rd week of March 2023. It's been on a todo pile for some time. 
 
-After I promised to email some screen shots of my work to someone vary dear to me I thought it 
+After I promised a few weeks ago to email screen shots of my work to someone very dear to me I thought it 
 would be better to stop procrastinating, get this humble site online, and not swamp her email with 
-a bunch of image attachments.
+a bunch of image attachments. 
 
 And of course share it with more people, FWIW.
 

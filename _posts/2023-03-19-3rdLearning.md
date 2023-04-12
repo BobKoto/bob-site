@@ -1,5 +1,6 @@
 ---
 layout: default
+title: G Petey,  My Helper with This Messy Experiment 
 ---
 <script src="/bob-site/scripts/favicon.js"></script>
 <style>
@@ -18,7 +19,7 @@ with building this website, in particular:
 - coding some Javascript
 - using Markdown
 
-Having never looked nor studied any of the above, with ChatGPT help and Github tutorials I got this messy experiment,
+Having never looked at nor studied any of the above, with ChatGPTs help and Github tutorials I got this messy experiment,
 including the Game Gallery and the images and videos it serves out,
 up and running in about 3 weeks working on it for a couple hours a day. 
 Full disclosure: I am a middling programmer with C# and a bit of Java under my belt.

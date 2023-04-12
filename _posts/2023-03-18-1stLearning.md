@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Intro Post
+title: Intro Quote
 date: 2023-03-21 13:00:00 -0700
 categories: [blog, jekyll]
 tags: [jekyll, tutorial]
@@ -28,4 +28,4 @@ tags: [jekyll, tutorial]
 <br>
 Thank You
 <br>
-*Stay tuned for more nonsense.*
+*Stay tuned for more.*
