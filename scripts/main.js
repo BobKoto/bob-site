@@ -4,4 +4,4 @@
 //alert("Hello World from JS");
 
 const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world! right outta Javascript!";
+myHeading.textContent = "Welcome";
