@@ -17,8 +17,10 @@ with building this website, in particular:
 - coding some HTML
 - coding some Javascript
 
-Having never looked nor studied any of the above, with ChatGPT help and Github tutorials I got this messy experiment 
+Having never looked nor studied any of the above, with ChatGPT help and Github tutorials I got this messy experiment,
+including the Game Gallery and the images and videos it serves out,
 up and running in about 3 weeks working on it for a couple hours a day. 
+Full disclosure: I am a middling programmer with C# and a bit of Java under my belt.
 
 So far my results with ChatGPT are mixed - about 50% helpful answers to my queries. Mostly syntax or code snippet questions.
 Maybe the answers ChatGPT give you are on a par with the quality of the questions you ask. 
