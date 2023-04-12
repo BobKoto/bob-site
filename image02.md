@@ -28,6 +28,8 @@ myHeading.textContent = "GAME SCREEN SHOTS...";
       }
 </style>
 
+<br>
+# Illusion 3D Pinball Game for Android
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
     title="Illusions 3D pinball game. Click image for info..."> 
@@ -39,10 +41,11 @@ myHeading.textContent = "GAME SCREEN SHOTS...";
 
 <div style="text-align:center">
  <p> </p>
-A 3D, yes 3D, simple pinball game for Android
+A 3D, yes 3D, simple pinball game for Android. Click/tap for more info.
  <p> </p>
  </div>
-
+ <br>
+ # Space, the Final Dumpster Arcade Game for Android
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/spacergyfile01" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
     title="3D Arcade game: Space the Final Dumpster. Click image for info..."> 
@@ -54,7 +57,7 @@ A 3D, yes 3D, simple pinball game for Android
 
 <div style="text-align:center">
 <p> </p>
- A 3D Arcade style game for Android
+ A 3D Arcade game for Android. Click/tap for more info.
  <p> </p>
 </div>
 

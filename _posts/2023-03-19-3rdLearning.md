@@ -16,6 +16,7 @@ with building this website, in particular:
 - using Jekyll themes here on Github.io
 - coding some HTML
 - coding some Javascript
+- using Markdown
 
 Having never looked nor studied any of the above, with ChatGPT help and Github tutorials I got this messy experiment,
 including the Game Gallery and the images and videos it serves out,
