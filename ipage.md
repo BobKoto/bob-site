@@ -19,12 +19,13 @@ This site has 2 purposes:
 
 3. (future) Maybe share completed games. For now anyone using Unity can clone my projects.
 
-I started this site from scratch around the 3rd week of March 2023. It's been on a todo pile for some time. 
+I started this site from scratch around the 3rd week of March 2023. It was on a todo pile for some time. 
 
-After I promised a few weeks ago to email screen shots of my work to someone very dear to me I thought it 
+A few weeks ago I promised to email screen shots of my work to someone very dear to me. I thought it 
 would be better to stop procrastinating, get this humble site online, and not swamp her email with 
-a bunch of image attachments. And of course share it with more people, FWIW.
+a bunch of image attachments. And of course be able to share it with more people.
 
-There will surely be more that bots, scrapers, SEO overlords, etc. will not care about...
+I will surely put more content here that bots, scrapers, SEO overlords, etc. will not care about...
 
-And then there will be even more, so check in every couple weeks, moths, years, or whatever.
+And then, because I never know when to quit, there will be even more. So check in every couple weeks, months, years, or whatever. 
+I will see about getting RSS/Notifications working to update you as content is added.
