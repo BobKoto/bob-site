@@ -13,7 +13,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
     values:
       layout: "base-with-notification"
 
