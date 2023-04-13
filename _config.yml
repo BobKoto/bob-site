@@ -9,12 +9,12 @@ header_pages:
   - media.md
   - ipage.md
   - scriptpractice.md
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "base-with-notification"
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#    values:
+#      layout: "base-with-notification"
 
 #in header_pages the filenames listed are those in the project/on disk - titles within the files are what appear on pages
 #remote_theme: pages-themes/architect@v0.2.0
