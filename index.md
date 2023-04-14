@@ -13,8 +13,8 @@ weight: 10
         background-color: lightblue;
       }
 </style>
-### This site is under construction but feel free to look around. All links should work, and more to come. 
+### Site is in development and live at the same time. Enjoy looking around especially at the Game Gallery. All links should work, and more to come. 
 
-note: RSS subscribe is still a work in progress and not working yet.
+note: RSS subscribe is not working yet. Notifications development underway too. intending to notify you just every 7 days of changes.   
 
 <script src="./scripts/main.js"></script>

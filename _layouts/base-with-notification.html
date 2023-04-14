@@ -1,4 +1,56 @@
 ﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <script>
+      if ("Notification" in window) {
+        Notification.requestPermission();
+      }
+    </script>
+
+    <!-- Include search.html here if necessary -->
+
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <div class="site-title">Site Title</div>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="content-wrapper">
+        <main class="main-content">
+          <h1 class="page-title">Page Title</h1>
+          <!-- Replace this with your page content -->
+        </main>
+
+        <!-- Include sidebar.html here if necessary -->
+      </div>
+
+      <footer class="site-footer">
+        <p>Written by Author</p>
+        <ul>
+          <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<!--
+<!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
@@ -24,3 +76,4 @@ if ("Notification" in window) {
   </body>
 
 </html>
+-->
