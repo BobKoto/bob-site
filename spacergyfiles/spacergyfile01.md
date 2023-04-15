@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "_Space... the Final Dumpster_"
+title: "*Space... the Final Dumpster*"
 ---
 <script src="./scripts/favicon.js"></script>
 <style>
