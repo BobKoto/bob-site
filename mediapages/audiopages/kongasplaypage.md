@@ -16,18 +16,11 @@ The Kongas are amazing. Click play for a pick me up!
 </audio>
 
 <h1 id="now-wasnt-that-nice"> </h1>
-<!--
+
 <script>
 function showText() {
   let myHeader = document.getElementById("now-wasnt-that-nice");
-  myHeader.innerHTML = "<br> <br> Nice!!! Keep going... <a href='https://example.com'>Click here</a> to continue." ;
-}
-</script>
--->
-<script>
-function showText() {
-  let myHeader = document.getElementById("now-wasnt-that-nice");
-  myHeader.innerHTML = "<br> <br> Nice!!! Keep going... try viewing the<a href='https://BobKoto.github.io/bob-site/image02'>Game Gallery</a> to continue." ;
+  myHeader.innerHTML = "<br> <br> Nice!!! Keep going... try viewing the <a href='https://BobKoto.github.io/bob-site/image02'>Game Gallery</a>";
 }
 </script>
 
