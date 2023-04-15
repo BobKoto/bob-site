@@ -12,8 +12,10 @@ weight: 40
 
 ## This is the Downloads page:
 
-Here we can either download files to the Downloads directory or play/display them directly in the browser:
-For now just get a pickup with a quick conga riff...
+Here we can either download files to the Downloads directory or play/display them directly in the browser. <br>
+More to come... <br>
+
+For now pick yourself uo with a quick conga riff...
 
 <!--
 
@@ -30,5 +32,5 @@ For now just get a pickup with a quick conga riff...
 
 [Download Kongas](https://BobKoto.github.io/bob-site/downloads/kongas.ogg){: .btn .btn-blue, download="kongas.ogg"  } 
 -->
-[Play the Kongas on a Page ]({{ site.baseurl }}/mediapages/audiopages/kongasplaypage){: .btn .btn-blue }
+[Play the Kongas!]({{ site.baseurl }}/mediapages/audiopages/kongasplaypage){: .btn .btn-yellow }
 
