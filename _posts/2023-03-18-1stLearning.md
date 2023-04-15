@@ -13,7 +13,7 @@ tags: [jekyll, tutorial]
 </style>
 <br>
 <br>
-### Remember your intent is almost always your destiny.
+## Remember your intent is almost always your destiny.
 
 
 <br>
