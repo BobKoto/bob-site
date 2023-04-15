@@ -3,12 +3,7 @@ layout: page
 title: "Game Gallery"
 ---
 <script src="./scripts/favicon.js"></script>
-<!--
-<script>
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Game Screen Shots and Videos...";
-</script>
--->
+
 <script>
 const myHeading = document.querySelector("h1");
 myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
@@ -77,5 +72,11 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
   var hours = currentTime.getHours();
   var minutes = currentTime.getMinutes();
   time.innerHTML = hours + ":" + minutes;
+</script>
+-->
+<!--
+<script>
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "Game Screen Shots and Videos...";
 </script>
 -->

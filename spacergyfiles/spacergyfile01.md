@@ -3,16 +3,17 @@ layout: page
 title: "Space... the Final Dumpster"
 ---
 <script src="./scripts/favicon.js"></script>
+<script>
+const myHeading = document.querySelector("h1");
+myHeading.innerHTML = "<em>Space... the Final Dumpster</em>";
+</script>
 <style>
       body {
         background-color: lightblue;
       }
 </style>
 
-<script>
-const myHeading = document.querySelector("h1");
-myHeading.innerHTML = "<em>Space... the Final Dumpster</em>";
-</script>
+
 
 This is an Android 3D arcade game with 2 levels. &#128512; 
 
