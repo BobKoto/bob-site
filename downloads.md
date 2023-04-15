@@ -35,4 +35,4 @@ For now pick yourself up with a quick conga riff...
 
 [Play the Kongas!]({{ site.baseurl }}/mediapages/audiopages/kongasplaypage){: .btn .btn-yellow }
 -->
-<a href="{{ site.baseurl }}/mediapages/audiopages/kongasplaypage" style="color: yellow">Play the Kongas!</a>
+<a href="{{ site.baseurl }}/mediapages/audiopages/kongasplaypage" style="color: green"><i>Play the Kongas!</i></a>
