@@ -8,6 +8,12 @@ title: *Space... the Final Dumpster*
         background-color: lightblue;
       }
 </style>
+
+<script>
+const myHeading = document.querySelector("h1");
+myHeading.innerHTML = "<em>Space... the Final Dumpster</em>";
+</script>
+
 This is an Android 3D arcade game with 2 levels. &#128512; 
 
 Gameplay uses a mobile joystick to intercept or evade objects. 

@@ -3,10 +3,18 @@ layout: page
 title: "Game Gallery"
 ---
 <script src="./scripts/favicon.js"></script>
+<!--
 <script>
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "Game Screen Shots and Videos...";
 </script>
+-->
+<script>
+const myHeading = document.querySelector("h1");
+myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
+</script>
+
+
 *More games waiting to be added!!*
 <style>
       body {
