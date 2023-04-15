@@ -13,8 +13,8 @@ weight: 10
         background-color: lightblue;
       }
 </style>
-### Site is in development and live at the same time. Enjoy looking around especially at the Game Gallery. All links should work, and more to come. 
+### Site is in development and live at the same time. Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02). All links should work, and more to come. 
 
-note: RSS subscribe is not working yet. Notifications development underway too. intending to notify you just every 7 days of changes.   
+note: RSS subscribe is pending.   
 
 <script src="./scripts/main.js"></script>
