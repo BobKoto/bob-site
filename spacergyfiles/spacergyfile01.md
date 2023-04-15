@@ -8,7 +8,7 @@ title: *Space... the Final Dumpster*
         background-color: lightblue;
       }
 </style>
-This is an Android based 3D arcade game with 2 levels. &#128512; 
+This is an Android 3D arcade game with 2 levels. &#128512; 
 
 Gameplay uses a mobile joystick to intercept or evade objects. 
 
