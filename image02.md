@@ -5,23 +5,9 @@ title: "Game Gallery"
 <script src="./scripts/favicon.js"></script>
 <script>
 const myHeading = document.querySelector("h1");
-myHeading.textContent = "GAME SCREEN SHOTS...";
+myHeading.textContent = "Game Screen Shots and Videos...";
 </script>
-<!--  ## Game screen shots  we had time in here mostly to check if we needed to refresh a webpage in early development 
-<div style="display: inline-block;">
-  <span>Time is now: </span> 
-  <span id="time"></span>  
-</div>
-
-<script>
-  var time = document.getElementById("time");
-  var currentTime = new Date();
-  var hours = currentTime.getHours();
-  var minutes = currentTime.getMinutes();
-  time.innerHTML = hours + ":" + minutes;
-</script>
--->
-
+*More games waiting to be added!!*
 <style>
       body {
         background-color: lightblue;
@@ -70,4 +56,18 @@ myHeading.textContent = "GAME SCREEN SHOTS...";
      style="justify-content:center; align-items:center;height:25%; width:25%" alt="A pinball game"> 
     </a>
 </div>
+-->
+<!--  ## Game screen shots  we had time in here mostly to check if we needed to refresh a webpage in early development 
+<div style="display: inline-block;">
+  <span>Time is now: </span> 
+  <span id="time"></span>  
+</div>
+
+<script>
+  var time = document.getElementById("time");
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  time.innerHTML = hours + ":" + minutes;
+</script>
 -->
