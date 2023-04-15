@@ -22,8 +22,8 @@ This site has 2 purposes:
 I started this site from scratch around the 3rd week of March 2023. It was on a todo pile for some time. 
 
 A few weeks ago I promised to email screen shots of my work to someone very dear to me. I thought it 
-would be better to stop procrastinating, get this humble site online, and not swamp her email with 
-a bunch of image attachments. And of course be able to share it with more people.
+would be better to stop procrastinating, get this humble site online, and instead of swamping her email with 
+a bunch of image attachments just send her a link to this site. &#128512; Now I can share it with even more people.
 
 I will surely put more content here that bots, scrapers, SEO overlords, etc. will not care about...
 
