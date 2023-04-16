@@ -10,7 +10,7 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 </script>
 
 
-*More games waiting to be added!!*
+*Stay tuned! More games waiting to be added!!*
 <style>
       body {
         background-color: lightblue;
