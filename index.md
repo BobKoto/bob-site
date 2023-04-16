@@ -15,6 +15,8 @@ weight: 10
 </style>
 ### Site is in development and live at the same time. Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02). All links should work, and more to come. 
 
-note: RSS subscribe is pending.   
+notes: 
+- *this site does not ask for nor collect any info about visitors*
+- *RSS subscribe/Notification to let people know about content updates is not implemented but is under review*
 
 <script src="./scripts/main.js"></script>
