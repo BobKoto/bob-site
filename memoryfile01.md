@@ -20,51 +20,18 @@ The Game Opening screen:
 ![GameOpen image](assets/memory1GameStart.jpg){: width="75%" height="75%"} <br>
 Game start.   Work in progress, more memory1 samples to come... 
 
-<!--
-The Space Junk level 1:
+The Game Menu screen:
 
-![Level1 image](assets/Spacergy3.jpg){: width="75%" height="75%"} <br>
-Level 1, space junk, gameplay. If we can send a Tesla to space why not soda machines too. &#128512; 
+![GameOpen image](assets/memory1Menu.jpg){: width="75%" height="75%"} <br>
+Game menu.   Work in progress, more memory1 samples to come... 
 
-The Space Junk level 1 game speed setup:
-
-![Level1Setup image](assets/Spacergy6.jpg){: width="75%" height="75%"} <br>
-Level 1 has 3 speeds to choose from. The default is slowest.
-
-
-# A video of Level 1 Space Junk play:
-<video width="640" height="360" controls>
-  <source src="{{ site.baseurl }}/assets/SpaceJunkSweeper1.mp4"  type="video/mp4">
-  
-  Your browser does not support the video.
-</video>
-That "Doh" you heard is because you should *not* hit a blue satellite.
-<br>
-<br>
-
-The Wormhole level 2:
-
-![Level2 image](assets/Spacergy5.jpg){: width="75%" height="75%"} <br>
-Level 2, wormhole, game play. The red streak is a menace that got vaporized by our shielded ship.
-<br>
-<br>
-# A video of Level 2 Wormhole play:
-<video width="640" height="360" controls>
-  <source src="{{ site.baseurl }}/assets/Wormhole1.mp4"  type="video/mp4">
-  
-  Your browser does not support the video.
-</video>
-Ok, so a wormhole round *can* end in less than 60 seconds if a menace hits your unshielded ship...
-<br>
--->
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
 
 # Tech Notes: 
-A casual memory and reflex challenge game for Android created in Java in with Android SDK.
+A casual memory and reflex challenge game for Android created with Java using Android SDK.
 
-Gameplay uses screen taps to replicate a random sequence of 6 symbols and their associated auditory tones, produced by the game, as fast as player can go.
-
+Gameplay uses player screen taps to replicate a random sequence of 6 symbols and their associated auditory tones, randomly produced by the game, with scoring depending on how fast the player can repeat the random sequence.
 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
 often playing for an hour or more with little drain on the battery. 
