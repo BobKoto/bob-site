@@ -18,7 +18,8 @@ This is an Android based visual and auditory and reflex challenge game. Object i
 The Game Opening screen:
 
 ![GameOpen image](assets/memory1GameStart.jpg){: width="75%" height="75%"} <br>
-Game start, level select.  Work in progress, more samples to come... 
+Game start.   Work in progress, more memory1 samples to come... 
+
 <!--
 The Space Junk level 1:
 
