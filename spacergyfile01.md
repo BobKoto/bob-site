@@ -13,11 +13,8 @@ myHeading.innerHTML = "<em>Space... the Final Dumpster</em>";
       }
 </style>
 This is an Android based 3D arcade game with 2 levels that run for just 60 seconds. Perfect for playing during commercials,
-breaking up boredom, waiting on line at the DMV, or wherever... &#128512; 
- 
+breaking up boredom, satisfying an urge to fidget, waiting on line at the DMV, or wherever... &#128512; 
 
-
-[Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
 The Game Opening screen:
 
