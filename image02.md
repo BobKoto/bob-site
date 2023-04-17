@@ -52,7 +52,7 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
  <p> </p>
 </div>
 
-# Memory1, a visual and auditory memory game for Android
+# Memory1, a visual and auditory memory and reflex challenge game for Android
  
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/memoryfile01" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
@@ -65,7 +65,7 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 
 <div style="text-align:center">
 <p> </p>
- A 3D Arcade game for Android. Click/tap for more info.
+ A visual and auditory memory and reflex challenge game for Android. Click/tap for more info.
  <p> </p>
 </div>
 <!--
