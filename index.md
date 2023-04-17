@@ -17,6 +17,6 @@ weight: 10
 
 notes: 
 - *this site does not ask for nor collect any info about visitors*
-- *RSS subscribe/Notification to let people know about content updates is not implemented but is under review*
+- *RSS subscribe/Notification to inform you of content updates is not implemented but is under review*
 
 <script src="./scripts/main.js"></script>
