@@ -52,6 +52,22 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
  <p> </p>
 </div>
 
+# Memory1, a visual and auditory memory game for Android
+ 
+<div style="display:flex; justify-content:center; align-items:center; width: 100%;">
+    <a href="https://bobkoto.github.io/bob-site/memoryfile01" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
+    title="memory1: A visual and auditory memory challenge. Click image for info..."> 
+        <img src="{{ site.baseurl }}/assets/memory1GameOpenScreen.jpg"
+             style="height:75%; width:75%; justify-content:center; align-items:center" 
+             alt="A game that players press a sequence of buttons based on what they remember they have seen/heard">
+    </a>
+</div>
+
+<div style="text-align:center">
+<p> </p>
+ A 3D Arcade game for Android. Click/tap for more info.
+ <p> </p>
+</div>
 <!--
 <div style="display:flex; justify-content:center; align-items:center;">
     <a href="https://bobkoto.github.io/bob-site/" title="A pinball image tooltip and the way home, for now"> 
