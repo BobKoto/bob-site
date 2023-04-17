@@ -12,11 +12,9 @@ myHeading.innerHTML = "<em>Space... the Final Dumpster</em>";
         background-color: lightblue;
       }
 </style>
-This is an Android based 3D arcade game with 2 levels that run for just 60 seconds. &#128512; 
-
-Gameplay uses a mobile on-screen joystick to move your spaceship and intercept or evade objects. 
-Player can set their preferred joystick position - left, center, or right.
-Level 1 has 3 player selectable speed setttings.  
+This is an Android based 3D arcade game with 2 levels that run for just 60 seconds. Perfect for playing during commercials,
+breaking up boredom, waiting on line at the DMV, or wherever... &#128512; 
+ 
 
 
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
@@ -43,7 +41,7 @@ Level 1 has 3 speeds to choose from. The default is slowest.
   
   Your browser does not support the video.
 </video>
-That "Doh" you heard is because you should not hit a blue satellite.
+That "Doh" you heard is because you should *not* hit a blue satellite.
 <br>
 <br>
 
@@ -67,6 +65,10 @@ Ok, so a wormhole round *can* end in less than 60 seconds if a menace hits your 
 
 # Tech Notes: 
 3D casual arcade game for Android created in Unity and C#.
+
+Gameplay uses a mobile on-screen joystick to move your spaceship and intercept or evade objects. 
+Player can set their preferred joystick position - left, center, or right.
+Level 1 has 3 player selectable speed setttings. 
 
 A variation of object pooled endless runner (on Z axis)
 
