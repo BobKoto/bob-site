@@ -31,7 +31,7 @@ Game menu.   Work in progress, more memory1 samples to come...
 # Tech Notes: 
 A casual memory and reflex challenge game for Android created with Java using Android SDK.
 
-Gameplay uses player screen taps to replicate a random sequence of 6 symbols and their associated auditory tones, randomly produced by the game, with scoring depending on how fast the player can repeat the random sequence.
+Gameplay uses player screen taps to replicate a sequence of 6 symbols and their associated auditory tones, randomly produced by the game. Scoring is based on how fast a player can repeat the random sequence.
 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
 often playing for an hour or more with little drain on the battery. 
