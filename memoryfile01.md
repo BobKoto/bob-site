@@ -33,6 +33,14 @@ Game menu.   Work in progress, more memory1 samples to come...
 </video>
 Note that less than 6 symbols are previewed because some might be repeated - so pay attention!
 
+# A video of memory1 sequence you have to play back:
+<video width="640" height="360" controls>
+  <source src="{{ site.baseurl }}/assets/memory1StartRound.webm"  type="video/webm">
+  
+  Your browser does not support the video.
+</video>
+Note that less than 6 symbols are previewed because some might be repeated - so pay attention!
+
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
 
