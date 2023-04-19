@@ -35,7 +35,7 @@ Note that less than 6 symbols are previewed because some might be repeated - so 
 
 # A video of memory1 sequence you have to play back:
 <video width="640" height="360" controls>
-  <source src="{{ site.baseurl }}/assets/memory1StartRound.webm"  type="video/webm">
+  <source src="{{ site.baseurl }}/assets/memory1StartWithAudio.webm"  type="video/webm">
   
   Your browser does not support the video.
 </video>
