@@ -25,6 +25,14 @@ The Game Menu screen:
 ![GameOpen image](assets/memory1Menu.jpg){: width="75%" height="75%"} <br>
 Game menu.   Work in progress, more memory1 samples to come... 
 
+# A video of memory1 sequence you have to play back:
+<video width="640" height="360" controls>
+  <source src="{{ site.baseurl }}/assets/memory1StartRound.mp4"  type="video/mp4">
+  
+  Your browser does not support the video.
+</video>
+Note that less than 6 symbols are previewed because some might be repeated - so pay attention!
+
 [Back to screen shots](https://bobkoto.github.io/bob-site/image02)
 
 
