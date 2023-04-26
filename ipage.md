@@ -13,11 +13,11 @@ weight: 50
 
 This site has 2 purposes:
 
-1. Share screen shots of games and other open source software I have done and am currently creating. Providing examples to help anyone doing 3D games in Unity on mobiles. 
+1. Share screen shots/videos of games and other open source software I have done and am currently creating. Especially providing examples to help anyone developing 3D games in Unity on mobiles. For now we are just sharing project source files on Github. Maybe later on we'll put some playable games up for free downloading. 
 
 2. Share some funny or meaningful and interesting quotes. 
 
-3. (future) Maybe share downloadable ready to play games. Until then anyone using Unity and is interested can clone my Android projects on Github.
+3. (future) And to repeat, maybe share downloadable ready to play games for Android phones. Until then anyone using Unity and is interested can clone my Android projects from Github.
 
 I started this site from scratch around the 3rd week of March 2023. It was on a todo pile for some time. 
 

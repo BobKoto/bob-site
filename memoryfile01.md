@@ -12,7 +12,7 @@ myHeading.innerHTML = "<em>memory1</em>";
         background-color: lightblue;
       }
 </style>
-This is an Android based visual and auditory and reflex challenge game. Object is to tap out a replay of randomly displayed symbols - each with their own unique auditory tone - as quickly as possible.  &#128512; 
+This is an Android based visual and auditory and reflex challenge game. Object is to replay a sequence of randomly displayed symbols - each with their own unique auditory tone - as quickly as possible. There are 3 levels of play to choose: Practice, Normal and Fast. &#128512; 
 
 
 The Game Opening screen:
@@ -52,4 +52,4 @@ Gameplay uses player screen taps to replicate a sequence of 6 symbols and their 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
 often playing for an hour or more with little drain on the battery. 
 
-This project is not yet available on Github.
+Find this project at [memory1 project](https://github.com/bobkoto/memory1/) aka memory1

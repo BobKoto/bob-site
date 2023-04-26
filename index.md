@@ -13,10 +13,10 @@ weight: 10
         background-color: lightblue;
       }
 </style>
-### Site is in development and live at the same time. Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02). All links should work, and more to come. 
+### I'm building and live at the same time. Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02).  All links should work, and more to come. 
 
 notes: 
-- *this site does not ask for nor collect any info about visitors*
+- *this site does not track or ask for nor collect any info about visitors*
 - *RSS subscribe/Notification to inform you of content updates is not implemented but is under review*
 
 <script src="./scripts/main.js"></script>
