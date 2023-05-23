@@ -13,15 +13,15 @@ tags: [jekyll, tutorial]
 </style>
 <br>
 <br>
-## Remember your intent is almost always your destiny.
+## Remember your intent is almost always your destiny.   - Me
 
 
 <br>
 <br>
+## In the labyrinth of life, the whispers of chance intertwine with the echoes of choice.   - G Petey
 <br>
 <br>
 ### More ambiguous quotes to come!!!
-<br>
 <br>
 <br>
 <br>
