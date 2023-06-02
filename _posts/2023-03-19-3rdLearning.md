@@ -38,7 +38,8 @@ I haven't observed this firsthand (been using ChatGPT for a few weeks) but I hav
 Human beings hallucinate. In fact some pursue hallucinations via drugs or whatever -
 (astral projection anyone?).
 
-And if you surf the web or read newspapers you'll see reports that ChatGPT emits biased info answers or whatever.
-So do people, and probably more often than ChatGPT does.
+And if you surf the web or read online news you'll see reports that ChatGPT spews biased info. answers or whatever.
+So do people, and probably more often than ChatGPT does. Anyone that's ever worked in an IT shop knows this.
 
 ChatGPT is a human creation that often with ingenious software written by ingenious humans ingeniously reflects back what has been created by humans.  
+At least it does apologize, and often corrects itself, when I show it that it gave me a wrong answer. Unlike many humans.  
