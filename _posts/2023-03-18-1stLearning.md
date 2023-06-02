@@ -21,9 +21,9 @@ tags: [jekyll, tutorial]
 <br>
 ##Haiku on unsolvable Puzzles:
 
-##Mysteries unfold,
-##Unsolvable puzzles gleam,
-##Riddles of the mind       - G Petey
+## Mysteries unfold,
+## Unsolvable puzzles gleam,
+## Riddles of the mind       - G Petey
 <br>
 <br>
 
