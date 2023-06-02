@@ -19,7 +19,8 @@ tags: [jekyll, tutorial]
 ## In the labyrinth of life, the whispers of chance intertwine with the echoes of choice.   - G Petey
 <br>
 <br>
-##Haiku on unsolvable Puzzles:
+
+Haiku for unsolvable Puzzles:
 
 ## Mysteries unfold,
 ## Unsolvable puzzles gleam,
