@@ -27,7 +27,7 @@ a bunch of image attachments just send her a link to this site. &#128512;
 
 Now I can share it with even more people.
 
-More content to come here that bots, scrapers, SEO overlords, etc. will not care about...
+More content to come here that bots, scrapers, SEO overlords (we're comming for you), etc. will not care about...
 
 I am considering RSS/Notifications to let you know when content is updated.
 Until then check in every couple weeks, months, years, or whatever.
