@@ -11,13 +11,15 @@ weight: 50
       }
 </style>
 
-This site has 2 purposes:
+This site is here to:
 
 1. Share screen shots/videos of games and other open source software I have done and am currently creating. Especially providing examples to help anyone developing 3D games in Unity on mobiles. For now we are just sharing project source files on Github. Maybe later on we'll put some playable games up for free downloading. 
 
 2. Share some funny or meaningful and interesting quotes. 
 
-3. (future) And to repeat, maybe share downloadable ready to play games for Android phones. Until then anyone using Unity and is interested can clone my Android projects from Github.
+3. (future) And to repeat, maybe share downloadable ready to play games for Android phones. Until then anyone using Unity and is interested can access my Android projects from Github.
+
+4. (a work in progress) Playtest some WebGL games developed in Unity that can run in desktop and (usually) mobile browsers.
 
 I started this site from scratch around the 3rd week of March 2023. It was on a todo pile for some time. 
 
