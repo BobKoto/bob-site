@@ -9,8 +9,8 @@ title: Games In Browsers
       }
 </style>
 
-Using Unity WebGL to build in-browser games. For those of you that push your Roombas around that's games you can play in your browser and maybe even on your phone's internet browser. Have a working prototype. More to come.
-
+To make games more accessible I recently started using Unity WebGL to build in-browser games. For those of you that push your Roombas around that's games you can play in your browser and maybe even on your phone's internet browser. Have working prototypes that can be found here: [Game Lab](https://bobkoto.github.io/bob-site/gamelab). More to come.
+<br><br>
 In the meantime here's a haiku by G Petey (Chat GPT):
 <br>
 Prompt: write a haiku about gaining knowledge.
