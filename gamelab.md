@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Game Lab"
+title: "WebGL Game Lab"
 weight: 40
 ---
 <script src="./scripts/favicon.js"></script>
@@ -17,10 +17,10 @@ Illusion Pinball: aka touchinput1 ported from Android to WebGL so you can play i
 <br><br>
 # Illusion 3D Pinball Game 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
-    <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:25; width:25%; justify-content:center; align-items:center" 
-    title="Illusions 3D pinball game. Click image for info..."> 
-        <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
-             style="height:25%; width:25%; justify-content:center; align-items:center" 
+    <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
+    title="Illusions 3D pinball game. Click to play..."> 
+        <img src="https://bobkoto.github.io/bob-site/pinball01" 
+             style="height:50%; width:50%; justify-content:center; align-items:center" 
              alt="A pinball game"> 
     </a>
 </div>
