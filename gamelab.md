@@ -17,10 +17,10 @@ Illusion Pinball: aka touchinput1 ported from Android to WebGL so you can play i
 <br><br>
 # Illusion 3D Pinball Game 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
-    <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
+    <a href="https://bobkoto.github.io/bob-site/pinball01" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
     title="Illusions 3D pinball game. Click to play..."> 
-        <img src="https://bobkoto.github.io/bob-site/pinball01" 
-             style="height:50%; width:50%; justify-content:center; align-items:center" 
+        <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
+             style="height:75; width:75%; justify-content:center; align-items:center" 
              alt="A pinball game"> 
     </a>
 </div>
