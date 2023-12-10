@@ -10,11 +10,21 @@ weight: 40
       }
 </style>
 
-## Games in beta:
+## Games in development that you can play:
 
-Pinball: (aka touchinput1 converted from and Android platform to WebGL) Note: Game is playable. The newer your mobile probably the better. Older mobiles may have laggy input (flipper) response. Decent lap/desktops should play ok, too. A relaxingly easy pinball game with some odd video and audio illusions. Kinda fun and chill.
+Illusion Pinball: aka touchinput1 ported from Android to WebGL so you can play in your browser. 
+<br>Note: The newer your mobile phone the better the game should play for you. If your phone is older than 3 or 4 years (as of December 2023) you may experience laggy input/flipper response. Most lap/desktops should play ok.<br> A relaxingly easy pinball game with some odd video and audio illusions. Kinda fun and chill. Enjoy...
 <br><br>
-[Play Pinball](https://bobkoto.github.io/bob-site/pinball01)
+# Illusion 3D Pinball Game 
+<div style="display:flex; justify-content:center; align-items:center; width: 100%;">
+    <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:25; width:25%; justify-content:center; align-items:center" 
+    title="Illusions 3D pinball game. Click image for info..."> 
+        <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
+             style="height:25%; width:25%; justify-content:center; align-items:center" 
+             alt="A pinball game"> 
+    </a>
+</div>
+[Play Pinball](https://bobkoto.github.io/bob-site/pinball01) in your browser.
 <br><br>
 CubeTest: Just test of on screen joystick for mobile. For desktops WASD and arrow keys will move player. Otherwise does very little. If you're very bored you can play and maneuver through the hoops. Maybe we'll add some "trancy" background audio. 
 <br><br>
