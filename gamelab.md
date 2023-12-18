@@ -28,6 +28,14 @@ Illusion Pinball: aka touchinput1 ported from Android to WebGL so you can play i
 <br><br>
 CubeTest: Just test of on screen joystick for mobile. For desktops WASD and arrow keys will move player. Otherwise does very little. If you're very bored you can play and maneuver through the hoops. Maybe we'll add some "trancy" background audio. 
 <br><br>
+<div style="display:flex; justify-content:center; align-items:center; width: 100%;">
+    <a href="https://bobkoto.github.io/bob-site/game01" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
+    title="Illusions 3D pinball game. Click to play..."> 
+        <img src="{{ site.baseurl }}/assets/CubeTest.jpg" 
+             style="height:50; width:50%; justify-content:center; align-items:center" 
+             alt="A hoop game"> 
+    </a>
+</div>
 [Play CubeTest](https://bobkoto.github.io/bob-site/game01)
 <br><br><br>
 
