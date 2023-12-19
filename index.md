@@ -13,7 +13,7 @@ weight: 10
         background-color: lightblue;
       }
 </style>
-### I'm building and live at the same time. Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02).  All links should work, and more to come. 
+### I'm building and live at the same time. Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02).  All links should work, and more to come. You can also check out [Game Lab](https://bobkoto.github.io/bob-site/gamelab) for games you can play right now in your browser. No ads or anything, just games you can enjoy for absolutely free.
 
 notes: 
 - *this site does not track or ask for nor collect any info about visitors*

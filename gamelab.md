@@ -26,7 +26,8 @@ Illusion Pinball: aka touchinput1 ported from Android to WebGL so you can play i
              alt="A pinball game"> 
     </a>
 </div>
-[Play Pinball](https://bobkoto.github.io/bob-site/pinball01) in your browser.  Best to start in portrait mode.
+<br><br>
+[Play Pinball](https://bobkoto.github.io/bob-site/pinball01) in your browser.  On mobiles it's best to start in portrait mode.
 <br><br>
 CubeTest: Just test of on screen joystick for mobile, and to see how browser performs with a moderate amount of moving objects. For desktops WASD and arrow keys will move player. Otherwise a little game to see how fast you can intercept the evil spheres. Maybe we'll add some "trancy" "actiony" background audio. 
 <br><br>
@@ -39,7 +40,7 @@ CubeTest: Just test of on screen joystick for mobile, and to see how browser per
     </a>
 </div>
 <br><br>
-[Play CubeTest](https://bobkoto.github.io/bob-site/game01) in your browser.  Best to start in landscape mode.
+[Play CubeTest](https://bobkoto.github.io/bob-site/game01) in your browser.  On mobiles it's best to start in landscape mode.
 <br><br><br>
 
 More on the way...
