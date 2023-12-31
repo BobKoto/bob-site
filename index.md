@@ -13,10 +13,13 @@ weight: 10
         background-color: lightblue;
       }
 </style>
-### I'm building and live at the same time. Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02).  All links should work, and more to come. You can also check out [Game Lab](https://bobkoto.github.io/bob-site/gamelab) for games you can play right now in your browser. No ads or anything, just games you can enjoy for absolutely free.
+
+### Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02) where you'll find screen shots and videos of Android games built with Unity along with their links to Github. 
+
+### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games you can play right now in your browser.  No ads or anything, just games you can enjoy for absolutely free.
 
 notes: 
-- *this site does not track or ask for nor collect any info about visitors*
+- *this site, including the games you can play in your browser, does not track or ask for nor collect any info about you*
 - *RSS subscribe/Notification to inform you of content updates is not implemented but is under review*
 
 <script src="./scripts/main.js"></script>
