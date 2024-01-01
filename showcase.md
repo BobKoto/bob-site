@@ -16,7 +16,7 @@ weight: 40
     <a href="https://bobkoto.github.io/bob-site/webshowcase" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
     title="Web showcase Click to enter..."> 
         <img src="{{ site.baseurl }}/assets/wscase01.jpg" 
-             style="height:50; width:50%; justify-content:center; align-items:center" 
+             style="height:100; width:100%; justify-content:center; align-items:center" 
              alt="Web Showcase"> 
     </a>
 </div>
