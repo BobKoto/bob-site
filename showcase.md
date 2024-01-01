@@ -11,6 +11,7 @@ weight: 40
 </style>
 
 ## Showcase a la Metaverse:
+Props to the people at Croquet.io &#128512; 
 
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
@@ -18,6 +19,7 @@ weight: 40
     title="Showcase. Click to see it..."> 
     </a>
 </div>
+Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) 
 <br><br>
-&#128512; 
+
 
