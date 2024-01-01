@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Showcase a la Metaverse"
+title: "Showcase"
 weight: 40
 ---
 <script src="./scripts/favicon.js"></script>
@@ -10,9 +10,18 @@ weight: 40
       }
 </style>
 
-Big props, and thanks to the people at Croquet.io for WebShowcase, &#128512; <br>
+## Big props, and thanks to the people at Croquet.io for WebShowcase, &#128512; <br>
 
-![WebShowcase image](assets/wscase01.jpg){: width="75%" height="75%"} <br><br>
+<div style="display:flex; justify-content:center; align-items:center; width: 100%;">
+    <a href="https://bobkoto.github.io/bob-site/webshowcase" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
+    title="Web showcase Click to enter..."> 
+        <img src="{{ site.baseurl }}/assets/wscase01.jpg" 
+             style="height:50; width:50%; justify-content:center; align-items:center" 
+             alt="Web Showcase"> 
+    </a>
+</div>
+
+<!-- ![WebShowcase image](assets/wscase01.jpg){: width="75%" height="75%"} <br><br> -->
 Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) and cruise around a web metaverse. Maybe you'll find me or someone else - in there. 
 
 ### The best part of web showcase can be just moving around webshowcase-land.
