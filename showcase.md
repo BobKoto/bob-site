@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Showcase"
+title: "Showcase a la Metaverse"
 weight: 40
 ---
 <script src="./scripts/favicon.js"></script>
@@ -10,8 +10,7 @@ weight: 40
       }
 </style>
 
-## Showcase a la Metaverse:
-Big props, and thanks to the people at Croquet.io for WebShowcase, &#128512; 
+Big props, and thanks to the people at Croquet.io for WebShowcase, &#128512; <br>
 
 ![WebShowcase image](assets/wscase01.jpg){: width="75%" height="75%"} <br><br>
 Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) and cruise around a web metaverse. Maybe you'll find me or someone else - in there. 
