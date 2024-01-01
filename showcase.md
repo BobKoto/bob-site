@@ -25,7 +25,7 @@ Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) and cruise 
 ### The best part of web showcase can be just moving around webshowcase-land.
 ...and see some opportunities. Another best part is it works with mobiles and desktops, like everybodyelse's. Right?
 
-## About this showcase kinda prototype (expect to change often, I think): So far we have:
+# About this showcase kinda prototype (expect to change often, I think): So far we have:
 
 - some images of games 
 - a video 
@@ -33,7 +33,7 @@ Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) and cruise 
 
 Just basic "stuff"
 
-# Big props, and thanks to the people at Croquet.io for WebShowcase, &#128512; <br>
+# Big props, & thanks to the people at Croquet.io for WebShowcase, &#128512; <br>
 
 
 <br><br>
