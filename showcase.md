@@ -11,15 +11,22 @@ weight: 40
 </style>
 
 ## Showcase a la Metaverse:
-Props to the people at Croquet.io &#128512; 
+Big props, and thanks for WebShowcase, to the people at Croquet.io &#128512; 
 
+## Here is a web showcase kinda prototype (expect to change often, I think). So far we have:
 
-<div style="display:flex; justify-content:center; align-items:center; width: 100%;">
-    <a href="https://bobkoto.github.io/bob-site/webshowcase" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
-    title="Showcase. Click to see it..."> 
-    </a>
-</div>
+- some images of games 
+- a video 
+- a link to somewhere else 
+
+Just basic "stuff"
+
+### But the best part is just moving around webshowcase-land.
+...and see some opportunities. The best part is it works with mobiles and desktops, like everybodyelse's. Right?
+
 Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) 
-<br><br>
+<br><br><br><br><br><br><br><br>
+Before or after you go get a quick inspiration from the lucky kongas...
 
+<a href="{{ site.baseurl }}/mediapages/audiopages/kongasplaypage" style="color: green"><i>Play the Kongas!</i></a>
 
