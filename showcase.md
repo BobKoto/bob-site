@@ -20,7 +20,7 @@ weight: 40
 </div>
 <br>
 <!-- ![WebShowcase image](assets/wscase01.jpg){: width="75%" height="75%"} <br><br> -->
-Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) and cruise around a web metaverse. Maybe you'll find me or someone else - in there. 
+Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) and cruise around a little metaverse (courtesy of Croquet.io) and up for and by this site. Maybe you'll find me or someone else - in there. Note: started 1/24, will change a lot at first. You might find some quick videos and games to play in your browser. 
 
 ### The best part of web showcase can be just moving around webshowcase-land.
 ...and see some opportunities. Another best part is it works with mobiles and desktops, like everybodyelse's. Right?
@@ -29,7 +29,7 @@ Go to the [Showcase](https://bobkoto.github.io/bob-site/webshowcase) and cruise 
 
 - some images of games 
 - a video 
-- a link to somewhere else 
+- a link to a game playable in your browser 
 
 Just basic "stuff"
 

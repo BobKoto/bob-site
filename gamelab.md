@@ -29,18 +29,18 @@ Illusion Pinball: aka touchinput1 ported from Android to WebGL so you can play i
 <br><br>
 [Play Pinball](https://bobkoto.github.io/bob-site/pinball01) in your browser.  On mobiles it's best to start in portrait mode.
 <br><br>
-CubeTest: Just test of on screen joystick for mobile, and to see how browser performs with a moderate amount of moving objects. For desktops WASD and arrow keys will move player. Otherwise a little game to see how fast you can intercept the evil spheres. Maybe we'll add some "trancy" "actiony" background audio. 
+Immaculate Interception: Just a casual arcade kinda game to see how fast you can intercept the onrushing spheres. It may not look like it but the game always runs with the very same pattern of sphere motion and direction... The more you play it the more you'll see the pattern! But will you ever master it and finish in about 10 or 15 seconds? Or is that even possible? 
 <br><br>
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/game01" style="display:flex; height:100; width:100%; justify-content:center; align-items:center" 
-    title="Illusions 3D pinball game. Click to play..."> 
+    title="Intercept the Spheres. Click to play..."> 
         <img src="{{ site.baseurl }}/assets/CubeTestStartPage.png" 
              style="height:50; width:50%; justify-content:center; align-items:center" 
-             alt="A hoop game"> 
+             alt="A sphere intercept arcade game"> 
     </a>
 </div>
 <br><br>
-[Play CubeTest](https://bobkoto.github.io/bob-site/game01) in your browser.  On mobiles it's best to start in landscape mode.
+[Play Immaculate Interception](https://bobkoto.github.io/bob-site/game01) in your browser.  On mobiles it's best to start in landscape mode.
 <br><br><br>
 
 More on the way...
