@@ -1,0 +1,29 @@
+{
+  "name": "cycleTracker: P Tracking app",
+  "short_name": "PT",
+  "description": "Securely and confidentially track your cycle. Saves your private data to your browser on your device, without sharing it to anyone.",
+  "start_url": "/",
+  "theme_color": "#eeffee",
+  "background_color": "#eeffee",
+  "display": "standalone",
+    "icons": [
+          {
+        "src": "icons/circle.png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "icons/circle.png",
+        "sizes": "72x72 96x96",
+        "purpose": "maskable"
+      },
+      {
+        "src": "icons/circle.png",
+        "sizes": "128x128 256x256"
+      },
+      {
+        "src": "icons/circle.png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
