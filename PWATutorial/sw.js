@@ -1,4 +1,4 @@
-const VERSION = "v2";
+const VERSION = "v3";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -14,6 +14,7 @@ self.addEventListener("install", (event) => {
       (async () => {
         const cache = await caches.open(CACHE_NAME);
         cache.addAll(APP_STATIC_RESOURCES);
+        console.log("Service worker install event");
       })(),
     );
   });
@@ -29,6 +30,7 @@ self.addEventListener("install", (event) => {
           }),
         );
         await clients.claim();
+        console.log("Service worker activate event");
       })(),
     );
   });
@@ -37,6 +39,7 @@ self.addEventListener("install", (event) => {
     if (event.request.mode === "navigate") {
       // Return to the index.html page
       event.respondWith(caches.match("/"));
+      console.log("Service worker fetch event");
       return;
     }
   
@@ -45,6 +48,7 @@ self.addEventListener("install", (event) => {
       (async () => {
         const cache = await caches.open(CACHE_NAME);
         const cachedResponse = await cache.match(event.request.url);
+        console.log("Service worker respond to other request/event");
         if (cachedResponse) {
           // Return the cached response if it's available.
           return cachedResponse;
