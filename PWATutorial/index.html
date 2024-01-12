@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
     <title>Cycle Tracker</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="manifest" href="cycletracker.webmanifest" />  
+    <link rel="manifest" href="manifest.json" />  
     <link rel="icon" href="favicon.ico" />
     <!-- From https://realfavicongenerator.net/favicon_result?file_id=p1hjttltgot0p1hge1c6felmn966 -->
     
@@ -43,7 +44,7 @@
           <li>From 01/29/2024 to 02/04/2024</li>
         </ul>
       </section> -->
-    <script src="app.js" defer></script>  
+    <script type = "module" src="app.js" defer></script>  
     <!-- Register the app's service worker. -->
   <script>
     if ("serviceWorker" in navigator) {
