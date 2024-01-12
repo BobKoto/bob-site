@@ -2,7 +2,7 @@
   "name": "cycleTracker: P Tracking app",
   "short_name": "PT",
   "description": "Securely and confidentially track your cycle. Saves your private data to your browser on your device, without sharing it to anyone.",
-  "start_url": "https://bobkoto.github.io/bob-site/PWATutorial/",
+  "start_url": "/",
   "theme_color": "#eeffee",
   "background_color": "#eeffee",
   "display": "standalone",
