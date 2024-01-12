@@ -1,4 +1,4 @@
-const VERSION = "v3";
+const VERSION = "v4";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -6,7 +6,7 @@ const APP_STATIC_RESOURCES = [
   "/index.html",
   "/style.css",
   "/app.js",
-  "/cycletracker.webmanifest",
+  "/manifest.json",
   "/icons/circle.png",
 ];
 self.addEventListener("install", (event) => {
@@ -39,7 +39,7 @@ self.addEventListener("install", (event) => {
     if (event.request.mode === "navigate") {
       // Return to the index.html page
       event.respondWith(caches.match("/"));
-      console.log("Service worker fetch event");
+      console.log( CACHE_NAME, " Service worker fetch event   ");
       return;
     }
   
