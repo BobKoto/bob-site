@@ -3,11 +3,11 @@ const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
   "/",
-  "/index.html",
-  "/style.css",
-  "/app.js",
-  "/manifest.json",
-  "/icons/circle.png",
+  "index.html",
+  "style.css",
+  "app.js",
+  "manifest.json",
+  "icons/circle.png",
 ];
 self.addEventListener("install", (event) => {
     event.waitUntil(
