@@ -1,4 +1,4 @@
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE_NAME = `period-tracker-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -7,7 +7,7 @@ const APP_STATIC_RESOURCES = [
   "/style.css",
   "/app.js",
   "/manifest.json",
-  "/icons/circle.png",
+  "/icons/circle.png"
 ];
 self.addEventListener("install", (event) => {
     event.waitUntil(
@@ -39,7 +39,7 @@ self.addEventListener("install", (event) => {
     if (event.request.mode === "navigate") {
       // Return to the index.html page
       event.respondWith(caches.match("/"));
-      console.log( CACHE_NAME, " Service worker fetch event   ", event.request);
+      console.log( CACHE_NAME, " Service worker fetch event   ", event.Response);
       return;
     }
   
