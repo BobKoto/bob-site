@@ -39,7 +39,7 @@ self.addEventListener("install", (event) => {
     if (event.request.mode === "navigate") {
       // Return to the index.html page
       event.respondWith(caches.match("/"));
-      console.log( CACHE_NAME, " Service worker fetch event   ", caches);
+      console.log( CACHE_NAME, " Service worker fetch event   ", event.request);
       return;
     }
   
