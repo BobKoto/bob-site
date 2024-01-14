@@ -5,7 +5,7 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/azmanifest.json',
-  '/icon.png'  // Replace with your own icon
+  '/icon.png' ,
 ];
 
 self.addEventListener('install', event => {
