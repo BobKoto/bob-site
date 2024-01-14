@@ -4,7 +4,7 @@ const CACHE_NAME = 'hello-pwa-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/manifest.json',
+  '/azmanifest.json',
   '/icon.png'  // Replace with your own icon
 ];
 
