@@ -10,12 +10,8 @@
     <h1>Hello, World!</h1>
 
     <!-- Register the service worker -->
-    <script>
-        if ("serviceWorker" in navigator) {
-          navigator.serviceWorker.register("sw.js");
-        }
-      </script>  
- <!--   <script>
+
+   <script>
         if ("serviceWorker" in navigator) {
             navigator.serviceWorker.register("sw.js")
                 .then(registration => {
@@ -25,6 +21,6 @@
                     console.error('Service Worker registration failed:', error);
                 });
         }
-    </script>  -->
+    </script>  
 </body>
 </html>
