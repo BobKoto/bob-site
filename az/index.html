@@ -12,6 +12,11 @@
     <!-- Register the service worker -->
     <script>
         if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js");
+        }
+      </script>  
+ <!--   <script>
+        if ("serviceWorker" in navigator) {
             navigator.serviceWorker.register("sw.js")
                 .then(registration => {
                     console.log('Service Worker registered with scope:', registration.scope);
@@ -20,6 +25,6 @@
                     console.error('Service Worker registration failed:', error);
                 });
         }
-    </script>
+    </script>  -->
 </body>
 </html>
