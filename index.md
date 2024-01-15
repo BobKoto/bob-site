@@ -24,17 +24,6 @@ notes:
 - *this site, including the games you can play in your browser, does not track or ask for nor collect any info about you*
 - *RSS subscribe/Notification to inform you of content updates is not implemented but is under review*
 
-<script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register("service-worker.js")
-       // navigator.serviceWorker.register('/service-worker.js')   //somebody, github pages? dunlike service worker in the root?
-            .then(registration => {
-                console.log('Service Worker registered with scope:', registration.scope);
-            })
-            .catch(error => {
-                console.error('Service Worker registration failed:', error);
-           });
-    }
-</script>
+<script src="service-worker.js"></script>
 
 <script src="./scripts/main.js"></script>
