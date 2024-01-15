@@ -18,8 +18,23 @@ weight: 10
 
 ### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games you can play right now in your browser.  No ads or anything, just games you can enjoy for absolutely free.
 
+### The [Showcase](https://bobkoto.github.io/bob-site/showcase) is a mini metaverse where you can see some pics, WEBGL games, and invite others and voice chat... well, just check it out. Courtesy of Croquet.io.
+
 notes: 
 - *this site, including the games you can play in your browser, does not track or ask for nor collect any info about you*
 - *RSS subscribe/Notification to inform you of content updates is not implemented but is under review*
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("service-worker.js")
+       // navigator.serviceWorker.register('/service-worker.js')   //somebody, github pages? dunlike service worker in the root?
+            .then(registration => {
+                console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch(error => {
+                console.error('Service Worker registration failed:', error);
+           });
+    }
+</script>
 
 <script src="./scripts/main.js"></script>
