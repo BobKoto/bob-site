@@ -8,21 +8,22 @@ const urlsToCache = [
 
 ];
 //  "/icon.png" ,
-/*self.addEventListener("install", (event) => {
+self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
-      cache.addAll(APP_STATIC_RESOURCES);
-      console.log("Service worker install event", APP_STATIC_RESOURCES);
+      cache.addAll(urlsToCache);
+      console.log("Service worker install event", urlsToCache);
     })(),
   );
-}); */
+}); 
+/*
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(urlsToCache))
   );
-});
+});*/
 
 self.addEventListener('fetch', event => {
   event.respondWith(
