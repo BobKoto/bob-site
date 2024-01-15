@@ -5,9 +5,18 @@ const urlsToCache = [
   "/",
   "/index.html",
   "/azmanifest.json",
-  "/icon.png" ,
-];
 
+];
+//  "/icon.png" ,
+/*self.addEventListener("install", (event) => {
+  event.waitUntil(
+    (async () => {
+      const cache = await caches.open(CACHE_NAME);
+      cache.addAll(APP_STATIC_RESOURCES);
+      console.log("Service worker install event", APP_STATIC_RESOURCES);
+    })(),
+  );
+}); */
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
