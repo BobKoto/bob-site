@@ -9,12 +9,13 @@
     <title>Hello PWA</title>
 </head>
 <body>
-    <h1>           sw in root            Hello, World!</h1>
+    <h1>           sw in root 2           Hello, World!</h1>
 
         <!-- Register the service worker -->
         <script>
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/service-worker.js')
+                navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+               // navigator.serviceWorker.register('/service-worker.js')
                     .then(registration => {
                         console.log('Service Worker registered with scope:', registration.scope);
                     })
