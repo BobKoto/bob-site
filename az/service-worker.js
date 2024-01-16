@@ -2,7 +2,7 @@
 
 const CACHE_NAME = 'hello-pwa-cache-v146';
 const urlsToCache = [
-  "/az/",
+  "https://bobkoto.github.io/bob-site/az/",
 
 
 ];
