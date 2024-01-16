@@ -1,6 +1,6 @@
 {
     "name": "Hello PWA",
-    "short_name": "HelloPWA",
+    "short_name": "H-PWA",
     "description": "A minimal PWA example",
     "start_url": "/",
     "display": "standalone",

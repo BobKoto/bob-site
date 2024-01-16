@@ -1,13 +1,13 @@
 // Service Worker
 
-const CACHE_NAME = 'hello-pwa-cache-v1';
+const CACHE_NAME = 'hello-pwa-cache-v121';
 const urlsToCache = [
   "/",
   "/index.html",
   "/azmanifest.json",
-  "/icon.png" ,
-];
 
+];
+//  "/icon.png" ,
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
