@@ -4,7 +4,7 @@ weight: 10
 # index is the 1st page shown 
 ---
 <script src="./scripts/favicon.js"></script>
-<script src="./service-worker.js"></script>
+<script src="{{ site.baseurl }}/RegisterServiceWorker.js"></script>
 
 {% include custom-head.html %}
 <head>
@@ -16,7 +16,7 @@ weight: 10
       }
 </style>
 
-### Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02) where you'll find screen shots and videos of Android games built with Unity along with their links to Github. 
+### Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02) where you'll find screen shots and videos of Android games built with Unity, along with their links to Github. 
 
 ### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games you can play right now in your browser. No ads or anything, just games you can enjoy for absolutely free.
 
