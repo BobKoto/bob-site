@@ -1,19 +1,21 @@
 // Service Worker
 
-const CACHE_NAME = 'hello-pwa-cache-v354';
+const CACHE_NAME = 'hello-pwa-cache-v402';
 const urlsToCache = [
   "/",
-  "index.html",
-  "azmanifest.json",
+
 
 ];
+
+//  "index.html",
+//  "azmanifest.json",
 //  "/icon.png" ,
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll(urlsToCache);
-      console.log("Service worker install event in az 342", urlsToCache);
+      console.log("Service worker install event in az 402", urlsToCache);
     })(),
   );
 }); 
