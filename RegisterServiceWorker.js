@@ -2,7 +2,7 @@
 
 if ("serviceWorker" in navigator) {
     // declaring scope manually
-    navigator.serviceWorker.register("/service-worker.js", { scope: "/az/" }).then(
+    navigator.serviceWorker.register("/az/service-worker.js", { scope: "/az/" }).then(
       (registration) => {
         console.log("Service worker registration succeeded:", registration.scope);
       },

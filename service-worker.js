@@ -1,6 +1,6 @@
 // Service Worker
 
-const CACHE_NAME = 'hello-pwa-cache-v225';
+const CACHE_NAME = 'hello-pwa-cache-v237';
 const urlsToCache = [
   "/",
   "/index.html",
