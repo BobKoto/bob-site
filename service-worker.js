@@ -3,9 +3,9 @@
 const CACHE_NAME = 'hello-pwa-cache-v1';
 const urlsToCache = [
   "/",
-  "/az/index.html",
-  "/az/azmanifest.json",
-  "/az/icon.png" ,
+  "/index.html",
+  "/azmanifest.json",
+  "/icon.png" ,
 ];
 
 self.addEventListener("install", (event) => {
