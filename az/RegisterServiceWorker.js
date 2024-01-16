@@ -4,7 +4,7 @@ console.log("Service worker registration started:");
 
 if ("serviceWorker" in navigator) {
     // declaring scope manually
-    navigator.serviceWorker.register("/service-worker.js", { scope: "/az/" }).then(
+    navigator.serviceWorker.register("service-worker.js").then(
       (registration) => {
         console.log("Service worker registration succeeded:", registration.scope);
       },
