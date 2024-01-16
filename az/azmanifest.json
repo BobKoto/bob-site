@@ -2,7 +2,9 @@
     "name": "Hello PWA",
     "short_name": "H-PWA",
     "description": "A minimal PWA example",
-    "start_url": "/",
+    "scope": "/bob-site/za/",
+    "start_url": "/bob-site/za/",
+
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
