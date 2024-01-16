@@ -3,14 +3,12 @@
 const CACHE_NAME = 'hello-pwa-cache-v146';
 const urlsToCache = [
   "https://bobkoto.github.io/bob-site/az/",
-
-
+  "https://bobkoto.github.io/bob-site/az/index.html",
+  "https://bobkoto.github.io/bob-site/az/azmanifest.json",
+  "https://bobkoto.github.io/bob-site/az/icon.png",
 ];
 console.log("Service worker location", location);
 
-//  "index.html",
-//  "azmanifest.json",
-//  "/icon.png" ,
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
