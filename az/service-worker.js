@@ -1,10 +1,10 @@
 // Service Worker
 
-const CACHE_NAME = 'hello-pwa-cache-v342';
+const CACHE_NAME = 'hello-pwa-cache-v354';
 const urlsToCache = [
   "/",
-  "/index.html",
-  "/azmanifest.json",
+  "index.html",
+  "azmanifest.json",
 
 ];
 //  "/icon.png" ,
