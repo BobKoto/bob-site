@@ -6,6 +6,7 @@ const urlsToCache = [
 
 
 ];
+console.log("Service worker location", location);
 
 //  "index.html",
 //  "azmanifest.json",
