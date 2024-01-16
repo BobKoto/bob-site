@@ -1,6 +1,6 @@
 // Service Worker
 
-const CACHE_NAME = 'hello-pwa-cache-v1';
+const CACHE_NAME = 'hello-pwa-cache-v225';
 const urlsToCache = [
   "/",
   "/index.html",
@@ -13,7 +13,7 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll(urlsToCache);
-      console.log("Service worker install event", urlsToCache);
+      console.log("Service worker install event in az", urlsToCache);
     })(),
   );
 }); 
