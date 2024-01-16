@@ -2,15 +2,15 @@
     "name": "Hello PWA",
     "short_name": "H-PWA",
     "description": "A minimal PWA example",
-    "scope": "/bob-site/za/",
-    "start_url": "/bob-site/za/",
+    "scope":"https://bobkoto.github.io/bob-site/az/",
+    "start_url":"https://bobkoto.github.io/bob-site/az/",
 
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "icons": [
       {
-        "src": "icon.png",
+        "src": "https://bobkoto.github.io/bob-site/az/icon.png",
         "sizes": "189x189",
         "type": "image/png"
       }
