@@ -10,33 +10,69 @@
 </head>
 <body>
     <h1>     sw back in page folder and called by Register Service worker in this page   354 Hello, World!</h1>
-
-        <!-- Register the service worker 
-        <script>
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register("service-worker.js")
-               // navigator.serviceWorker.register('/service-worker.js')   //somebody, github pages? dunlike service worker in the root?
-                    .then(registration => {
-                        console.log('Service Worker registered with scope:', registration.scope);
-                    })
-                    .catch(error => {
-                        console.error('Service Worker registration failed:', error);
-                    });
-            }
-        </script>  -->
-
-    <!-- Register the service worker 
-   <script>
-        if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("sw.js")
-                .then(registration => {
-                    console.log('Service Worker registered with scope:', registration.scope);
-                })
-                .catch(error => {
-                    console.error('Service Worker registration failed:', error);
-                });
+    <h1>Local Time:</h1>
+    <p id="localTime"></p>
+    
+    <script>
+        // Function to update the displayed time
+        function updateTime() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+    
+            // Add leading zero if needed
+            hours = (hours < 10 ? "0" : "") + hours;
+            minutes = (minutes < 10 ? "0" : "") + minutes;
+            seconds = (seconds < 10 ? "0" : "") + seconds;
+    
+            // Display the time in the "localTime" element
+            document.getElementById("localTime").innerHTML = hours + ":" + minutes + ":" + seconds;
         }
-    </script>  -->
+    
+        // Call updateTime initially when the page loads or is refreshed
+        updateTime();
+    </script>
+
 </body>
  <script src="RegisterServiceWorker.js"></script>  
+ 
 </html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Time Display</title>
+</head>
+<body>
+
+<h1>Local Time:</h1>
+<p id="localTime"></p>
+
+<script>
+    // Function to update the displayed time
+    function updateTime() {
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
+
+        // Add leading zero if needed
+        hours = (hours < 10 ? "0" : "") + hours;
+        minutes = (minutes < 10 ? "0" : "") + minutes;
+        seconds = (seconds < 10 ? "0" : "") + seconds;
+
+        // Display the time in the "localTime" element
+        document.getElementById("localTime").innerHTML = hours + ":" + minutes + ":" + seconds;
+    }
+
+    // Call updateTime initially when the page loads or is refreshed
+    updateTime();
+</script>
+
+</body>
+</html>
+-->
