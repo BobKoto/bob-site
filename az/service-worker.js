@@ -26,7 +26,7 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll(urlsToCache);
-      console.log("Service worker install event in az 216", urlsToCache);
+      console.log("Service worker install event in az 244", urlsToCache);
     })(),
   );
 }); 
