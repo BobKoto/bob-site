@@ -3,15 +3,22 @@ var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
 const urlsToCache = [
-  "${GHPATH}/",
-  "${GHPATH}/index.html",
-  "${GHPATH}/azmanifest.json",
-  "${GHPATH}/icon.png",
+"https://bobkoto.github.io/bob-site/az/",
+"https://bobkoto.github.io/bob-site/az/index.html",
+"https://bobkoto.github.io/bob-site/az/azmanifest.json",
+"https://bobkoto.github.io/bob-site/az/icon.png",
+
 ];
 //"https://bobkoto.github.io/bob-site/az/",
 //"https://bobkoto.github.io/bob-site/az/index.html",
 //"https://bobkoto.github.io/bob-site/az/azmanifest.json",
 //"https://bobkoto.github.io/bob-site/az/icon.png",
+
+//"${GHPATH}/",
+//"${GHPATH}/index.html",
+//"${GHPATH}/azmanifest.json",
+//"${GHPATH}/icon.png",
+
 console.log("Service worker location", location);
 
 self.addEventListener("install", (event) => {
@@ -19,7 +26,7 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll(urlsToCache);
-      console.log("Service worker install event in az 1245", urlsToCache);
+      console.log("Service worker install event in az 1259", urlsToCache);
     })(),
   );
 }); 
