@@ -26,7 +26,7 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll(urlsToCache);
-      console.log("Service worker install event in az 1259", urlsToCache);
+      console.log("Service worker install event in az 117", urlsToCache);
     })(),
   );
 }); 
@@ -48,12 +48,27 @@ self.addEventListener('activate', function (e) {
   )
 })
 
+self.addEventListener('fetch', function (e) {
+  console.log('Fetch request : ' + e.request.url);
+  e.respondWith(
+    caches.match(e.request).then(function (request) {
+      if (request) { 
+        console.log('Responding with cache : ' + e.request.url);
+        return request
+      } else {       
+        console.log('File is not cached, fetching : ' + e.request.url);
+        return fetch(e.request)
+      }
+    })
+  )
+})
+/*
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
       .then(response => response || fetch(event.request))
   );
-});
+});*/
 
 /*
 var GHPATH = '/github-page-pwa';
