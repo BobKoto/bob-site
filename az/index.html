@@ -6,6 +6,19 @@
     <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
     <link rel="manifest" href="azmanifest.json" />
     <link rel = "icon" href="icon.png" />
+    <style> 
+        .ENTERSTYLE { 
+            background-color: white; 
+            border: 2px solid black; 
+            color: green; 
+            padding: 5px 10px; 
+            text-align: center; 
+            display: inline-block; 
+            font-size: 20px; 
+            margin: 10px 30px; 
+            cursor: pointer; 
+        } 
+    </style> 
     <title>Hello PWA</title>
 </head>
 <body>
@@ -14,10 +27,19 @@
     <br /><br /><br />
    <!-- <button id="installButton">Install App</button> -->
 
-   <h3>If you like you can install this game/page to your device. Should just take a second or 2. Then you can use it even if you're not connected to the internet.</h3>
-    <button id="installButton" style="display: none;">Ok, Install App</button> <br><br><br>
-    <button id="notNowButton" style="display: block;">Not Now App</button>  <br><br><br>
-    <button id="enterButton" style="display: block;">****ENTER****</button>  <br><br><br>
+   <h3>If you like you can install this game/page to your device. Should just take a second or 2. <br>
+    Then you can use it even if you're not connected to the internet.</h3><br>
+   <button id="installButton" style="display: none;">Ok, Install App</button> <br><br><br>
+   <button id="notNowButton" style="display: block;">Not Now App</button>  <br><br><br>
+
+   <!-- <button id="enterButton" style="display: block;">****ENTER****</button>  <br><br><br> -->
+   <!-- Adding button inside the link tag -->
+   <a href='https://bobkoto.github.io/bob-site/az/theAppPage.html'> 
+            <button class="ENTERSTYLE"> 
+                ****ENTER****
+            </button> 
+    </a> 
+    <br><br><br>
     <p><strong> That's all for now.</strong></p>
     <script>
         // Function to update the displayed time
@@ -88,11 +110,11 @@
       });
       </script>
 
-<script>
+<!--   <script>
     document.getElementById('enterButton').addEventListener('click', () => {
         console.log('User pressed ****ENTER****');
       });
-      </script>
+      </script> -->
 </body>
  <script src="RegisterServiceWorker.js"></script>  
  
