@@ -15,10 +15,10 @@
    <!-- <button id="installButton">Install App</button> -->
 
    <h3>If you like you can install this game/page to your device. Should just take a second or 2. Then you can use it even if you're not connected to the internet.</h3>
-    <button id="installButton" style="display: none;">Ok, Install App</button>    
-    <br><br><br>
-    <button id="notNowButton" style="display: block;">Not Now App</button>
-    <br><br><br> <p><strong> That's all for now.</strong></p>
+    <button id="installButton" style="display: none;">Ok, Install App</button> <br><br><br>
+    <button id="notNowButton" style="display: block;">Not Now App</button>  <br><br><br>
+    <button id="enterButton" style="display: block;">****ENTER****</button>  <br><br><br>
+    <p><strong> That's all for now.</strong></p>
     <script>
         // Function to update the displayed time
         function updateTime() {
@@ -85,6 +85,12 @@
         console.log('User dismissed the install prompt');
         document.getElementById('notNowButton').style.display = 'none';
         document.getElementById('installButton').style.display = 'none';
+      });
+      </script>
+
+<script>
+    document.getElementById('enterButton').addEventListener('click', () => {
+        console.log('User pressed ****ENTER****');
       });
       </script>
 </body>
