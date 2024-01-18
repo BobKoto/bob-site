@@ -65,6 +65,7 @@
           document.getElementById('installButton').style.display = 'none';
         } else {
           console.log('User dismissed the install prompt');
+          document.getElementById('notNowButton').style.display = 'none';
         }
         // Reset the deferredPrompt
         deferredPrompt = null;
@@ -79,7 +80,13 @@
 </script>
 
     <!--</script>-->
-
+    <script>
+    document.getElementById('notNowButton').addEventListener('click', () => {
+        console.log('User dismissed the install prompt');
+        document.getElementById('notNowButton').style.display = 'none';
+        document.getElementById('installButton').style.display = 'none';
+      });
+      </script>
 </body>
  <script src="RegisterServiceWorker.js"></script>  
  
