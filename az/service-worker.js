@@ -1,4 +1,5 @@
 // Service Worker
+var VERSION = 'version_001';
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -26,7 +27,7 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll(urlsToCache);
-      console.log("Service worker install event in az 244", urlsToCache);
+      console.log("Service worker install event in ", VERSION, " - ", urlsToCache);
     })(),
   );
 }); 
