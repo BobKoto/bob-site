@@ -31,6 +31,7 @@
 </head>
 <body>
     <h1>Hello, World! This is a test Progressive Web App</h1>
+    <div id="message-container"></div><br>
     <h2>Local Time:  <p id="localTime"></p></h2>
     <br /><br /><br />
    <!-- <button id="installButton">Install App</button> -->
@@ -108,7 +109,8 @@
 
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
-    document.getElementById('installButton').style.display = 'none';
+    //document.getElementById('installButton').style.display = 'none';
+    hideSection();
   }
 </script>
 

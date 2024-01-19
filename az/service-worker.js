@@ -1,5 +1,5 @@
 // Service Worker
-var VERSION = 'version_0a08';
+var VERSION = 'version_0a09';
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -64,6 +64,13 @@ self.addEventListener('fetch', function (e) {
     })
   )
 })
+// Communicate with the client (page)
+self.clients.matchAll().then(clients => {
+  clients.forEach(client => {
+      // Send a message to the client
+      client.postMessage(VERSION);
+  });
+});
 /*
 self.addEventListener('fetch', event => {
   event.respondWith(
