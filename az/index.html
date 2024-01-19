@@ -19,6 +19,14 @@
             cursor: pointer; 
         } 
     </style> 
+        <style>
+          .toggle-section {
+              display: block;
+              margin: 20px;
+              padding: 10px;
+              border: 1px solid #ccc;
+          }
+      </style>
     <title>Hello PWA</title>
 </head>
 <body>
@@ -29,9 +37,10 @@
 
    <h3>If you like you can install this game/page to your device. Should just take a second or 2. <br>
     Then you can use it even if you're not connected to the internet.</h3><br>
+   <div class="toggle-section" id="mySection">  
    <button id="installButton" style="display: none;">Ok, Install App</button> <br><br><br>
    <button id="notNowButton" style="display: block;">Not Now App</button>  <br><br><br>
-
+   </div> 
    <!-- <button id="enterButton" style="display: block;">****ENTER****</button>  <br><br><br> -->
    <!-- Adding button inside the link tag -->
    <a href='https://bobkoto.github.io/bob-site/az/theAppPage.html'> 
@@ -84,10 +93,12 @@
         if (choiceResult.outcome === 'accepted') {
           console.log('User accepted the install prompt');
           // Hide the install button after successful installation
-          document.getElementById('installButton').style.display = 'none';
+          //document.getElementById('installButton').style.display = 'none';
+          hideSection();
         } else {
           console.log('User dismissed the install prompt');
-          document.getElementById('notNowButton').style.display = 'none';
+          hideSection();
+         // document.getElementById('notNowButton').style.display = 'none';
         }
         // Reset the deferredPrompt
         deferredPrompt = null;
@@ -104,12 +115,18 @@
     <!--</script>-->
     <script>
     document.getElementById('notNowButton').addEventListener('click', () => {
-        console.log('User dismissed the install prompt');
-        document.getElementById('notNowButton').style.display = 'none';
-        document.getElementById('installButton').style.display = 'none';
+        console.log('User clicked notNow ');
+        hideSection();
+      //  <!--document.getElementById('notNowButton').style.display = 'none';
+      //  document.getElementById('installButton').style.display = 'none';  -->
       });
       </script>
-
+    <script>
+        function hideSection() {
+            var section = document.getElementById('mySection');
+            section.style.display = 'none';
+        }
+    </script>
 <!--   <script>
     document.getElementById('enterButton').addEventListener('click', () => {
         console.log('User pressed ****ENTER****');
