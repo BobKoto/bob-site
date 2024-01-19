@@ -12,6 +12,7 @@ console.log("Service worker registration started:");
                   navigator.serviceWorker.addEventListener('message', event => {
                       // Update the message on the page
                       document.getElementById('message-container').innerText = event.data;
+                      console.log("SW Registrar placing sw message post on page");
                   });
               })
               .catch(error => {
