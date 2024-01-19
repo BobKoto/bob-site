@@ -2,6 +2,24 @@
 
 console.log("Service worker registration started:");
 
+        // Register the service worker
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js')
+              .then(registration => {
+                  console.log('Service Worker registered with scope:', registration.scope);
+
+                  // Listen for messages from the service worker
+                  navigator.serviceWorker.addEventListener('message', event => {
+                      // Update the message on the page
+                      document.getElementById('message-container').innerText = event.data;
+                  });
+              })
+              .catch(error => {
+                  console.error('Service Worker registration failed:', error);
+              });
+      }
+
+/*
 if ("serviceWorker" in navigator) {
     // declaring scope manually
     navigator.serviceWorker.register("service-worker.js").then(
@@ -16,7 +34,7 @@ if ("serviceWorker" in navigator) {
     console.error("Service workers are not supported.");
   }
 
-/*
+
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register("service-worker.js")
         navigator.serviceWorker.register("/service-worker.js", { scope: "/az/" }).then(    //scope added
