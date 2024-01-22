@@ -1,11 +1,12 @@
 // Service Worker
-var VERSION = 'version_0a16';    //change index.html too!!! for now
+var VERSION = 'version_0a17';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
 const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/",
 "https://bobkoto.github.io/bob-site/az/index.html",
+"https://bobkoto.github.io/bob-site/az/theAppPage.html",
 ];
 //"https://bobkoto.github.io/bob-site/az/azmanifest.json",   //redundant? but keep index.html cuz G Petey says so
 //"https://bobkoto.github.io/bob-site/az/icon.png",
