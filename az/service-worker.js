@@ -1,5 +1,5 @@
 // Service Worker
-var VERSION = 'version_0a14';
+var VERSION = 'version_0a15';
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
