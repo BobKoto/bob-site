@@ -27,20 +27,23 @@
               border: 1px solid #ccc;
           }
       </style>
+      <style>
+        body {
+          background-color: lightblue;
+        }
+  </style>
     <title>Hello PWA</title>
 </head>
 <body>
     <h1>Hello, World! This is a test Progressive Web App</h1>
-    <div id="message-container"></div> <p>   VERSION a014</p><br>
+    <div id="message-container"></div> <p> Local VERSION a014</p><br>
     <h2>Local Time:  <p id="localTime"></p></h2>
-    <br />
    <!-- <button id="installButton">Install App</button> -->
    <div class="toggle-section" id="mySection">  
    <h3>If you like you can install this game/page to your device. Should just take a second or 2. <br>
-    Then you can use it even if you're not connected to the internet.</h3><br>
-
-   <button id="installButton" style="display: none;">Ok, Install App</button> <br><br><br>
-   <button id="notNowButton" style="display: block;">Not Now App</button>  <br><br><br>
+    Then you can use it even if you're not connected to the internet.</h3>
+   <button id="installButton" style="display: none;">Ok, Install App</button> <br><br>
+   <button id="notNowButton" style="display: block;">Not Now App</button>  <br>
    </div> 
    <!-- <button id="enterButton" style="display: block;">****ENTER****</button>  <br><br><br> -->
    <!-- Adding button inside the link tag -->
@@ -49,7 +52,7 @@
                 ****ENTER****
             </button> 
     </a> 
-    <br><br><br>
+    <br><br>
     <p><strong> That's all for now.</strong></p>
 
   <script>
