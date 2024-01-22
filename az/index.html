@@ -35,11 +35,11 @@
     <title>Hello PWA</title>
 </head>
 <body>
-    <h1>Hello, World! This is a test Progressive Web App</h1>
-    <div id="message-container"></div> <p> Local VERSION a014</p><br>
+    <h1>This is a test Progressive Web App</h1>
+    <div id="message-container"></div> <p> Local VERSION a016</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time:  <p id="localTime"></p></h2>
    <!-- <button id="installButton">Install App</button> -->
-   <div class="toggle-section" id="mySection">  
+   <div class="toggle-section" id="installPromptSection" style="display: none;">  
    <h3>If you like you can install this game/page to your device. Should just take a second or 2. <br>
     Then you can use it even if you're not connected to the internet.</h3>
    <button id="installButton" style="display: none;">Ok, Install App</button> <br><br>
@@ -56,9 +56,15 @@
     <p><strong> That's all for now.</strong></p>
 
   <script>
-      function hideSection() {
-          var section = document.getElementById('mySection');
+      function hideInstallPromptSection() {
+          var section = document.getElementById('installPromptSection');
           section.style.display = 'none';
+      }
+  </script>
+    <script>
+      function showInstallPromptSection() {
+          var section = document.getElementById('installPromptSection');
+          section.style.display = 'block';
       }
   </script>
 
@@ -94,6 +100,7 @@
     deferredPrompt = event;
     // Show the install button or take any other action
     document.getElementById('installButton').style.display = 'block';
+    showInstallPromptSection();
   });
 
   document.getElementById('installButton').addEventListener('click', () => {
@@ -106,10 +113,10 @@
           console.log('User accepted the install prompt');
           // Hide the install button after successful installation
           //document.getElementById('installButton').style.display = 'none';
-          hideSection();
+          hideInstallPromptSection();
         } else {
           console.log('User dismissed the install prompt');
-          hideSection();
+          hideInstallPromptSection();
          // document.getElementById('notNowButton').style.display = 'none';
         }
         // Reset the deferredPrompt
@@ -121,7 +128,7 @@
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
     //document.getElementById('installButton').style.display = 'none';
-    hideSection();
+    hideInstallPromptSection();
   }
 </script>
 
@@ -129,7 +136,7 @@
     <script>
     document.getElementById('notNowButton').addEventListener('click', () => {
         console.log('User clicked notNow ');
-        hideSection();
+        hideInstallPromptSection();
       //  <!--document.getElementById('notNowButton').style.display = 'none';
       //  document.getElementById('installButton').style.display = 'none';  -->
       });
