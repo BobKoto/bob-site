@@ -1,0 +1,17 @@
+{
+    "name": "Interception Game",
+    "short_name": "Interception",
+    "start_url": "https://bobkoto.github.io/bob-site/az/game01/",
+    "scope": "https://bobkoto.github.io/bob-site/az/game01/",
+    "display": "fullscreen",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "Unity WebGL Arcade Game",
+    "icons": [{
+      "src": "https://bobkoto.github.io/bob-site/az/game01/TemplateData/unity-logo-dark.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
+  }
+  
