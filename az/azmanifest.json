@@ -1,19 +1,17 @@
 {
-    "name": "Hello PWA",
-    "short_name": "H-PWA",
-    "description": "A minimal PWA example",
-    "scope":"https://bobkoto.github.io/bob-site/az/",
-    "start_url":"https://bobkoto.github.io/bob-site/az/",
-
+    "name": "Interception Game",
+    "short_name": "Interception",
+    "start_url": "https://bobkoto.github.io/bob-site/az/game01/",
+    "scope": "https://bobkoto.github.io/bob-site/az/game01/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
-    "icons": [
-      {
-        "src": "https://bobkoto.github.io/bob-site/az/icon.png",
-        "sizes": "189x189",
-        "type": "image/png"
-      }
-    ]
+    "description": "Unity WebGL Arcade Game",
+    "icons": [{
+      "src": "https://bobkoto.github.io/bob-site/az/game01/TemplateData/unity-logo-dark.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
   }
   
