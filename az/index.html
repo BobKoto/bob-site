@@ -37,7 +37,7 @@
 <body>
     <h1>This is a test Progressive Web App</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION a031</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION a032</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time:  <p id="localTime"></p></h2>
    <!-- <button id="installButton">Install App</button> -->
    <div class="toggle-section" id="installPromptSection" style="display: none;">  
@@ -60,12 +60,14 @@
       function hideInstallPromptSection() {
           var section = document.getElementById('installPromptSection');
           section.style.display = 'none';
+          console.log('HIDE PWA install prompt');
       }
   </script>
     <script>
       function showInstallPromptSection() {
           var section = document.getElementById('installPromptSection');
           section.style.display = 'block';
+          console.log('SHOW PWA install prompt');
       }
   </script>
 
