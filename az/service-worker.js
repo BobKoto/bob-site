@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a29';    //change index.html too!!! for now
+var VERSION = 'version_0a30';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -10,6 +10,23 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/azmanifest.json",   
 "https://bobkoto.github.io/bob-site/az/icon.png",
 "https://bobkoto.github.io/bob-site/az/RegisterServiceWorker.js",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/unity-logo-dark.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/favicon.ico",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/fullscreen-button.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/MemoryProfiler.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/progress-bar-empty-dark.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/progress-bar-empty-light.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/progress-bar-full-dark.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/progress-bar-full-light.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/style.css",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/unity-logo-light.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/webgl-logo.png",
+"https://bobkoto.github.io/bob-site/az/game01/TemplateData/webmemd-icon.png",
+"https://bobkoto.github.io/bob-site/az/game01/Build/game01.data.unityweb",
+"https://bobkoto.github.io/bob-site/az/game01/Build/game01.framework.js.unityweb",
+"https://bobkoto.github.io/bob-site/az/game01/Build/game01.loader.js",
+"https://bobkoto.github.io/bob-site/az/game01/Build/game01.wasm.unityweb",
+"https://bobkoto.github.io/bob-site/az/game01/StreamingAssets/UnityServicesProjectConfiguration.json",
 ];
 //redundant? but keep index.html cuz G Petey says so; well looks like /az/ does not cache any of its directory contents - gotta spell 'em out?
 //wonder if it's cuz we're working from a subdirectory and not the root of the site... or github pages w/Jekyll?
