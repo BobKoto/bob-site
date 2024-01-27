@@ -8,7 +8,7 @@
     "theme_color": "#000000",
     "description": "Unity WebGL Arcade Game",
     "icons": [{
-      "src": "https://bobkoto.github.io/bob-site/az/game01/TemplateData/unity-logo-dark.png",
+      "src": "https://bobkoto.github.io/bob-site/az/icon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png",
       "purpose": "any maskable"
