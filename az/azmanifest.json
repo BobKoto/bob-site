@@ -1,8 +1,8 @@
 {
     "name": "Interception Game",
     "short_name": "Interception",
-    "start_url": "https://bobkoto.github.io/bob-site/az/game01/",
-    "scope": "https://bobkoto.github.io/bob-site/az/game01/",
+    "start_url": "https://bobkoto.github.io/bob-site/az/",
+    "scope": "https://bobkoto.github.io/bob-site/az/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
