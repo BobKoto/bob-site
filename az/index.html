@@ -37,7 +37,7 @@
 <body>
     <h1>This is a test Progressive Web App</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION a036</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION a037</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time:  <p id="localTime"></p></h2>
    <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> 
             <button class="ENTERSTYLE"> 
@@ -46,12 +46,15 @@
     </a> 
     <br><br>
     <p><strong> That's all for now.</strong></p><br>
-   <div class="toggle-section" id="installPromptSection" style="display: block;">  
+   <div class="toggle-section" id="installPromptSection" style="display: none;">  
    <h3>If you like you can install this game/page to your device. Should just take a second or 2. <br>
     Then you can use it even if you're not connected to the internet.</h3>
    <button id="installButton" style="display: block;">Ok, Install App so it can be used when not connected to the internet</button> <br><br>
    <button id="notNowButton" style="display: block;">Not Now, use this App only when connected to the internet</button>  <br>
    </div> 
+
+   <script src="RegisterServiceWorker.js"></script>  
+ 
   <script>
       function hideInstallPromptSection() {
           var section = document.getElementById('installPromptSection');
@@ -74,7 +77,6 @@
             var hours = currentTime.getHours();
             var minutes = currentTime.getMinutes();
             var seconds = currentTime.getSeconds();
-    
             // Add leading zero if needed
             hours = (hours < 10 ? "0" : "") + hours;
             minutes = (minutes < 10 ? "0" : "") + minutes;
@@ -83,25 +85,28 @@
             // Display the time in the "localTime" element
             document.getElementById("localTime").innerHTML = hours + ":" + minutes + ":" + seconds;
         }
-    
         // Call updateTime initially when the page loads or is refreshed
         updateTime();
     </script>
 
-
 <script>
   let deferredPrompt;
-
+  // Check if the app is already installed (runs when the page loads)
+  if (window.matchMedia('(display-mode: standalone)').matches) {
+    hideInstallPromptSection();
+    console.log('display-mode = standalone so we are in PWA');
+   }
+  else {
+  console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt for PWA');
   window.addEventListener('beforeinstallprompt', (event) => {
-    // Prevent the default behavior
+    // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
     event.preventDefault();
-    // Stash the event so it can be triggered later.
     deferredPrompt = event;
-    // Show the install button or take any other action
-    document.getElementById('installButton').style.display = 'block';
+    // Show the install button or take any other action  //document.getElementById('installButton').style.display = 'block';
     showInstallPromptSection();
+    console.log('the deferred prompt INSIDE the addEventListener block is ', deferredPrompt);
   });
-
+  console.log('the deferred prompt OUTSIDE the addEventListener block is ', deferredPrompt, ' now listen on the installButton');
   document.getElementById('installButton').addEventListener('click', () => {
     // Show the installation prompt
     if (deferredPrompt) {
@@ -111,7 +116,6 @@
         if (choiceResult.outcome === 'accepted') {
           console.log('User accepted the install prompt');
           // Hide the install button after successful installation
-          //document.getElementById('installButton').style.display = 'none';
           hideInstallPromptSection();
         } else {
           console.log('User dismissed the install prompt');
@@ -123,15 +127,13 @@
       });
     }
   });
-
-  // Check if the app is already installed (runs when the page loads)
-  if (window.matchMedia('(display-mode: standalone)').matches) {
-    //document.getElementById('installButton').style.display = 'none';
-    hideInstallPromptSection();
+// Check if the app is already installed (runs when the page loads)
+//  if (window.matchMedia('(display-mode: standalone)').matches) {
+//    //document.getElementById('installButton').style.display = 'none';
+//    hideInstallPromptSection();
   }
 </script>
 
-    <!--</script>-->
     <script>
     document.getElementById('notNowButton').addEventListener('click', () => {
         console.log('User clicked notNow ');
@@ -147,44 +149,5 @@
       });
       </script> -->
 </body>
- <script src="RegisterServiceWorker.js"></script>  
- 
+
 </html>
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local Time Display</title>
-</head>
-<body>
-
-<h1>Local Time:</h1>
-<p id="localTime"></p>
-
-<script>
-    // Function to update the displayed time
-    function updateTime() {
-        var currentTime = new Date();
-        var hours = currentTime.getHours();
-        var minutes = currentTime.getMinutes();
-        var seconds = currentTime.getSeconds();
-
-        // Add leading zero if needed
-        hours = (hours < 10 ? "0" : "") + hours;
-        minutes = (minutes < 10 ? "0" : "") + minutes;
-        seconds = (seconds < 10 ? "0" : "") + seconds;
-
-        // Display the time in the "localTime" element
-        document.getElementById("localTime").innerHTML = hours + ":" + minutes + ":" + seconds;
-    }
-
-    // Call updateTime initially when the page loads or is refreshed
-    updateTime();
-</script>
-
-</body>
-</html>
--->
