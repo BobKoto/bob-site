@@ -9,7 +9,7 @@
     "description": "Unity WebGL Arcade Game",
     "icons": [{
       "src": "https://bobkoto.github.io/bob-site/az/icon.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "189x189 64x64 32x32 24x24 16x16",
       "type": "image/png",
       "purpose": "any maskable"
     }]
