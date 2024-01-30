@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a44';    //change index.html too!!! for now
+var VERSION = 'version_0a45';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -34,7 +34,6 @@ const urlsToCache = [
 "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/SmallTile.scale-150.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/SmallTile.scale-200.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/SmallTile.scale-400.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-125.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-150.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-200.png",
@@ -144,6 +143,9 @@ const urlsToCache = [
 
 //"https://bobkoto/github.io/bob-site/az/pwaicons/ios/144.png",     this errored?
 //"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-144-144.png",  then this one?
+//"https://                  bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png net::ERR_NAME_NOT_RESOLVED    then this one?
+//"https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png"
+//"https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png"
 
 // well looks like /az/ does not cache any of its directory contents - gotta spell 'em out?
 //wonder if it's cuz we're working from a subdirectory and not the root of the site... or github pages w/Jekyll?
