@@ -13,51 +13,6 @@
           "src": "https://bobkoto.github.io/bob-site/az/icon.png",
           "sizes": "189x189",
           "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/SmallTile.scale-100.png",
-          "sizes": "71x71",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square44x44Logo.altform-lightunplated_targetsize-256.png",
-          "sizes": "256x256",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-512-512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-192-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-96-96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-72-72.png",
-          "sizes": "72x72",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-48-48.png",
-          "sizes": "48x48",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/ios/512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/pwaicons/ios/1024.png",
-          "sizes": "1024x1024",
-          "type": "image/png"
         }
       ]
     }
