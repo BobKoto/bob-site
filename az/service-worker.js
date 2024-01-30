@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a45';    //change index.html too!!! for now
+var VERSION = 'version_0a46';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -131,7 +131,6 @@ const urlsToCache = [
 "https://bobkoto/github.io/bob-site/az/pwaicons/ios/114.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/ios/120.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/ios/128.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/ios/152.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/ios/167.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/ios/180.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/ios/192.png",
@@ -144,8 +143,9 @@ const urlsToCache = [
 //"https://bobkoto/github.io/bob-site/az/pwaicons/ios/144.png",     this errored?
 //"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-144-144.png",  then this one?
 //"https://                  bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png net::ERR_NAME_NOT_RESOLVED    then this one?
-//"https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png"
-//"https://bobkoto/github.io/bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png"
+
+//Error while trying to use the following icon from the Manifest:
+// https://bobkoto/github.io/bob-site/az/pwaicons/ios/152.png (Download error or resource isn't a valid image) another
 
 // well looks like /az/ does not cache any of its directory contents - gotta spell 'em out?
 //wonder if it's cuz we're working from a subdirectory and not the root of the site... or github pages w/Jekyll?
