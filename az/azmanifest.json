@@ -13,11 +13,6 @@
           "src": "https://bobkoto.github.io/bob-site/az/intericon.png",
           "sizes": "512x512",
           "type": "image/png"
-        },
-        {
-          "src": "https://bobkoto/github.io/bob-site/az/intericon256.png",
-          "sizes": "256x256",
-          "type": "image/png"
         }
       ]
     }
