@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a067';    //change index.html too!!! for now
+var VERSION = 'version_0a068';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -12,6 +12,9 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/intericon.png",
 "https://bobkoto.github.io/bob-site/az/intericon256.png",
 "https://bobkoto.github.io/bob-site/az/intericon1024.png",
+"https://bobkoto.github.io/bob-site/az/installbutton.png",
+"https://bobkoto.github.io/bob-site/az/notnowbutton.png",
+"https://bobkoto.github.io/bob-site/az/rungamebutton.png",
 "https://bobkoto.github.io/bob-site/az/RegisterServiceWorker.js",
 "https://bobkoto.github.io/bob-site/az/game01/",
 "https://bobkoto.github.io/bob-site/az/game01/index.html",
