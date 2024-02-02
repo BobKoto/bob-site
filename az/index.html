@@ -56,7 +56,7 @@
 <body>
     <h1>Intercept Arcade Game</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION a068</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION a069</p><br> <!-- Change the SW too!!!-->
     <h3>Local Time: <span id="localTime"></span></h3>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -127,11 +127,11 @@
     // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
     event.preventDefault();
     deferredPrompt = event;
-    // Show the install button or take any other action  //document.getElementById('installButton').style.display = 'block';
-    showInstallPromptSection();
+    // Show the install button or take any other action  
+    if (deferredPrompt) showInstallPromptSection();  //or leave custom prompt hidden & just let the app run on the web - cuz it may already be installed
     console.log('the deferred prompt INSIDE the addEventListener block is ', deferredPrompt);
   });
-  console.log('the deferred prompt OUTSIDE the addEventListener block is ', deferredPrompt, ' now listen on the installButton');
+  console.log('the deferred prompt OUTSIDE the addEventListener for beforeinstallprompt block is ', deferredPrompt, ' now listen on the installButton');
   document.getElementById('installButton').addEventListener('click', () => {
     // Show the installation prompt
     if (deferredPrompt) {
