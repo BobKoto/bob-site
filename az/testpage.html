@@ -4,80 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
-    <meta name="description" content="Arcade game built with Unity and implemented as a PWA (Progressive Web App). Learn.">
-    <link rel="manifest" href="azmanifest.json" />
+    <meta name="description" content="Test Page. Learn.">
+ <!--    <link rel="manifest" href="azmanifest.json" />
     <link rel = "icon" href="intericon.png" />
-   <!-- <link rel = "icon" href="intericon256.png" />   this errors out -->
-   <style> 
-    .ENTERSTYLE { 
-        background-color: lightblue; 
-        border: 2px solid black; 
-        color: green; 
-        padding: 5px 10px; 
-        text-align: center; 
-        display: inline-block; 
-        font-size: 20px; 
-        margin: 10px 30px; 
-        cursor: pointer; 
-    } 
-</style> 
-    <style>
-      .toggle-section {
-          display: block;
-          margin: 20px;
-          padding: 10px;
-          border: none;
-         /* border: 1px solid #ccc;*/
-      }
+   <link rel = "icon" href="intericon256.png" />   this errors out -->
+    <style> 
+        .ENTERSTYLE { 
+            background-color: lightblue; 
+            border: 2px solid black; 
+            color: green; 
+            padding: 5px 10px; 
+            text-align: center; 
+            display: inline-block; 
+            font-size: 20px; 
+            margin: 10px 30px; 
+            cursor: pointer; 
+        } 
+    </style> 
+        <style>
+          .toggle-section {
+              display: block;
+              margin: 20px;
+              padding: 10px;
+              border: none;
+             /* border: 1px solid #ccc;*/
+          }
+      </style>
+      <style>
+        body {
+          background-color: black;
+          color: greenyellow;
+          text-align: center; /* Center text horizontally */
+          padding: 20px; /* Add padding for better visual appeal */
+        }
+          body {                              /*h1, h2, h3, div, p, a, button */
+            text-align: left;                /* Align text to the left within these elements */
+        }
   </style>
-  <style>
-    body {
-      background-color: black;
-      color: greenyellow;
-      text-align: center; /* Center text horizontally */
-      padding: 20px; /* Add padding for better visual appeal */
-    }
-      body {                              /*h1, h2, h3, div, p, a, button */
-        text-align: left;                /* Align text to the left within these elements */
-    }
-</style>
-<style>
-    .buttonA {
-        margin-left: 10px;
-        border: 2px solid lightblue; 
-    }
+    <style>
+        .buttonA {
+            margin-left: 10px;
+            border: 2px solid lightblue; 
+        }
 
-    .buttonB {
-        margin-left: 25px;
-    }
-</style>
-<title>Hello PWA</title>
+        .buttonB {
+            margin-left: 25px;
+        }
+    </style>
+    <title>Hello PWA</title>
 </head>
 <body>
     <h1>Intercept Arcade Game</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION a065</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION TEST</p>     <!-- Change the SW too!!!-->
     <h3>Local Time: <span id="localTime"></span></h3>
-    <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
-             <button class="buttonA">  
-             <img src="rungamebutton.png" alt="Run game Button Image" width="100" height="100"> <!-- style="border: lightblue;">    -->
-             </button> 
-     </a> 
-     <br>
-    <div class="toggle-section" id="installPromptSection" style="display: block;" style="border: none;">  
-    <p><strong>You can install this game/page to your device. <br>
-     Then you can use it even if you're not connected to the internet. </strong></p>
-     <strong> INSTALL so I can use when not connected to the internet      .</strong>   <br>
-     <button type="button" class = "buttonA" background-color: lightblue;">
-           <img src="installbutton.png" alt="Install Button Image" width="50" height="50">
-     </button>
-     <br><br><br>
-     <strong> Not now I'll use this App connected to the internet          .</strong>   <br>
-     <button type="button" class= "buttonA" background-color: lightblue;">
-        <img src="notnowbutton.png" alt="Not Now Button Image" width="50" height="50">
-     </button>
+   <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
+            <button class="buttonA">  
+            <img src="rungamebutton.png" alt="Run game Button Image" width="100" height="100"> <!-- style="border: lightblue;">    -->
+            </button> 
+    </a> 
+    <br>
+   <div class="toggle-section" id="installPromptSection" style="display: block;" style="border: none;">  
+   <p><strong>You can install this game/page to your device. <br>
+    Then you can use it even if you're not connected to the internet. </strong></p>
+    <strong> INSTALL so I can use when not connected to the internet      .</strong>   <br>
+    <button type="button" class = "buttonA" background-color: lightblue;">
+          <img src="installbutton.png" alt="Install Button Image" width="50" height="50">
+    </button>
+    <br><br><br>
+    <strong> Not now I'll use this App connected to the internet          .</strong>   <br>
+    <button type="button" class= "buttonA" background-color: lightblue;">
+       <img src="notnowbutton.png" alt="Not Now Button Image" width="50" height="50">
+    </button>
+  <!-- <p>     <button id="installButton" style="display: block;"> Ok, Install App </button> <strong> it can be used when not connected to the internet</strong> </p>
+       <p>     <button id="notNowButton" style="display: block;" >    Not Now      </button> <strong>  for now use this App connected to the internet</strong> </p>  -->
    </div> 
-
+<!--
    <script src="RegisterServiceWorker.js"></script>  
  
   <script>
@@ -93,7 +95,7 @@
           section.style.display = 'block';
           console.log('SHOW PWA install prompt');
       }
-  </script>
+  </script>  -->
 
     <script>
         // Function to update the displayed time
@@ -113,7 +115,7 @@
         // Call updateTime initially when the page loads or is refreshed
         updateTime();
     </script>
-
+<!--
 <script>
   let deferredPrompt;
   // Check if the app is already installed (runs when the page loads)
@@ -163,10 +165,10 @@
     document.getElementById('notNowButton').addEventListener('click', () => {
         console.log('User clicked notNow ');
         hideInstallPromptSection();
-      //  <!--document.getElementById('notNowButton').style.display = 'none';
-      //  document.getElementById('installButton').style.display = 'none';  -->
+      //  -document.getElementById('notNowButton').style.display = 'none';
+      //  document.getElementById('installButton').style.display = 'none';  
       });
-      </script>
+      </script>  -->
 
 <!--   <script>
     document.getElementById('enterButton').addEventListener('click', () => {
