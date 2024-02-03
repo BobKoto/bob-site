@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a078';    //change index.html too!!! for now
+var VERSION = 'version_0a079';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -10,6 +10,8 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/azmanifest.json",   
 "https://bobkoto.github.io/bob-site/az/icon.png",
 "https://bobkoto.github.io/bob-site/az/intericon.png",
+"https://bobkoto.github.io/bob-site/az/intericon48.png",
+"https://bobkoto.github.io/bob-site/az/intericon192.png",
 "https://bobkoto.github.io/bob-site/az/intericon256.png",
 "https://bobkoto.github.io/bob-site/az/intericon1024.png",
 "https://bobkoto.github.io/bob-site/az/installbutton.png",
