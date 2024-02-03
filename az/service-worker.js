@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a076';    //change index.html too!!! for now
+var VERSION = 'version_0a077';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -37,7 +37,6 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/game01/StreamingAssets/UnityServicesProjectConfiguration.json",
 "https://bobkoto/github.io/bob-site/az/pwaicons/",
 "https://bobkoto/github.io/bob-site/az/pwaicons/android/",
-"https://bobkoto/github.io/bob-site/az/android192.png",
 ];
 
 //"https://bobkoto/github.io/bob-site/az/pwaicons/ios/144.png",     this errored?
