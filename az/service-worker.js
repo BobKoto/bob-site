@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a071';    //change index.html too!!! for now
+var VERSION = 'version_0a072';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -35,12 +35,13 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/game01/Build/game01.loader.js",
 "https://bobkoto.github.io/bob-site/az/game01/Build/game01.wasm.unityweb",
 "https://bobkoto.github.io/bob-site/az/game01/StreamingAssets/UnityServicesProjectConfiguration.json",
+"https://bobkoto/github.io/bob-site/az/pwaicons/android/",
 "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-512-512.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-192-192.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-144-144.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-96-96.png",
 "https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-72-72.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-48-48.png",
+"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-48-48.png"
 ];
 
 //"https://bobkoto/github.io/bob-site/az/pwaicons/ios/144.png",     this errored?
