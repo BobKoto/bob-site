@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a081';    //change index.html too!!! for now
+var VERSION = 'version_0a082';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -16,12 +16,12 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/intericon1024.png",
 "https://bobkoto.github.io/bob-site/az/installbutton.png",
 "https://bobkoto.github.io/bob-site/az/android-launchericon-144-144.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-512-512.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-192-192.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-144-144.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-96-96.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-72-72.png",
-"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-48-48.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-512-512.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-192-192.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-144-144.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-96-96.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-72-72.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-48-48.png",
 "https://bobkoto.github.io/bob-site/az/notnowbutton.png",
 "https://bobkoto.github.io/bob-site/az/rungamebutton.png",
 "https://bobkoto.github.io/bob-site/az/RegisterServiceWorker.js",
@@ -45,24 +45,6 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/game01/Build/game01.wasm.unityweb",
 "https://bobkoto.github.io/bob-site/az/game01/StreamingAssets/UnityServicesProjectConfiguration.json",
 ];
-
-//"https://bobkoto/github.io/bob-site/az/pwaicons/ios/144.png",     this errored?
-//"https://bobkoto/github.io/bob-site/az/pwaicons/android/android-launchericon-144-144.png",  then this one?
-//"https://                  bob-site/az/pwaicons/windows11/Square150x150Logo.scale-100.png net::ERR_NAME_NOT_RESOLVED    then this one?
-
-//Error while trying to use the following icon from the Manifest:
-// https://bobkoto/github.io/bob-site/az/pwaicons/ios/152.png (Download error or resource isn't a valid image) another
-
-//Error while trying to use the following icon from the Manifest:
-//https://bobkoto/github.io/bob-site/az/pwaicons/ios/167.png (Download error or resource isn't a valid image)
-
-// well looks like /az/ does not cache any of its directory contents - gotta spell 'em out?
-//wonder if it's cuz we're working from a subdirectory and not the root of the site... or github pages w/Jekyll?
-
-//"https://bobkoto.github.io/bob-site/az/",
-//"https://bobkoto.github.io/bob-site/az/index.html",
-//"https://bobkoto.github.io/bob-site/az/azmanifest.json",
-//"https://bobkoto.github.io/bob-site/az/icon.png",
 
 //"${GHPATH}/",
 //"${GHPATH}/index.html",
