@@ -30,6 +30,11 @@
         "type": "image/png"
         },
         {
+          "src": "https://bobkoto.github.io/bob-site/az/android-launchericon-144-144.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        },
+        {
         "src": "https://bobkoto.github.io/bob-site/az/intericon.png",
         "sizes": "512x512",
         "type": "image/png",
