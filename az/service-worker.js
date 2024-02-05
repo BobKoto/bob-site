@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a082';    //change index.html too!!! for now
+var VERSION = 'version_0a083';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -22,6 +22,32 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-96-96.png",
 "https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-72-72.png",
 "https://bobkoto.github.io/bob-site/az/pwaicons/android/android-launchericon-48-48.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/16.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/20.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/29.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/32.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/40.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/50.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/57.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/58.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/60.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/64.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/72.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/76.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/80.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/87.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/100.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/114.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/120.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/128.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/144.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/152.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/167.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/180.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/192.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/256.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/512.png",
+"https://bobkoto.github.io/bob-site/az/pwaicons/ios/1024.png",
 "https://bobkoto.github.io/bob-site/az/notnowbutton.png",
 "https://bobkoto.github.io/bob-site/az/rungamebutton.png",
 "https://bobkoto.github.io/bob-site/az/RegisterServiceWorker.js",
