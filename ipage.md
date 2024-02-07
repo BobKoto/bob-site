@@ -11,25 +11,29 @@ weight: 50
       }
 </style>
 
-This site is here to:
+# *Purpose:*
 
-1. Share screen shots/videos of games and other open source software I have done and am currently creating. Especially providing examples to help anyone developing 3D games in Unity on mobiles. For now we are just sharing project source files on Github. Maybe later on we'll put some playable games up for free downloading. 
+## *1. Share games and other open source software I have done and currently creating. This includes:*
+- native Android,     
+- WEbGL,
+- and PWA (Progressive Web App) game apps.  
+- (all mostly developed in Unity)
 
-2. Share some funny or meaningful and interesting quotes. 
+The WebGL and PWA games on this site are playable. No ads, no permissions, no data collection, no nonsense - just games to share. The PWA(s) can also be installed on your PC or mobile device and run offline. For those interested all the games/projects on this site are available on GitHub - links provided. Especially providing examples to help anyone developing casual games mostly in Unity. PWA app framework is the going forward standard for games/apps that will be put on this site.   
 
-3. (future) And to repeat, maybe share downloadable ready to play games for Android phones. Until then anyone using Unity and is interested can access my Android projects from Github.
+## *2. Share some funny or meaningful and interesting quotes.*
+*Any content provided by our pal G Petey (ChatGPT) is marked accordingly.*
+.
 
-4. (a work in progress) Playtest some WebGL games developed in Unity that can run in desktop and (usually) mobile browsers.
+.
 
-I started this site from scratch around the 3rd week of March 2023. It was on a todo pile for some time. 
+.
 
-A few weeks ago I promised someone dear to me that I would email her screen shots of my work. I thought it 
+.
+
+&#128512;A while ago I promised someone dear to me that I would email her screen shots of my work. I thought it 
 would be better to stop procrastinating, get this humble site online, and instead of swamping her email with 
 a bunch of image attachments just send her a link to this site. &#128512; 
-
-Now I can share it with even more people.
-
-More content to come here that bots, scrapers, SEO overlords (we're comming for you), etc. will not care about...
 
 I am considering RSS/Notifications to let you know when content is updated.
 Until then check in every couple weeks, months, years, or whatever.
