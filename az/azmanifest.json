@@ -10,9 +10,22 @@
     {
       "src": "https://bobkoto.github.io/bob-site/az/CubeTestPlaying1.png",
       "type": "image/png",
-      "sizes": "822x573",
+      "sizes": "1280x720",
       "form_factor" : "wide",
       "label": "Intercept the spheres."
+    },
+    {
+    "src": "https://bobkoto.github.io/bob-site/az/CubeTestPlaying1.png",
+    "type": "image/png",
+    "sizes": "800x600",
+    "form_factor" : "narrow",
+    "label": "Intercept the spheres."
+    },
+    {
+    "src": "https://bobkoto.github.io/bob-site/az/CubeTestPlaying1.png",
+    "type": "image/png",
+    "sizes": "480x320",
+    "label": "Intercept the spheres."
     }
   ],
     "description": "PWA Interception Arcade Game",
