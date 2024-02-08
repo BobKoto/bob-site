@@ -6,9 +6,9 @@
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
-    "categories" : ["games"], 
     "screenshots": [{
       "src": "https://bobkoto.github.io/bob-site/az/CubeTestPlaying1.png",
+      "type": "image/png",
       "sizes": "800x600",
       "label": "Pic of game in play."
     }],
