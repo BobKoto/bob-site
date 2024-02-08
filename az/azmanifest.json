@@ -8,7 +8,7 @@
     "theme_color": "#000000",
     "categories" : ["games"], 
     "screenshots": [{
-      "src": "CubeTestPlaying1.png",
+      "src": "https://bobkoto.github.io/bob-site/az/CubeTestPlaying1.png",
       "sizes": "800x600",
       "label": "Pic of game in play."
     }],
