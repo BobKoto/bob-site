@@ -6,6 +6,12 @@
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
+    "categories" : ["games"], 
+    "screenshots": [{
+      "src": "CubeTestPlaying1.png",
+      "sizes": "800x600",
+      "label": "Pic of game in play."
+    }],
     "description": "PWA Interception Arcade Game",
     
       "icons": [
