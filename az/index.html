@@ -56,7 +56,7 @@
 <body>
     <h1>Intercept Arcade Game</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION a097</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION a098</p><br> <!-- Change the SW too!!!-->
     <h3>Local Time: <span id="localTime"></span></h3>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -121,6 +121,20 @@
     hideInstallPromptSection();
     console.log('display-mode = standalone so we are in PWA');
    }
+   // temp code to let install prompt run - not deferred
+   else {
+    console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt.');
+  window.addEventListener('beforeinstallprompt', (event) => {
+    // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
+    //event.preventDefault();
+    //deferredPrompt = event;
+    // Show the install button or take any other action  
+    //if (deferredPrompt) showInstallPromptSection();  //or leave custom install button hidden & just let the app run on the web?
+    console.log('INSIDE the addEventListener block ');
+  });
+
+   }
+   // END tempcode 
   /* else {
   console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt.');
   window.addEventListener('beforeinstallprompt', (event) => {
