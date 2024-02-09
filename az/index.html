@@ -56,7 +56,7 @@
 <body>
     <h1>Intercept Arcade Game</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION a096</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION a097</p><br> <!-- Change the SW too!!!-->
     <h3>Local Time: <span id="localTime"></span></h3>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -72,7 +72,7 @@
            <img src="installbutton.png" alt="Install Button Image" width="50" height="50">
      </button>
      <br><br><br>
-     <strong> Not now I'll use this App connected to the internet          .</strong>   <br>
+     <strong> Not now. I'll use this App connected to the internet          .</strong>   <br>
      <button id="notNowButton" type="button" class= "buttonA" background-color: lightblue;">
         <img src="notnowbutton.png" alt="Not Now Button Image" width="50" height="50">
      </button>
@@ -121,7 +121,7 @@
     hideInstallPromptSection();
     console.log('display-mode = standalone so we are in PWA');
    }
-  else {
+  /* else {
   console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt.');
   window.addEventListener('beforeinstallprompt', (event) => {
     // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
@@ -154,27 +154,16 @@
       });
     }
   });
-// Check if the app is already installed (runs when the page loads)
-//  if (window.matchMedia('(display-mode: standalone)').matches) {
-//    //document.getElementById('installButton').style.display = 'none';
-//    hideInstallPromptSection();
-  }
+  } */
 </script>
 
     <script>
     document.getElementById('notNowButton').addEventListener('click', () => {
         console.log('User clicked notNow ');
         hideInstallPromptSection();
-      //  <!--document.getElementById('notNowButton').style.display = 'none';
-      //  document.getElementById('installButton').style.display = 'none';  -->
       });
       </script>
 
-<!--   <script>
-    document.getElementById('enterButton').addEventListener('click', () => {
-        console.log('User pressed ****ENTER****');
-      });
-      </script> -->
 </body>
 
 </html>
