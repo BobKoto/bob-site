@@ -56,7 +56,7 @@
 <body>
     <h1>Intercept Arcade Game</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION b002</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b003</p><br> <!-- Change the SW too!!!-->
     <h3>Local Time: <span id="localTime"></span></h3>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -121,18 +121,7 @@
     hideInstallPromptSection();
     console.log('display-mode = standalone so we are in PWA');
    }
-   // temp code to let install prompt run - not deferred
-   else {
-    console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt.');
-  window.addEventListener('beforeinstallprompt', (event) => {
-    showInstallPromptSection();
-    document.getElementById('installButton').addEventListener('click', () => {
-    event.prompt();
-    });
-  });
- }
-   // END tempcode 
-  /* else {   
+  else {   
   console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt.');
   window.addEventListener('beforeinstallprompt', (event) => {
     // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
@@ -165,7 +154,7 @@
       });
     }
   });
-  } */
+  }
 </script>
 
     <script>
