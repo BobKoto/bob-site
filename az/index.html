@@ -54,16 +54,17 @@
 <title>Hello PWA</title>
 </head>
 <body>
-    <h1>Intercept Arcade Game</h1>
+    <h1>Interception Arcade Game</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION b003</p><br> <!-- Change the SW too!!!-->
-    <h3>Local Time: <span id="localTime"></span></h3>
+    <div id="message-container"></div> <p> Local VERSION b004</p><br> <!-- Change the SW too!!!-->
+    <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
              <img src="rungamebutton.png" alt="Run game Button Image" width="100" height="100"> <!-- style="border: lightblue;">    -->
              </button> 
      </a> 
      <br>
+     <!--
     <div class="toggle-section" id="installPromptSection" style="display: none;" style="border: none;">  
     <p><strong>You can install this game/page to your device. <br>
      Then you can use it even if you're not connected to the internet. </strong></p>
@@ -76,7 +77,32 @@
      <button id="notNowButton" type="button" class= "buttonA" background-color: lightblue;">
         <img src="notnowbutton.png" alt="Not Now Button Image" width="50" height="50">
      </button>
-   </div> 
+   </div> -->
+   <dialog id="about-dialog">
+    <div class="screenshot"></div>
+    <img class="logo" src="https://bobkoto.github.io/bob-site/az/pwaicons/ios/120.png" alt="The Game logo" />
+    <section class="about">
+      <h1>Intercept Arcade Game</h1>
+      <h2>Progressive Web Intercept Arcade Game</h2>
+      <p>
+        Deceptively simple casual arcade game where you attempt to 
+        move the green bubble character to intercept on-rushing spheres.
+      </p>
+      <p>
+        The game challenges your reflexes, your pattern matching  
+        ability, and your patience. Stay still or move around to intercept more
+        spheres? You'll need to figure that out!
+      </p>
+      <p> The Install app button will install this app on your computer or phone so 
+          you can play offline without any connection to the internet.
+          Or you can click the Close button to play only while connected to the internet.
+      </p>
+    </section>
+    <form class="actions" method="dialog">
+      <button value="cancel">Close</button>
+      <button value="install" id="install-button">Install app</button>
+    </form>
+  </dialog>
 
    <script src="RegisterServiceWorker.js"></script>  
  
@@ -116,53 +142,72 @@
 
 <script>
   let deferredPrompt;
+  const aboutDialog = document.getElementById("about-dialog");
+  const installButton = document.getElementById("install-button");
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
-    hideInstallPromptSection();
+   // hideInstallPromptSection(); //superceded by dialog
     console.log('display-mode = standalone so we are in PWA');
-   }
-  else {   
-  console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt.');
-  window.addEventListener('beforeinstallprompt', (event) => {
-    // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
-    event.preventDefault();
-    deferredPrompt = event;
-    // Show the install button or take any other action  
-    if (deferredPrompt) showInstallPromptSection();  //or leave custom install button hidden & just let the app run on the web?
-    console.log('INSIDE the addEventListener block the deferred prompt is ', deferredPrompt);
-  });
-  console.log('OUTSIDE the addEventListener for beforeinstallprompt block the deferred prompt is ', deferredPrompt, ' now listen on the installButton');
-  document.getElementById('installButton').addEventListener('click', () => {
-    // Show the installation prompt
-    console.log('The install button was clicked. The deferred prompt is ', deferredPrompt);
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      // Wait for the user to respond to the prompt
-      deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          console.log('User accepted the install prompt');
-          // Hide the install button after successful installation
-          hideInstallPromptSection();
-        } else {
-          console.log('User dismissed the install prompt');
-          hideInstallPromptSection();
-         // document.getElementById('notNowButton').style.display = 'none';
-        }
-        // Reset the deferredPrompt
-        console.log ('Resetting deferred Prompt.');
-        deferredPrompt = null;
-      });
-    }
-  });
   }
+  else {
+    console.log('display-mode is NOT standalone so we are online and NOT PWA. Do addListener for beforeinstallprompt then OPEN DIALOG.');
+    window.addEventListener('beforeinstallprompt', (event) => {
+      // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
+      event.preventDefault(); 
+      deferredPrompt = event;
+    });
+      // Show the install button or take any other action  
+      //if (deferredPrompt) showInstallPromptSection();  //or leave custom install button hidden & just let the app run on the web?
+      if (deferredPrompt) {
+        aboutDialog.showModal();
+         console.log('INSIDE the addEventListener block the deferred prompt is ', deferredPrompt);
+          // Instead, wait for the user to click the install button.
+         aboutDialog.addEventListener('close', () => {
+         if (aboutDialog.returnValue === "install") {
+         deferredPrompt.prompt(); 
+      }
+    });
+    }
+ else {
+   installButton.disabled = true; }
+   addEventListener('appinstalled', () => {
+   aboutDialog.close();
+}); 
+  }
+ /* 
+    console.log('OUTSIDE the addEventListener for beforeinstallprompt block the deferred prompt is ', deferredPrompt, ' now listen on the installButton');
+    document.getElementById('installButton').addEventListener('click', () => {
+      // Show the installation prompt
+      console.log('The install button was clicked. The deferred prompt is ', deferredPrompt);
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        // Wait for the user to respond to the prompt
+        deferredPrompt.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === 'accepted') {
+            console.log('User accepted the install prompt');
+            // Hide the install button after successful installation
+            hideInstallPromptSection();
+          } else {
+            console.log('User dismissed the install prompt');
+            hideInstallPromptSection();
+            // document.getElementById('notNowButton').style.display = 'none';
+          }
+          // Reset the deferredPrompt
+          console.log('Resetting deferred Prompt.');
+          deferredPrompt = null;
+        });
+      }
+    }); 
+  } */
 </script>
 
+  <!--
     <script>
-    document.getElementById('notNowButton').addEventListener('click', () => {
+      document.getElementById('notNowButton').addEventListener('click', () => {
         console.log('User clicked notNow ');
         hideInstallPromptSection();
       });
-      </script>
+    </script> -->
 
 </body>
 
