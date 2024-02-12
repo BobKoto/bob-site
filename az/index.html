@@ -56,7 +56,7 @@
 <body>
     <h1>Interception Arcade Game</h1>
     <!-- *****The Local VERSION to update***** -->
-    <div id="message-container"></div> <p> Local VERSION b004</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b005</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -150,6 +150,7 @@
     console.log('display-mode = standalone so we are in PWA');
   }
   else {
+    aboutDialog.showModal();  //just to see if it works
     console.log('display-mode is NOT standalone so we are online and NOT PWA. Do addListener for beforeinstallprompt then OPEN DIALOG.');
     window.addEventListener('beforeinstallprompt', (event) => {
       // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
