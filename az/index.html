@@ -79,6 +79,7 @@
       display: flex;
       min-height: 100vh;
       max-width: 800px;
+      max-height: fit-content;
       align-items: center;
       flex-direction: column
   }
@@ -88,7 +89,7 @@
 <body>
     <h1>Interception Arcade Game</h1>
     <!-- ***********************The Local VERSION to update*********************** -->
-    <div id="message-container"></div> <p> Local VERSION b012</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b013</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -114,7 +115,7 @@
     <div class="screenshot"></div>
     <img class="logo" src="https://bobkoto.github.io/bob-site/az/pwaicons/ios/120.png" alt="The Game logo" />
     <section class="about">
-      <h1>Intercept Arcade Game</h1>
+      <h1>Interception Arcade Game</h1>
       <h2>Progressive Web Interception Arcade Game</h2>
       <p>
         Deceptively simple casual arcade game where you attempt to 
@@ -178,7 +179,7 @@
   const installButton = document.getElementById("install-button");
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
-   // hideInstallPromptSection(); //superceded by dialog
+    // hideInstallPromptSection(); //superceded by dialog
     console.log('display-mode = standalone so we are in PWA');
   }
   else {
@@ -187,28 +188,31 @@
     window.addEventListener('beforeinstallprompt', (event) => {
       // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
       console.log('beforeinstallprompt RECEIVED');
-      event.preventDefault(); 
+      event.preventDefault();
       deferredPrompt = event;
-
-    //});
       // Show the install button or take any other action  
       //if (deferredPrompt) showInstallPromptSection();  //or leave custom install button hidden & just let the app run on the web?
       if (deferredPrompt) {
         aboutDialog.showModal();
-         console.log('INSIDE the addEventListener block the deferred prompt is ', deferredPrompt);
-          // Instead, wait for the user to click the install button.
-         aboutDialog.addEventListener('close', () => {
-         if (aboutDialog.returnValue === "install") {
-         deferredPrompt.prompt(); 
+        console.log('INSIDE DIALOG & the addEventListener block, the deferred prompt is ', deferredPrompt);
+        // Wait for the user to click a dialog cancel/install button.
+        aboutDialog.addEventListener('close', () => {
+          if (aboutDialog.returnValue === "install") {
+            deferredPrompt.prompt();
+            console.log('User clicked install....');
+            addEventListener('appinstalled', () => {
+            aboutDialog.close();
+            });
+          }
+          else {
+            installButton.disabled = true;
+            console.log('User clicked CANCEL....');
+            aboutDialog.close();
+          }
+        });
+
       }
     });
-    }
- else {
-   installButton.disabled = true; }
-   addEventListener('appinstalled', () => {
-   aboutDialog.close();
-   });
-}); 
   }
  /* 
     console.log('OUTSIDE the addEventListener for beforeinstallprompt block the deferred prompt is ', deferredPrompt, ' now listen on the installButton');
