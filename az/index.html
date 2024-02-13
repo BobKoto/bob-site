@@ -74,7 +74,6 @@
 </style>
 <style>
   .dialogstyle {
-    dialog[open] {
      background-color: black;
       color: greenyellow;
       display: flex;
@@ -83,7 +82,6 @@
       max-height: 450px;
       align-items: center;
       flex-direction: column
-    }
   }
 </style>
 <title>Hello PWA</title>
@@ -91,7 +89,7 @@
 <body>
     <h1>Interception Arcade Game</h1>
     <!-- ***********************The Local VERSION to update*********************** -->
-    <div id="message-container"></div> <p> Local VERSION b017</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b018</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -203,6 +201,7 @@
             deferredPrompt.prompt();
             console.log('User clicked install....');
             addEventListener('appinstalled', () => {
+            console.log('appinstalled event RECEIVED');
             aboutDialog.close();
             });
           }
@@ -210,7 +209,8 @@
             installButton.disabled = true;
             console.log('User clicked CANCEL....  aboutDialog return value is ', aboutDialog.returnValue );
             aboutDialog.close();
-            console.log('aboutDialog.close called....');
+            console.log('aboutDialog.close called....  NOW TRY aboutDialog.style.display = none  to make it go away.');
+            aboutDialog.style.display = 'none';
           }
         });
 
