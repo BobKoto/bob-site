@@ -76,10 +76,11 @@
   .dialogstyle {
      background-color: black;
       color: greenyellow;
+      margin-top: 10px; /* An absolute length */
       display: flex;
       min-height: 100vh;
-      max-width: 600px;
-      max-height: 450px;
+      max-width: 400px;
+      max-height: 3000px;
       align-items: center;
       flex-direction: column
   }
@@ -89,7 +90,7 @@
 <body>
     <h1>Interception Arcade Game</h1>
     <!-- ***********************The Local VERSION to update*********************** -->
-    <div id="message-container"></div> <p> Local VERSION b019</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b020</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -114,10 +115,9 @@
   <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
     <div class="screenshot"></div>
     <img class="logo" src="https://bobkoto.github.io/bob-site/az/CubeTestPlaying1280x720.png"
-      style="height:25; width:25%; justify-content:center; align-items:center" alt="Game Screen Shot" />
+      style="height:50; width:50%; justify-content:center; align-items:center" alt="Game Screen Shot" />
     <section class="about">
       <h1>Interception Arcade Game</h1>
-      <h2>Progressive Web Interception Arcade Game</h2>
       <p>
         Deceptively simple casual arcade game. Move the green bubble character to intercept on-rushing spheres.
       </p>
@@ -183,7 +183,8 @@
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
     // hideInstallPromptSection(); //superceded by dialog
-    console.log('display-mode = standalone so we are in PWA');
+    console.log('display-mode = standalone so we are in PWA... NOW do aboutDialog.style.display = none  to make it go away.');
+    aboutDialog.style.display = 'none';
   }
   else {
     //aboutDialog.showModal();  //just to see if it works
