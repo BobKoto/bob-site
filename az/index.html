@@ -74,6 +74,7 @@
 </style>
 <style>
   .dialogstyle {
+    dialog[open] {
      background-color: black;
       color: greenyellow;
       display: flex;
@@ -82,6 +83,7 @@
       max-height: 450px;
       align-items: center;
       flex-direction: column
+    }
   }
 </style>
 <title>Hello PWA</title>
@@ -89,7 +91,7 @@
 <body>
     <h1>Interception Arcade Game</h1>
     <!-- ***********************The Local VERSION to update*********************** -->
-    <div id="message-container"></div> <p> Local VERSION b016</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b017</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -111,7 +113,7 @@
         <img src="notnowbutton.png" alt="Not Now Button Image" width="50" height="50">
      </button>
    </div> -->
-   <dialog id="about-dialog"> <!--class="dialogstyle"> -->
+   <dialog id="about-dialog" class="dialogstyle" > <!--class="dialogstyle"> -->
     <div class="screenshot"></div>
     <img class="logo" src="https://bobkoto.github.io/bob-site/az/pwaicons/ios/120.png" alt="The Game logo" />
     <section class="about">
