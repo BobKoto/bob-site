@@ -88,7 +88,6 @@
 <style>
   /* Style for the modal */
   .dialogstyle {
-      display: none; /* Hide the modal by default */
       position: fixed;
       z-index: 1;
       left: 0;
@@ -96,12 +95,13 @@
       width: 100%;
       height: 100%;
       overflow: auto; /* Enable scrolling for the entire modal */
-      background-color: rgba(0,0,0,0.5); /* Semi-transparent background */
+      background-color: rgba(156, 148, 148, 0.5); /* Semi-transparent background */
   }
 
   /* Style for the modal content */
   .dialog-content {
-      background-color: #fefefe;
+      background-color: rgb(75, 70, 70);
+      color: greenyellow;
       margin: 15% auto;
       padding: 20px;
       border: 1px solid #888;
@@ -116,7 +116,7 @@
 <body>
     <h1>Interception Arcade Game</h1>
     <!-- ***********************The Local VERSION to update*********************** -->
-    <div id="message-container"></div> <p> Local VERSION b026</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b027</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -151,11 +151,11 @@
         you can play offline without any connection to the internet.
         Or you can click the Close button to play only while connected to the internet.
       </p>
-    </section>
     <form class="actions" method="dialog">
       <button value="cancel">Close</button>
       <button value="install" id="install-button">Install app</button>
     </form>
+   </section>   
   </dialog>
 
    <script src="RegisterServiceWorker.js"></script>  
