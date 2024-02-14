@@ -73,7 +73,7 @@
     }
 </style>
 <style>
-  .dialogstyle {
+  .dialogstyleOLD {
      background-color: rgb(75, 70, 70);
       color: greenyellow;
       margin-top: 75px; /* An absolute length */
@@ -85,12 +85,38 @@
       align-items: center
   }
 </style>
+<style>
+  /* Style for the modal */
+  .dialogstyle {
+      display: none; /* Hide the modal by default */
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto; /* Enable scrolling for the entire modal */
+      background-color: rgba(0,0,0,0.5); /* Semi-transparent background */
+  }
+
+  /* Style for the modal content */
+  .dialog-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px; /* Limit the maximum width of the modal */
+      max-height: 80%; /* Limit the maximum height of the modal */
+      overflow-y: auto; /* Enable vertical scrolling for the modal content */
+  }
+</style>
 <title>Hello PWA</title>
 </head>
 <body>
     <h1>Interception Arcade Game</h1>
     <!-- ***********************The Local VERSION to update*********************** -->
-    <div id="message-container"></div> <p> Local VERSION b025</p><br> <!-- Change the SW too!!!-->
+    <div id="message-container"></div> <p> Local VERSION b026</p><br> <!-- Change the SW too!!!-->
     <h2>Local Time: <span id="localTime"></span></h2>
     <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
              <button class="buttonA">  
@@ -98,24 +124,11 @@
              </button> 
      </a> 
      <br>
-     <!--
-    <div class="toggle-section" id="installPromptSection" style="display: none;" style="border: none;">  
-    <p><strong>You can install this game/page to your device. <br>
-     Then you can use it even if you're not connected to the internet. </strong></p>
-     <strong> INSTALL so I can use when not connected to the internet      .</strong>   <br>
-     <button id="installButton" type="button" class = "buttonA" background-color: lightblue;">
-           <img src="installbutton.png" alt="Install Button Image" width="50" height="50">
-     </button>
-     <br><br><br>
-     <strong> Not now. I'll use this App connected to the internet          .</strong>   <br>
-     <button id="notNowButton" type="button" class= "buttonA" background-color: lightblue;">
-        <img src="notnowbutton.png" alt="Not Now Button Image" width="50" height="50">
-     </button>
-   </div> -->
+
   <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
-    <div class="screenshot"></div>
+    <div class="screenshot"></div>    <!-- not used? -->
   
-    <section class="about">
+    <section class="dialog-content">
       <h1>Interception Arcade Game</h1>
       <img class="logo" src="https://bobkoto.github.io/bob-site/az/CubeTestPlaying1280x720.png"
         style="height:75; width:75%; justify-content:center; align-items:center" alt="Game Screen Shot" />
@@ -228,40 +241,8 @@
       }
     });
   }
- /* 
-    console.log('OUTSIDE the addEventListener for beforeinstallprompt block the deferred prompt is ', deferredPrompt, ' now listen on the installButton');
-    document.getElementById('installButton').addEventListener('click', () => {
-      // Show the installation prompt
-      console.log('The install button was clicked. The deferred prompt is ', deferredPrompt);
-      if (deferredPrompt) {
-        deferredPrompt.prompt();
-        // Wait for the user to respond to the prompt
-        deferredPrompt.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('User accepted the install prompt');
-            // Hide the install button after successful installation
-            hideInstallPromptSection();
-          } else {
-            console.log('User dismissed the install prompt');
-            hideInstallPromptSection();
-            // document.getElementById('notNowButton').style.display = 'none';
-          }
-          // Reset the deferredPrompt
-          console.log('Resetting deferred Prompt.');
-          deferredPrompt = null;
-        });
-      }
-    }); 
-  } */
-</script>
 
-  <!--
-    <script>
-      document.getElementById('notNowButton').addEventListener('click', () => {
-        console.log('User clicked notNow ');
-        hideInstallPromptSection();
-      });
-    </script> -->
+</script>
 
 </body>
 
