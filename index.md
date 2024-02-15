@@ -13,8 +13,15 @@ weight: 10
 </head>
 <style>
       body {
-        background-color: lightblue;
-      }
+        background-color: black;
+        color : white;
+    }
+      a {
+       color: lightblue; 
+    } 
+    a:hover {
+  background-color: bisque;
+}
 </style>
 
 ## *Updates of content - mostly text/posts - are on going. All Links should work. 

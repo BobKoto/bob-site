@@ -12,6 +12,9 @@ weight: 40
       a {
        color: lightblue; 
     } 
+    a:hover {
+  background-color: bisque;
+}
 </style>
 
 ## This is the Downloads page:
