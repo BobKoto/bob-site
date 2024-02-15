@@ -10,9 +10,10 @@ weight: 10
 <head>
 <link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+
 </head>
-<style>
-      main {
+<!-- <style>
+      body {
         background-color: black;
         color : white;
     }
@@ -22,7 +23,7 @@ weight: 10
     a:hover {
   background-color: bisque;
 }
-</style>
+</style> -->
 
 ## *Updates of content - mostly text/posts - are on going. All Links should work. 
 *PWA game availability info coming... it is in the blog*
