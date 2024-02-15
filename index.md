@@ -12,7 +12,7 @@ weight: 10
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
 
 </head>
-<<style>
+<style>
       header {
         background-color: black;
         color : white;
@@ -39,7 +39,7 @@ notes:
 - *RSS subscribe/Notification to inform you of content updates - not implemented but under review, for ever*
 
 <script src="./scripts/main.js"></script>
-<<style>
+<style>
       nav {
         background-color: lightblue;
         color : white;
