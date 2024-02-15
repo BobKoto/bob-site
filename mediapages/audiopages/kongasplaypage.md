@@ -4,8 +4,15 @@ title: "Play the Kongas for a Pick Me Up!"
 ---
 <style>
       body {
-        background-color: lightblue;
-      }
+        background-color: black;
+        color : white;
+    }
+      a {
+       color: lightblue; 
+    } 
+    a:hover {
+  background-color: bisque;
+}
 </style>
 # The Kongas
 
