@@ -12,8 +12,8 @@ weight: 10
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
 
 </head>
-<!-- <style>
-      body {
+<<style>
+      header {
         background-color: black;
         color : white;
     }
@@ -23,7 +23,7 @@ weight: 10
     a:hover {
   background-color: bisque;
 }
-</style> -->
+</style> 
 
 ## *Updates of content - mostly text/posts - are on going. All Links should work. 
 *PWA game availability info coming... it is in the blog*
@@ -39,3 +39,15 @@ notes:
 - *RSS subscribe/Notification to inform you of content updates - not implemented but under review, for ever*
 
 <script src="./scripts/main.js"></script>
+<<style>
+      nav {
+        background-color: lightblue;
+        color : white;
+    }
+      a {
+       color: black; 
+    } 
+    a:hover {
+  background-color: bisque;
+}
+</style> 
