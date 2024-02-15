@@ -6,7 +6,8 @@ weight: 40
 <script src="./scripts/favicon.js"></script>
 <style>
       body {
-        background-color: lightblue;
+        background-color: black;
+        color : white;
       }
 </style>
 
