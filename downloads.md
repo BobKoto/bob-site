@@ -8,7 +8,10 @@ weight: 40
       body {
         background-color: black;
         color : white;
-      }
+    }
+      a {
+       color: lightblue; 
+    } 
 </style>
 
 ## This is the Downloads page:
@@ -36,4 +39,4 @@ For now pick yourself up with a quick conga riff...
 
 [Play the Kongas!]({{ site.baseurl }}/mediapages/audiopages/kongasplaypage){: .btn .btn-yellow }
 -->
-<a href="{{ site.baseurl }}/mediapages/audiopages/kongasplaypage" style="color: green"><i>Play the Kongas!</i></a>
+<a href="{{ site.baseurl }}/mediapages/audiopages/kongasplaypage"><i><strong>Play the Kongas!</strong></i></a>
