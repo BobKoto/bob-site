@@ -13,7 +13,7 @@ weight: 10
 
 </head>
 <style>
-      header {
+      body {
         background-color: black;
         color : white;
     }
@@ -40,9 +40,9 @@ notes:
 
 <script src="./scripts/main.js"></script>
 <style>
-      nav {
+      header {
         background-color: lightblue;
-        color : white;
+        color : black;
     }
       a {
        color: black; 
