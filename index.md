@@ -12,7 +12,7 @@ weight: 10
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
 </head>
 <style>
-      body {
+      body,nav {
         background-color: black;
         color : white;
     }
