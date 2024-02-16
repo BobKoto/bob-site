@@ -35,6 +35,9 @@ notes:
       a {
        color: lightblue; 
     } 
+          a:link {
+       color: lightblue; 
+    } 
     a:hover {
   background-color: bisque;
 }
