@@ -41,6 +41,15 @@ weight: 10
   background-color: bisque;
 }
 </style> 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll("a");
+  links.forEach(function(link) {
+    link.style.fontStyle = "italic";
+    link.style.textDecoration = "underline";
+  });
+});
+</script>
 </head>
 
 ## *Updates of content - mostly text/posts - are on going. All Links should work. 
