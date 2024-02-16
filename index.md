@@ -36,7 +36,7 @@ notes:
        color: lightblue; 
     } 
           a:link {
-       color: lightblue; 
+       color: #00fff6; 
     } 
     a:hover {
   background-color: bisque;
