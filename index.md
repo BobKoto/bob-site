@@ -18,7 +18,10 @@ weight: 10
       a {
        color: lightblue; 
     } 
-          a:link {
+      a:link {
+       color: #00fff6; 
+    } 
+      a:visited {
        color: #00fff6; 
     } 
     a:hover {
