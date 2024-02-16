@@ -2,6 +2,7 @@
 layout: page
 title: "Game Gallery"
 ---
+{% include custom-head.html %} 
 <script src="./scripts/favicon.js"></script>
 
 <script>

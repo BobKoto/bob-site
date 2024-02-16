@@ -11,6 +11,10 @@ weight: 50
         background-color: lightblue;
       }
 </style> -->
+<script>
+  const myHeading = document.querySelector("h1");
+  myHeading.innerHTML = "<em>About...</em>";
+</script>
 
 # *Purpose:*
 
