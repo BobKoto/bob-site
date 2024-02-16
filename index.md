@@ -6,7 +6,7 @@ weight: 10
 <script src="./scripts/favicon.js"></script>
 <!-- <script src="{{ site.baseurl }}/RegisterServiceWorker.js"></script>  -->
 
-{% include custom-head.html %}
+<!--{% include custom-head.html %} -->
 <head>
 <link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
