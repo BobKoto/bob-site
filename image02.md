@@ -12,11 +12,11 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 
 
 *Stay tuned! More games waiting to be added!!*
-<style>
+<!-- <style>
       body {
         background-color: lightblue;
       }
-</style>
+</style>  -->
 
 <br>
 # Illusion 3D Pinball Game for Android
@@ -31,7 +31,7 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 
 <div style="text-align:center">
  <p> </p>
- A 3D, yes 3D, simple pinball game for Android. Click/tap for more info.
+ An easy to play 3D pinball game for Android. Click/tap for more info.
  <p> </p>
 </div>
 <br>
