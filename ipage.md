@@ -5,7 +5,7 @@ weight: 50
 #permalink: /about/
 ---
 <script src="./scripts/favicon.js"></script>
-{% include _includes/custom-head.html %} 
+{% include custom-head.html %} 
 <!--<style>
       body {
         background-color: lightblue;
