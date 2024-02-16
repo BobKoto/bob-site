@@ -3,5 +3,40 @@
 
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
+
+  Put styles in here because not sure about what Jekyll is doing.
+
 {% endcomment %}
 <link rel="shortcut icon" type="image/png"  href="{{ "favicon.png"  | absolute_url }}">
+<meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+<style>
+      body {
+        background-color: black;
+        color : white;
+    }
+      a {
+       color: lightblue; 
+    } 
+      a:link {
+       color: #00fff6; 
+    } 
+      a:visited {
+       color: #00fff6; 
+    } 
+    a:hover {
+      color : black;
+      background-color: bisque;
+    }
+</style> 
+<style>
+      header {
+        background-color: lightblue;
+        color : black;
+    }
+      a {
+       color: black; 
+    } 
+    a:hover {
+  background-color: bisque;
+}
+</style> 
