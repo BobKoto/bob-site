@@ -25,8 +25,9 @@ weight: 10
        color: #00fff6; 
     } 
     a:hover {
-  background-color: bisque;
-}
+      color : black;
+      background-color: bisque;
+    }
 </style> 
 <style>
       header {
