@@ -6,6 +6,16 @@ title: "Game Gallery"
 <script src="./scripts/favicon.js"></script>
 
 <script>
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll("a");
+  links.forEach(function(link) {
+    link.style.fontStyle = "italic";
+    link.style.textDecoration = "underline";
+  });
+});
+</script>
+
+<script>
 const myHeading = document.querySelector("h1");
 myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 </script>
