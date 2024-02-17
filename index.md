@@ -10,6 +10,7 @@ weight: 10
 <head>
 <link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+<!-- <style?>
       body {
         background-color: black;
         color : white;
@@ -51,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 </head>
 
-## *Updates of content - mostly text/posts - are on going. All Links should work. 
+## *Updates of content - mostly text/posts - are on going. All Links should work.*
 *PWA game availability info coming... it is in the blog*
 
 ### Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02) where you'll find screen shots and videos of Android games built with Unity, along with their links to Github. 
