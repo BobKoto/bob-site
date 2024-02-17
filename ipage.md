@@ -15,7 +15,7 @@ weight: 50
   //const myHeading = document.querySelector("h1");
   //myHeading.innerHTML = "<em>About...</em>";
   const myHeading = document.querySelector("h1");
-  myHeading.textContent = "<em>About</em>";
+  myHeading.textContent = "About";
 </script>
 
 # *Purpose:*
