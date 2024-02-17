@@ -11,12 +11,7 @@ weight: 50
         background-color: lightblue;
       }
 </style> -->
-<script>
-  //const myHeading = document.querySelector("h1");
-  //myHeading.innerHTML = "<em>About...</em>";
-  const myHeading = document.querySelector("h1");
-  myHeading.textContent = "About";
-</script>
+
 
 # *Purpose:*
 
@@ -42,5 +37,9 @@ The WebGL and PWA games on this site are playable. No ads, no permissions, no da
 would be better to stop procrastinating, get this humble site online, and instead of swamping her email with 
 a bunch of image attachments just send her a link to this site. &#128512; 
 
-I am considering RSS/Notifications to let you know when content is updated.
+RSS/Notifications to communicate when content is updated is under consideration.
 Until then check in every couple weeks, months, years, or whatever.
+<script>
+  const myHeading = document.querySelector("h1");
+  myHeading.textContent = "About";
+</script>
