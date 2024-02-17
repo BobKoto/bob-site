@@ -41,5 +41,6 @@ RSS/Notifications to communicate when content is updated is under consideration.
 Until then check in every couple weeks, months, years, or whatever.
 <script>
   const myHeading = document.querySelector("h1");
+  myHeading.style.backgroundColor = "none";
   myHeading.textContent = "About";
 </script>
