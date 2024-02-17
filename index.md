@@ -65,4 +65,8 @@ notes:
 - *this site, including the games you can play in your browser, does not track or ask for nor collect any info about you*
 - *RSS subscribe/Notification to inform you of content updates - not implemented but under review, for ever*
 
-<script src="./scripts/main.js"></script>
+<!-- <script src="./scripts/main.js"></script>  -->
+<script>
+  const myHeading = document.querySelector("h1");
+  myHeading.textContent = "Home";
+</script>
