@@ -25,13 +25,7 @@ The WebGL and PWA games on this site are playable. No ads, no permissions, no da
 
 ## *2. Share some funny or meaningful and interesting quotes.*
 *Any content provided by our pal G Petey (ChatGPT) is marked accordingly.*
-.
-
-.
-
-.
-
-.
+<br><br><br><br>
 
 &#128512;A while ago I promised someone dear to me that I would email her screen shots of my work. I thought it 
 would be better to stop procrastinating, get this humble site online, and instead of swamping her email with 
