@@ -13,7 +13,7 @@ weight: 50
 </style> -->
 
 
-# *Purpose:*
+<!--# *Purpose:*  -->
 
 ## *1. Share games and other open source software I have done and currently creating. This includes:*
 - native Android,     
