@@ -36,11 +36,11 @@ It's the first proof of concept and plays well on and offline. You can play on t
              alt="A sphere intercept arcade game"> 
     </a>
 </div>
-
+<br><br>
 **Android users:** When installing a progressive web app to your mobile device Google may "offer" to scan or examine the PWA app. Is this Google really just being nice and helpful - or is Google snooping or otherwise trying to collect our info, data, whatever? This site, content and the games have nothing to do with Google. The browser in use when Google "offered" to scan the PWA being downloaded was not Google's (Chrome) browser. Accept or decline Google's "offer" at your own discretion.  All that said, unless specifically stated up front this site will never include apps that require any unnecessary permissions, collect your data/info, contain ads, etc. And open source code for all games, and for this site, are public on GitHub.
 
 **IOS/Apple users:** This site's PWAs are not yet tested on **IOS** web browser(s). You're certainly free to try.
 
 More PWAs are on their way...
 
-*Please enjoy, and, limit your play time. Take more walks.*
+*Please enjoy, and limit your play time. Take more walks.*
