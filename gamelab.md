@@ -4,11 +4,7 @@ title: "WebGL Game Lab"
 weight: 40
 ---
 <script src="./scripts/favicon.js"></script>
-<style>
-      body {
-        background-color: lightblue;
-      }
-</style>
+{% include custom-head.html %} 
 
 ## Games in development that you can play:
 
