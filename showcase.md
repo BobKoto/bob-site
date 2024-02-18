@@ -4,11 +4,7 @@ title: "Showcase"
 weight: 40
 ---
 <script src="./scripts/favicon.js"></script>
-<style>
-      body {
-        background-color: lightblue;
-      }
-</style>
+{% include custom-head.html %} 
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/webshowcase" style="display:flex; height:50; width:50%; justify-content:center; align-items:center" 
