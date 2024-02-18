@@ -3,11 +3,7 @@ layout: page
 title: "Illusion Pinball"
 ---
 <script src="./scripts/favicon.js"></script>
-<style>
-      body {
-        background-color: lightblue;
-      }
-</style>
+{% include custom-head.html %} 
 This Android based 3D pinball game is easy to play and relaxing. Maybe I should have called it Chillusion. &#128512; 
 
 
@@ -40,15 +36,14 @@ Ok, give me more! And we will...
 # Tech Notes: 
 3D pinball game for Android created in Unity and C#.
 
-Uses physics and is scaled to the size and slope of the playing surface, and (even) pinball size and mass, as best as my non-physics mind could do.
-
-As code goes (early in my Unity/C# journey) it could be way better and neater. 
+Uses physics and is scaled to the size and slope real pinball machine playing surface, including pinball size and mass, as best as my non-physics mind could do.
 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
-often playing for an hour or more with little drain on the battery. Sometimes, after an hour or so the handhelds 
+often playing for an hour or more with little drain on the battery. Sometimes, after an hour or so the mobiles 
 got "flaky" and sent the ball out of play. (Physics system? device? not sure)
 
 Probably easy to fix - but I moved on as I wouldn't expect nor encourage anyone to play that long. 
 
+As code goes (early in my Unity/C# journey) it could be way better and neater. 
 
 Find this project at [Pinball project](https://github.com/bobkoto/touchinput1/) aka touchinput1
