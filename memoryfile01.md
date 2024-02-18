@@ -3,7 +3,7 @@ layout: page
 title: "memory1"
 ---
 <script src="./scripts/favicon.js"></script>
-<script>
+<!--<script>
 const myHeading = document.querySelector("h1");
 myHeading.innerHTML = "<em>memory1</em>";
 </script>
@@ -11,7 +11,8 @@ myHeading.innerHTML = "<em>memory1</em>";
       body {
         background-color: lightblue;
       }
-</style>
+</style>  -->
+{% include custom-head.html %} 
 This is an Android based visual and auditory and reflex challenge game. Object is to replay a sequence of randomly displayed symbols - each with their own unique auditory tone - as quickly as possible. There are 3 levels of play to choose: Practice, Normal and Fast. &#128512; 
 
 
@@ -47,9 +48,9 @@ Note that less than 6 symbols are previewed because some might be repeated - so 
 # Tech Notes: 
 A casual memory and reflex challenge game for Android created with Java using Android SDK.
 
-Gameplay uses player screen taps to replicate a sequence of 6 symbols and their associated auditory tones, randomly produced by the game. Scoring is based on how fast a player can repeat the random sequence.
+Gameplay challenges player to play back a random sequence of 6 symbols and their associated auditory tones. Scoring is based on how fast a player can correctly repeat the random sequence.
 
 I play tested this on a mid-range Android phones- Galaxy J7 - and phones as old as Galaxy S4,
 often playing for an hour or more with little drain on the battery. 
 
-Find this project at [memory1 project](https://github.com/bobkoto/memory1/) aka memory1
+Find this project at [memory1 project](https://github.com/bobkoto/memory1/) aka memory1.
