@@ -40,3 +40,12 @@
   background-color: bisque;
 }
 </style> 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var links = document.querySelectorAll("a");
+    links.forEach(function(link) {
+      link.style.fontStyle = "italic";
+      link.style.textDecoration = "underline";
+    });
+  });
+  </script>

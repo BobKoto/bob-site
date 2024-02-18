@@ -10,6 +10,7 @@ weight: 50
 <head>
 <link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+<!-- 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var links = document.querySelectorAll("a");
@@ -18,6 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
     link.style.textDecoration = "underline";
   });
 });
+</script>-->
+<script>
+  const myHeading = document.querySelector("h1");
+  myHeading.style.backgroundColor = "black";
+  myHeading.style.color = "white";
+  myHeading.textContent = "About";
 </script>
 </head>
 
@@ -39,8 +46,3 @@ a bunch of image attachments just send her a link to this site. &#128512;
 
 RSS/Notifications to communicate when content is updated is under consideration.
 Until then check in every couple weeks, months, years, or whatever.
-<script>
-  const myHeading = document.querySelector("h1");
-  myHeading.style.backgroundColor = "none";
-  myHeading.textContent = "About";
-</script>

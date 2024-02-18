@@ -40,7 +40,7 @@ weight: 10
     a:hover {
   background-color: bisque;
 }
-</style> -->
+</style> 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var links = document.querySelectorAll("a");
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     link.style.textDecoration = "underline";
   });
 });
-</script>
+</script>-->
 </head>
 
 ## *Updates of content - mostly text/posts - are on going. All Links should work.*
