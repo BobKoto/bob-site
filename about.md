@@ -19,13 +19,13 @@ document.addEventListener("DOMContentLoaded", function() {
     link.style.textDecoration = "underline";
   });
 });
-</script>-->
+</script>
 <script>
   const myHeading = document.querySelector("h1");
   myHeading.style.backgroundColor = "black";
   myHeading.style.color = "white";
   myHeading.textContent = "About";
-</script>
+</script>-->
 </head>
 
 ## *1. Share games and other open source software I have done and currently creating. This includes:*

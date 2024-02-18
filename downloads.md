@@ -4,18 +4,7 @@ title: "Downloads"
 weight: 40
 ---
 <script src="./scripts/favicon.js"></script>
-<style>
-      body {
-        background-color: black;
-        color : white;
-    }
-      a {
-       color: lightblue; 
-    } 
-    a:hover {
-  background-color: bisque;
-}
-</style>
+{% include custom-head.html %} 
 
 ## This is the Downloads page:
 
