@@ -12,7 +12,7 @@ title: Progressive Web Apps for All of Us
 # Update: WebGL and then Progressive Web Applications 
 
 *Last post said:*
-"To make games more accessible I recently started using Unity's WebGL platform option to build in-browser games. For those of you that push your Roombas around with a broomstick, like I do &#128512, that's games you can play in your desktop and phone browser - if the browser supports WebGL, and most do.."
+"To make games more accessible I recently started using Unity's WebGL platform option to build in-browser games. For those of you that push your Roombas around with a broomstick, like I do &#128512;, that's games you can play in your desktop and phone browser - if the browser supports WebGL, and most do.."
 
 ## The "more to come" involves extending our Game WebGL apps into Progressive Web Apps  
 
