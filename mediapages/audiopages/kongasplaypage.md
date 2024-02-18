@@ -2,18 +2,8 @@
 layout: page
 title: "Play the Kongas for a Pick Me Up!"
 ---
-<style>
-      body {
-        background-color: black;
-        color : white;
-    }
-      a {
-       color: lightblue; 
-    } 
-    a:hover {
-  background-color: bisque;
-}
-</style>
+{% include custom-head.html %} 
+
 # The Kongas
 
 The Kongas are amazing. Click play for a pick me up!
