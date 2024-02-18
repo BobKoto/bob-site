@@ -9,7 +9,7 @@ title: Games In Browsers
       }
 </style>
 
-To make games more accessible I recently started using Unity's WebGL platform option to build in-browser games. For those of you that push your Roombas around with a broomstick, like I do &#128512, that's games you can play in your desktop and phone browser - if the browser supports WebGL, and most do
+To make games more accessible I recently started using Unity's WebGL platform option to build in-browser games. For those of you that push your Roombas around with a broomstick, like I do &#128512;, that's games you can play in your desktop and phone browser - if the browser supports WebGL, and most do
 <br>
 Find working prototypes here: [Game Lab](https://bobkoto.github.io/bob-site/gamelab). More to come.
 <br><br>
