@@ -23,17 +23,17 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 
 <br>
 
-## The games on this page are "Native" Android Apps. 
+### The games on this page are "Native" Android Apps. 
 
-## As of 11/2023 the going forward framework used to create games/apps is Unity WebGL and PWAs (Progressive Web Applications). The Illusion 3D Pinball Game for Android has been ported to WebGL here [Game Lab](https://bobkoto.github.io/bob-site/gamelab) 
+- As of 11/2023 the going forward framework used to create games/apps is Unity WebGL and PWAs (Progressive Web Applications). The Illusion 3D Pinball Game for Android has been ported to WebGL here [Game Lab](https://bobkoto.github.io/bob-site/gamelab) 
 
-## Porting Space, the Final Dumpster Arcade Game to WebGL is planned.
+- Porting Space, the Final Dumpster Arcade Game to WebGL is planned.
 
-## All apps ported to WebGL will be published as PWAs soon after their porting to WebGL is done. 
+- Apps ported to WebGL will be published as PWAs after their porting to WebGL is done. 
 
 ## All projects/sources on this page are available on GitHub for the purpose of sharing and learning
 how to make a mess that works ok anyway.
-<br>
+<br><br><br>
 # Illusion 3D Pinball Game for Android
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/pinballinfo" style="display:flex; height:75; width:75%; justify-content:center; align-items:center" 
