@@ -25,7 +25,9 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 
 ### The games on this page are "Native" Android Apps. 
 
-- As of 11/2023 the going forward framework used to create games/apps is Unity WebGL and PWAs (Progressive Web Applications). The Illusion 3D Pinball Game for Android has been ported to WebGL here [Game Lab](https://bobkoto.github.io/bob-site/gamelab) 
+- As of 11/2023 the going forward framework used to create games/apps is Unity WebGL and PWAs (Progressive Web Applications). 
+
+- The Illusion 3D Pinball Game for Android has been ported to WebGL here [Game Lab](https://bobkoto.github.io/bob-site/gamelab) 
 
 - Porting Space, the Final Dumpster Arcade Game to WebGL is planned.
 
