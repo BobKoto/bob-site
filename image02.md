@@ -21,13 +21,18 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 </script>
 
 
-*Stay tuned! More games waiting to be added!!*
-<!-- <style>
-      body {
-        background-color: lightblue;
-      }
-</style>  -->
+<br>
 
+## The games on this page are "Native" Android Apps. 
+
+## As of 11/2023 the going forward framework used to create games/apps is Unity WebGL and PWAs (Progressive Web Applications). The Illusion 3D Pinball Game for Android has been ported to WebGL here [Game Lab](https://bobkoto.github.io/bob-site/gamelab) 
+
+## Porting Space, the Final Dumpster Arcade Game to WebGL is planned.
+
+## All apps ported to WebGL will be published as PWAs soon after their porting to WebGL is done. 
+
+## All projects/sources on this page are available on GitHub for the purpose of sharing and learning
+how to make a mess that works ok anyway.
 <br>
 # Illusion 3D Pinball Game for Android
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
@@ -79,31 +84,3 @@ myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
  A visual and auditory memory and reflex challenge game for Android. Click/tap for more info.
  <p> </p>
 </div>
-<!--
-<div style="display:flex; justify-content:center; align-items:center;">
-    <a href="https://bobkoto.github.io/bob-site/" title="A pinball image tooltip and the way home, for now"> 
-     <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
-     style="justify-content:center; align-items:center;height:25%; width:25%" alt="A pinball game"> 
-    </a>
-</div>
--->
-<!--  ## Game screen shots  we had time in here mostly to check if we needed to refresh a webpage in early development 
-<div style="display: inline-block;">
-  <span>Time is now: </span> 
-  <span id="time"></span>  
-</div>
-
-<script>
-  var time = document.getElementById("time");
-  var currentTime = new Date();
-  var hours = currentTime.getHours();
-  var minutes = currentTime.getMinutes();
-  time.innerHTML = hours + ":" + minutes;
-</script>
--->
-<!--
-<script>
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Game Screen Shots and Videos...";
-</script>
--->
