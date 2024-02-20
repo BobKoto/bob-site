@@ -53,6 +53,16 @@
         border: 2px solid lightblue;
         justify-items: right;
       }
+      .buttonB {
+        margin-left: 10px;
+        /* border: 2px solid lightblue;*/
+        background-color: #111;
+        color: white;
+        justify-items: right;
+        width: 200px; /* Set the width */
+        height: 50px; /* Set the height */
+        font-size: 18px; /* Adjust the font size */
+      }
     
     </style>
     <style>
@@ -91,19 +101,23 @@
     <title>Hello PWA</title>
 </head>
 <body>
-    <h1>Intercept Arcade Game</h1>
+  <br><br><br>
+    <h1>Interception</h1>
     <!-- *****The Local VERSION to update***** -->
 
 
-    <img src="CubeTestPlaying800x600b.png" alt="game screenshot" width="25%" height="25%"> <!-- style="border: lightblue;">    -->
-    <br><br>
+    <img src="CubeTestPlaying800x600b.png" alt="game screenshot" width="360px" height="200px"> <!-- style="border: lightblue;">    -->
+    
    <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
+    <button class="buttonB"><em> > Click to Play  ></em></button> 
+    <!--
             <button class="buttonA">  
-            <img src="rungamebutton.png" alt="Run game Button Image" width="100" height="100"> <!-- style="border: lightblue;">    -->
-            </button> 
+            <img src="rungamebutton.png" alt="Run game Button Image" width="100" height="100"> 
+            </button>--> 
     </a> 
     <br>
     <div id="message-container"></div>
+    <br><br><br>
     <div>This game is Open Source and free to play and install as an offline web app.</div><br>
     <div>Local VERSION TEST  &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br>
     <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
@@ -112,9 +126,9 @@
       <section class="dialog-content">
         <h1 class="dialog-heading">Interception Arcade Game
         <img class="logo" src="CubeTestPlaying1280x720.png"
-          style="height:75; width:75%; justify-content:center; align-items:center" alt="Game Screen Shot" /></h1>
+          style=" width:360px; height:200px; justify-content:center; align-items:center" alt="Game Screen Shot" /></h1>
         <p>
-          Deceptively simple game. Exercise your eye-hand reflexes, pattern matching and planning skills.
+          Deceptively simple game. Exercises eye-hand reflexes, pattern matching and planning skills.
         </p>
         <p>
           Move the green bubble character to intercept on-rushing spheres. 
@@ -132,27 +146,14 @@
           Or you can click the Close button to play only while connected to the internet.
         </p>  -->
       <form class="actions" method="dialog">
-        <button value="cancel" style="background-color: yellow; color: black;">Not now just play</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
         <button value="install" style="background-color: chartreuse; color: black;" id="install-button">Install app so I can play offline</button>
+        <br><br>
+        <button value="cancel" style="background-color: yellow; color: black;">Not now just play</button> <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->  
       </form>
      </section>   
-     <div>This game is Open Source and free to play and install as an offline web app.</div><br>
+       <!-- <div>This game is Open Source and free to play and install as an offline web app.</div><br> -->
     </dialog>
-   <!-- <div class="toggle-section" id="installPromptSection" style="display: block;" style="border: none;">  
-   <p><strong>You can install this game/page to your device. <br>
-    Then you can use it even if you're not connected to the internet. </strong></p>
-    <strong> INSTALL so I can use when not connected to the internet      .</strong>   <br>
-    <button type="button" class = "buttonA" background-color: lightblue;">
-          <img src="installbutton.png" alt="Install Button Image" width="50" height="50">
-    </button>
-    <br><br><br>
-    <strong> Not now I'll use this App connected to the internet          .</strong>   <br>
-    <button type="button" class= "buttonA" background-color: lightblue;">
-       <img src="notnowbutton.png" alt="Not Now Button Image" width="50" height="50">
-    </button>
-   <p>     <button id="installButton" style="display: block;"> Ok, Install App </button> <strong> it can be used when not connected to the internet</strong> </p>
-       <p>     <button id="notNowButton" style="display: block;" >    Not Now      </button> <strong>  for now use this App connected to the internet</strong> </p> 
-   </div> -->
+
 <!--
    <script src="RegisterServiceWorker.js"></script>  -->
  
