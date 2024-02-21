@@ -63,7 +63,18 @@
         height: 50px; /* Set the height */
         font-size: 18px; /* Adjust the font size */
       }
-    
+    .installButton {
+      background-color: chartreuse;
+      color: black;
+      display: block; 
+      margin: 0 auto;
+    }
+    .notNowButton {
+      background-color: yellow;
+      color: black;
+      display: block;
+      margin: 0 auto;
+    }
     </style>
     <style>
       /* Style for the modal */
@@ -86,9 +97,9 @@
       .dialog-content {
         background-color: rgb(0, 0, 0);
         color: greenyellow;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
+       /* margin: 15% auto;*/
+        padding: 10px;
+       /* border: 1px solid #888;*/
         width: 80%;
         max-width: 600px;
         /* Limit the maximum width of the modal */
@@ -106,7 +117,7 @@
     <!-- *****The Local VERSION to update***** -->
 
 
-    <img src="CubeTestPlaying800x600b.png" alt="game screenshot" width="360px" height="200px"> <!-- style="border: lightblue;">    -->
+    <img src="CubeTestPlaying800x600b.png" alt="game screenshot" width="350px" height="200px"> <!-- style="border: lightblue;">    -->
     
    <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
     <button class="buttonB"><em> > Click to Play  ></em></button> 
@@ -125,8 +136,15 @@
     
       <section class="dialog-content">
         <h1 class="dialog-heading">Interception Arcade Game
-        <img class="logo" src="CubeTestPlaying1280x720.png"
-          style=" width:360px; height:200px; justify-content:center; align-items:center" alt="Game Screen Shot" /></h1>
+          <img class="logo" src="CubeTestPlaying1280x720.png"
+            style=" width: 320px; height: 180px; justify-content:center; align-items:center" alt="Game Screen Shot" />
+        </h1>
+        <form class="actions" method="dialog">
+          <button value="install" id="install-button" class="installButton">Install app so I can play offline</button>
+          <br>
+          <button value="cancel" class="notNowButton">Not now just play</button>
+          <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        </form>
         <p>
           Deceptively simple game. Exercises eye-hand reflexes, pattern matching and planning skills.
         </p>
@@ -145,11 +163,7 @@
           you can play offline without any connection to the internet.
           Or you can click the Close button to play only while connected to the internet.
         </p>  -->
-      <form class="actions" method="dialog">
-        <button value="install" style="background-color: chartreuse; color: black;" id="install-button">Install app so I can play offline</button>
-        <br><br>
-        <button value="cancel" style="background-color: yellow; color: black;">Not now just play</button> <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->  
-      </form>
+
      </section>   
        <!-- <div>This game is Open Source and free to play and install as an offline web app.</div><br> -->
     </dialog>
