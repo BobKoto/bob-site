@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <script>
-const myHeading = document.querySelector("h1");
-myHeading.innerHTML = "<em>Game Screen Shots and Videos...</em>";
+const myHeadingGameGallery = document.querySelector("h1");
+myHeadingGameGallery.innerHTML = "<em>Game Screen Shots and Videos...</em>";
 </script>
 
 
