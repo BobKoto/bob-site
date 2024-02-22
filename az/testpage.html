@@ -31,15 +31,12 @@
         background-color: black;
         color: greenyellow;
         text-align: center;     /*wtf changed below*/
-        /* Center text horizontally */
         padding: auto;
-        /* Add padding for better visual appeal */
       }
 
       body {
         /*h1, h2, h3, div, p, a, button */
         text-align: left;
-        /* Align text to the left within these elements */
       }
     </style>
     <style>
@@ -51,14 +48,14 @@
       .buttonB {
         /*margin-left: 10px;*/
         border: 2px solid lightblue;
-        background-color: #111;
-        color: white;
+        background-color: greenyellow;
+        color: black; 
         display: block; 
         margin: 0 auto;
         justify-items: right;
-        width: 200px; /* Set the width */
-        height: 50px; /* Set the height */
-        font-size: 18px; /* Adjust the font size */
+        width: 100px; 
+        height: 30px;
+        font-size: 18px; 
       }
     .installButton {
       background-color: chartreuse;
@@ -84,33 +81,24 @@
         height: 100%;
         max-width: 600px;
         max-height: 800px;
-       /* overflow: auto;  */
-        /* Enable scrolling for the entire modal */
         background-color: rgb(0, 0, 0);
-        /* Semi-transparent background */
       }
       .dialog-heading {
                             /*h2, h3, div, p, a, button */
         align-items : center;
         text-align: center;
       }
-      /* Style for the modal content */
       .dialog-content {
         background-color: rgb(0, 0, 0);
         color: greenyellow;
-       /* margin: 15% auto;*/
         padding: 10px;
-       /* border: 1px solid #888;*/
         width: 80%;
         max-width: 600px;
-        /* Limit the maximum width of the modal */
         max-height: 800px;
-        /* Limit the maximum height of the modal */
         overflow-y: auto;
-        /* Enable vertical scrolling for the modal content */
       }
     </style>
-    <title>Hello PWA</title>
+    <title>Intercept</title>
 </head>
 <body>
   <br><br>
@@ -121,17 +109,14 @@
     <img src="CubeTestPlaying800x600b.png" alt="game screenshot" width="350px" height="200px"> <!-- style="border: lightblue;">    -->
     
    <a href='https://bobkoto.github.io/bob-site/az/game01/index.html'> <!-- starts the Unity Game -->
-    <button class="buttonB"><em> > Click to Play  ></em></button> 
-    <!--
-            <button class="buttonA">  
-            <img src="rungamebutton.png" alt="Run game Button Image" width="100" height="100"> 
-            </button>--> 
+    <button class="buttonB"><em>  Play  ></em></button> 
     </a> 
     <br>
     <div id="message-container"></div>
     <br><br><br>
     <div>This game is Open Source and free to play and install as an offline web app.</div><br>
     <div>Local VERSION TEST  &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br>
+   
     <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
       <div class="screenshot"></div>    <!-- not used? -->
     
@@ -141,7 +126,7 @@
             style=" width: 320px; height: 180px; justify-content:center; align-items:center" alt="Game Screen Shot" />
         </h1>
         <form class="actions" method="dialog">
-          <button value="install" id="install-button" class="installButton">Install app so I can play offline</button>
+          <button value="install" id="install-button" class="installButton">Install as a web app so I can play offline</button>
           <br>
           <button value="cancel" class="notNowButton">Not now just play</button>
           <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
@@ -160,11 +145,6 @@
           You can install this app and play it offline or just play it 
           online.
         </p>
-      <!--   <p> The Install app button will install this app on your computer or phone so
-          you can play offline without any connection to the internet.
-          Or you can click the Close button to play only while connected to the internet.
-        </p>  -->
-
      </section>   
        <!-- <div>This game is Open Source and free to play and install as an offline web app.</div><br> -->
     </dialog>
