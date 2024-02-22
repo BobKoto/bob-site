@@ -67,6 +67,6 @@ notes:
 
 <!-- <script src="./scripts/main.js"></script>  -->
 <script>
-  const myHeading = document.querySelector("h1");
-  myHeading.textContent = "Welcome";
+  const myHeadingWelcome = document.querySelector("h1");
+  myHeadingWelcome.textContent = "Welcome";
 </script>
