@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0b032';    //change index.html too!!! for now
+var VERSION = 'version_0b033';    //change index.html too!!! for now
 var GHPATH = '/bob-site/az';
 const CACHE_NAME = 'hello-pwa-cache-v146';
 var APP_PREFIX = 'hellopwa_';
@@ -192,7 +192,7 @@ self.addEventListener('fetch', function (e) {
   e.respondWith(
     caches.match(e.request).then(function (request) {
       if (request) { 
-        console.log('Responding with cache : ' + e.request.url);
+        // console.log('Responding with cache : ' + e.request.url);   // good logging for initial verification  
         return request
       } else {       
         console.log('File is not cached, fetching : ' + e.request.url);

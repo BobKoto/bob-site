@@ -114,10 +114,10 @@
   <div>This game is Open Source and free to play and install as an offline web app.</div><br>
   <div id="message-container"></div>
    <!-- ***The Local VERSION to update******************************************************************** --> 
-  <p> Local VER. b032 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
+  <p> Local VER. b033 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
   <!-- <h2>Local Time: <span id="localTime"></span></h2> -->
 
-  <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
+  <dialog id="about-dialog" class="dialogstyle"> 
     <div class="screenshot"></div>    <!-- not used? -->
   
     <section class="dialog-content">
@@ -192,12 +192,10 @@
   var dialogContent = document.querySelector('.dialog-content');
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
-    // hideInstallPromptSection(); //superceded by dialog
     console.log('display-mode = standalone so we are in PWA... NOW do aboutDialog.style.display = none  to make it go away.');
     aboutDialog.style.display = 'none';
   }
   else {
-    //aboutDialog.showModal();  //just to see if it works
     console.log('display-mode is NOT standalone so we are online and NOT PWA. Do addListener for beforeinstallprompt then OPEN DIALOG.');
     window.addEventListener('beforeinstallprompt', (event) => {
       // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
@@ -216,10 +214,10 @@
             deferredPrompt.prompt();
             console.log('User clicked install....');
             addEventListener('appinstalled', () => {
-            console.log('appinstalled event RECEIVED');
-            aboutDialog.close();
-            console.log('aboutDialog.close called after appinstalled event...  NOW do aboutDialog.style.display = none  to make it go away.');
-            aboutDialog.style.display = 'none';
+              console.log('appinstalled event RECEIVED');
+              aboutDialog.close();
+              console.log('aboutDialog.close called after appinstalled event...  NOW do aboutDialog.style.display = none  to make it go away.');
+              aboutDialog.style.display = 'none';
             });
           }
           else {
