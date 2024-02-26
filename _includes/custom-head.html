@@ -41,16 +41,25 @@
 }
 </style> 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function () {
     var links = document.querySelectorAll("a");
-    links.forEach(function(link) {
+    links.forEach(function (link) {
       link.style.fontStyle = "italic";
       link.style.textDecoration = "underline";
     });
   });
-  </script>
-  <script>    <!-- Override Jekyll -->
-    const myHeading = document.querySelector("h1");
-    myHeading.style.backgroundColor = "black";
-    myHeading.style.color = "white";
-  </script>
+</script>
+<script>    <!-- Override Jekyll -->
+  const myHeading = document.querySelector("h1");
+  myHeading.style.backgroundColor = "black";
+  myHeading.style.color = "white";
+</script>
+<script>
+  function logWithTimestamp(message) {
+    const now = new Date();
+    const timestamp = now.toTimeString().split(' ')[0]; // Extract hh:mm:ss
+    // Prefix the message with the timestamp
+    const logMessage = `[${timestamp}] ${message}`;
+    // Output the log message to the console
+    console.log(logMessage);
+  }</script>

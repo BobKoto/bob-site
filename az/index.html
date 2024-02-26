@@ -114,7 +114,7 @@
   <div>This game is Open Source and free to play and install as an offline web app.</div><br>
   <div id="message-container"></div>
    <!-- ***The Local VERSION to update******************************************************************** --> 
-  <p> Local VER. b033 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
+  <p> Local VER. b034 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
   <!-- <h2>Local Time: <span id="localTime"></span></h2> -->
 
   <dialog id="about-dialog" class="dialogstyle"> 
@@ -150,21 +150,6 @@
   </dialog>
 
    <script src="RegisterServiceWorker.js"></script>  
- 
-  <script>
-      function hideInstallPromptSection() {
-          var section = document.getElementById('installPromptSection');
-          section.style.display = 'none';
-          console.log('HIDE PWA install prompt');
-      }
-  </script>
-    <script>
-      function showInstallPromptSection() {
-          var section = document.getElementById('installPromptSection');
-          section.style.display = 'block';
-          console.log('SHOW PWA install prompt');
-      }
-  </script>
 
     <script>
         // Function to update the displayed time
@@ -196,25 +181,24 @@
     aboutDialog.style.display = 'none';
   }
   else {
-    console.log('display-mode is NOT standalone so we are online and NOT PWA. Do addListener for beforeinstallprompt then OPEN DIALOG.');
+    logWithTimestamp('display-mode is NOT standalone so we are online and NOT PWA. Do addListener for beforeinstallprompt then OPEN DIALOG.');
     window.addEventListener('beforeinstallprompt', (event) => {
       // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
-      console.log('beforeinstallprompt RECEIVED');
+      logWithTimestamp('beforeinstallprompt RECEIVED');
       event.preventDefault();
       deferredPrompt = event;
-      // Show the install button or take any other action  
-      //if (deferredPrompt) showInstallPromptSection();  //or leave custom install button hidden & just let the app run on the web?
       if (deferredPrompt) {
         aboutDialog.showModal();
         dialogContent.scrollTop = 0;
-        console.log('INSIDE DIALOG & the addEventListener block, the deferred prompt is ', deferredPrompt);
+        logWithTimestamp('INSIDE DIALOG & the addEventListener block, the deferred prompt is ', deferredPrompt);
+        //logWithTimestamp('This is a log message.');
         // Wait for the user to click a dialog cancel/install button.
         aboutDialog.addEventListener('close', () => {
           if (aboutDialog.returnValue === "install") {
             deferredPrompt.prompt();
-            console.log('User clicked install....');
+            logWithTimestamp('User clicked install....');
             addEventListener('appinstalled', () => {
-              console.log('appinstalled event RECEIVED');
+              logWithTimestamp('appinstalled event RECEIVED');
               aboutDialog.close();
               console.log('aboutDialog.close called after appinstalled event...  NOW do aboutDialog.style.display = none  to make it go away.');
               aboutDialog.style.display = 'none';
@@ -222,9 +206,9 @@
           }
           else {
             installButton.disabled = true;
-            console.log('User clicked CANCEL....  aboutDialog return value is ', aboutDialog.returnValue );
+            logWithTimestamp('User clicked CANCEL....  aboutDialog return value is ', aboutDialog.returnValue );
             aboutDialog.close();
-            console.log('aboutDialog.close called after CANCEL....  NOW do aboutDialog.style.display = none  to make it go away.');
+            logWithTimestamp('aboutDialog.close called after CANCEL....  NOW do aboutDialog.style.display = none  to make it go away.');
             aboutDialog.style.display = 'none';
           }
         });
