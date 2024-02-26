@@ -1,4 +1,4 @@
-//for now this script is in _includes\custom-head.html - cheap breadcrumb 
+//especially for the when of online events
 function logWithTimestamp(message) {
     // Get the current time
     const now = new Date();
