@@ -54,12 +54,3 @@
   myHeading.style.backgroundColor = "black";
   myHeading.style.color = "white";
 </script>
-<script>
-  function logWithTimestamp(message) {
-    const now = new Date();
-    const timestamp = now.toTimeString().split(' ')[0]; // Extract hh:mm:ss
-    // Prefix the message with the timestamp
-    const logMessage = `[${timestamp}] ${message}`;
-    // Output the log message to the console
-    console.log(logMessage);
-  }</script>
