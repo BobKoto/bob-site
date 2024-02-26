@@ -52,10 +52,11 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>-->
 </head>
 
-## *Updates of content - mostly text/posts - are on going. All Links should work.*
-*PWA game availability info coming... it is in the blog*
+## *Everything on this site is a placeholder for something better, right?*
 
-### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games you can play right now in your browser. No ads or anything, just games you can enjoy for absolutely free.
+### The PWA  [PWA lab](https://bobkoto.github.io/bob-site/pwalab) has games anyone can play or download to their browser. No ads or anything, just games you can enjoy for absolutely free. The "download" part is what a PWA is/does.
+
+### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games anyone can play right now in their browser. No ads or anything, just games you can enjoy for absolutely free.
 
 ### The [Showcase](https://bobkoto.github.io/bob-site/showcase) is a mini metaverse where you can see some pics, WEBGL games, and invite others and voice chat... well, just check it out. Courtesy of Croquet.io. Maybe interesting multiplayer things to come.
 
