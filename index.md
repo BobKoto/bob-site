@@ -55,11 +55,11 @@ document.addEventListener("DOMContentLoaded", function() {
 ## *Updates of content - mostly text/posts - are on going. All Links should work.*
 *PWA game availability info coming... it is in the blog*
 
-### Enjoy looking around especially at the [Game Gallery](https://bobkoto.github.io/bob-site/image02) where you'll find screen shots and videos of Android games built with Unity, along with their links to Github. 
-
 ### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games you can play right now in your browser. No ads or anything, just games you can enjoy for absolutely free.
 
-### The [Showcase](https://bobkoto.github.io/bob-site/showcase) is a mini metaverse where you can see some pics, WEBGL games, and invite others and voice chat... well, just check it out. Courtesy of Croquet.io.
+### The [Showcase](https://bobkoto.github.io/bob-site/showcase) is a mini metaverse where you can see some pics, WEBGL games, and invite others and voice chat... well, just check it out. Courtesy of Croquet.io. Maybe interesting multiplayer things to come.
+
+### The [Game Gallery](https://bobkoto.github.io/bob-site/image02) has screen shots and videos of open source Android games built with Unity, along with their links to Github. 
 
 notes: 
 - *this site, including the games you can play in your browser, does not track or ask for nor collect any info about you*

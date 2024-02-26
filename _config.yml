@@ -2,14 +2,11 @@ theme: minima
 favicon: /assets/PassageFavIcon.png
 header_pages:
   - index.md
-  - image01.md
-  - image02.md
-  - graphics02.md
-  - downloads.md
+  - pwalab.md
   - gamelab.md
   - showcase.md
+  - image02.md
   - about.md
-  - scriptpractice.md
 #defaults:
 #  -
 #    scope:

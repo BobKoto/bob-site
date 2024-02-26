@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Game Gallery"
+weight: 50
 ---
 {% include custom-head.html %} 
 <script src="./scripts/favicon.js"></script>
