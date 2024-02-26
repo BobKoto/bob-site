@@ -1,14 +1,14 @@
 ---
 layout: page
 title: "WebGL Game Lab"
-weight: 40
+weight: 30
 ---
 <script src="./scripts/favicon.js"></script>
 {% include custom-head.html %} 
 
 ## Games that you can play:
 
-# No ads or anything - just games to play and enjoy
+# No ads or anything - just games for anyone to play and enjoy
 
 **Illusion Pinball:** aka touchinput1 ported from a native Android app to WebGL so you can play in your browser. 
 <br><br> A relaxingly easy pinball game with some odd video and audio illusions. Kinda fun and chill. Enjoy...

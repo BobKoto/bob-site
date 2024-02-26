@@ -1,29 +1,7 @@
 ---
-layout: default
-title: Progressive Web Apps for All of Us
+title: PWA Lab
+weight: 20
 ---
-<script src="/bob-site/scripts/favicon.js"></script>
-<style>
-      body {
-        background-color: lightblue;
-      }
-</style>
-
-# Update: WebGL and then Progressive Web Applications 
-
-*__Last post said:__*
-"To make games more accessible I'm now using Unity's WebGL platform option to create and distribute games. For those of us that push their Roombas around with a broomstick, like I do &#128512;, WebGL technology enables us to make games you can play in your desktop and phone internet browser. ...More to come."
-
-## The "More to come" involves extending our WebGL Game apps into Progressive Web Apps that anyone can freely install and play online or offline 
-
-PWAs (progressive web apps) are apps that can run, and be installed, on most web browsers.<br><br>
- **In our case, on this site:** 
-- All games are free for anyone to play, and download. Nothing will ever be sold on this site.
-- PWAs are WebGL games you can play in your web browser
-- You can optionally install PWA apps/games to your desktop or phone - then you can play even when your device is offline - not connected to the internet
-- Google, Apple, etc. playstores are not required to distribute PWAs - and PWAs can run just as well as playstore apps
-- To learn more about PWAs and their benefits please go ahead do your own bit of research 
-
 ## Here's a PWA-based Arcade "Sphere Interception" Game: 
 
 It's our first proof of concept. It plays well online - and offline. You can play on the web and/or follow a simple prompt to install it and play it offline.
