@@ -63,18 +63,18 @@ document.addEventListener("DOMContentLoaded", function() {
 ### The [Game Gallery](https://bobkoto.github.io/bob-site/image02) has screen shots and videos of open source Android games built with Unity, along with their links to Github. 
 <div>
 <span>
-       <img src="/assets/IllusionPinball.jpg" 
+       <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
              style="height:50%; width:50%; justify-content:center; align-items:center" 
              alt="A pinball game"> 
 </span>
 <span>
-        <img src="/assets/Spacergy1.jpg"
+        <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
              style="height:50%; width:50%; justify-content:center; align-items:center" 
              alt="A 3D Arcade game">
 
 </span>
 <span>
-        <img src="/assets/memory1GameOpenScreen.jpg"
+        <img src="{{ site.baseurl }}/assets/memory1GameOpenScreen.jpg"
              style="height:50%; width:50%; justify-content:center; align-items:center" 
              alt="A game that players press a sequence of buttons based on what they remember they have seen/heard">
 </span>
