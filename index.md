@@ -64,18 +64,18 @@ document.addEventListener("DOMContentLoaded", function() {
 <div>
 <span>
        <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
-             style="height:50%; width:50%; justify-content:center; align-items:center" 
+             style="height:15%; width:15%; display: inline; margin = 10px" 
              alt="A pinball game"> 
 </span>
 <span>
         <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
-             style="height:50%; width:50%; justify-content:center; align-items:center" 
+             style="height:15%; width:15%; display: inline; margin = 10px" 
              alt="A 3D Arcade game">
 
 </span>
 <span>
         <img src="{{ site.baseurl }}/assets/memory1GameOpenScreen.jpg"
-             style="height:50%; width:50%; justify-content:center; align-items:center" 
+             style="height:15%; width:15%; display: inline;" 
              alt="A game that players press a sequence of buttons based on what they remember they have seen/heard">
 </span>
 </div>
