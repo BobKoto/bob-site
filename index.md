@@ -61,7 +61,8 @@ document.addEventListener("DOMContentLoaded", function() {
 ### The [Showcase](https://bobkoto.github.io/bob-site/showcase) is a mini metaverse where you can see some pics, WEBGL games, and invite others and voice chat... well, just check it out. Courtesy of Croquet.io. Maybe interesting multiplayer things to come.
 
 ### The [Game Gallery](https://bobkoto.github.io/bob-site/image02) has screen shots and videos of open source Android games built with Unity, along with their links to Github. 
-<div>
+
+<div style="text-align: center;">
 <span>
        <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
              style="height:15%; width:15%; display: inline; margin = 10px" 
