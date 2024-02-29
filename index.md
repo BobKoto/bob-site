@@ -18,6 +18,13 @@ weight: 10
 
 ### The [Showcase](https://bobkoto.github.io/bob-site/showcase) is a mini metaverse where you can see some pics, WEBGL games, and invite others and voice chat... well, just check it out. Courtesy of Croquet.io. Maybe interesting multiplayer things to come.
 
+<div style="display:flex; justify-content:center; align-items:center; width: 100%;">
+        <img src="{{ site.baseurl }}/assets/wscase01.jpg" 
+             style="height:50%; width:50%; justify-content:center; align-items:center" 
+             alt="Web Showcase pic"> 
+    </a>
+</div>
+
 ### The [Game Gallery](https://bobkoto.github.io/bob-site/image02) has screen shots and videos of open source Android games built with Unity, along with their links to Github. 
 
 <div style="text-align: center;">
