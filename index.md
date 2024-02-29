@@ -3,53 +3,13 @@ title: Home
 weight: 10
 # index is the 1st page shown 
 ---
-<script src="./scripts/favicon.js"></script>
-<!-- <script src="{{ site.baseurl }}/RegisterServiceWorker.js"></script>  -->
+<!-- <script src="./scripts/favicon.js"></script> -->
 
 {% include custom-head.html %} 
 <head>
-<link rel="shortcut icon" type="image/png"  href="https://bobkoto.github.io/bob-site/favicon.png">
+<link rel="shortcut icon" type="image/png"  href="favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
-<!-- <style?>
-      body {
-        background-color: black;
-        color : white;
-    }
-      a {
-       color: lightblue; 
-    } 
-      a:link {
-       color: #00fff6; 
-    } 
-      a:visited {
-       color: #00fff6; 
-    } 
-    a:hover {
-      color : black;
-      background-color: bisque;
-    }
-</style> 
-<style>
-      header {
-        background-color: lightblue;
-        color : black;
-    }
-      a {
-       color: black; 
-    } 
-    a:hover {
-  background-color: bisque;
-}
-</style> 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var links = document.querySelectorAll("a");
-  links.forEach(function(link) {
-    link.style.fontStyle = "italic";
-    link.style.textDecoration = "underline";
-  });
-});
-</script>-->
+
 </head>
 
 ## *Everything on a website is a placeholder for something better, right?*
@@ -77,14 +37,14 @@ document.addEventListener("DOMContentLoaded", function() {
 <span>
         <img src="{{ site.baseurl }}/assets/memory1GameOpenScreen.jpg"
              style="height:15%; width:15%; display: inline;" 
-             alt="A game that players press a sequence of buttons based on what they remember they have seen/heard">
+             alt="A memotry game">
 </span>
 </div>
 <br><br>
 - *this site, including the games you can play in your browser, does not track or ask for nor collect any info about you*
 - *RSS subscribe/Notification to inform you of content updates - not implemented but under review, for ever*
 
-**Blog posts below,** really...
+**Blog posts below,** all with a nice light blue background to keep us awake, really...
 
 <!-- <script src="./scripts/main.js"></script>  -->
 <script>
