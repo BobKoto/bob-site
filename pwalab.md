@@ -3,11 +3,13 @@ title: PWA Lab
 weight: 20
 ---
 
-<head>
+
 <link rel="shortcut icon" type="image/png"  href="favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+<link rel="shortcut icon" type="image/png"  href="{{ "favicon.png"  | absolute_url }}">
+
 {% include custom-head.html %}
-</head>
+
 ## PWA-based Arcade  Game: Sphere Interception
 
 It's our first proof of concept. It plays well online - and offline. You can play on the web and/or follow a simple prompt to install it and play it offline.

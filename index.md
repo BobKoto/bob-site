@@ -6,11 +6,9 @@ weight: 10
 <!-- <script src="./scripts/favicon.js"></script> -->
 
 {% include custom-head.html %} 
-<head>
+
 <link rel="shortcut icon" type="image/png"  href="favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
-
-</head>
 
 ## *Everything on a website is a placeholder for something better, right?*
 
