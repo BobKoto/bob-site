@@ -3,7 +3,8 @@ title: PWA Lab
 weight: 20
 ---
 
-
+<script src="./scripts/favicon.js"></script>
+<!-- Script above is because these next 3 lines do nothing. And the include of custom-head.html ends up in the html <body> when the site is built -->
 <link rel="shortcut icon" type="image/png"  href="favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
 <link rel="shortcut icon" type="image/png"  href="{{ "favicon.png"  | absolute_url }}">
