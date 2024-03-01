@@ -20,28 +20,27 @@ weight: 10
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
         <img src="{{ site.baseurl }}/assets/wscase01.jpg" 
-             style="height:50%; width:50%; justify-content:center; align-items:center" 
+             style="height:40%; width:40%; justify-content:center; align-items:center" 
              alt="Web Showcase pic"> 
-    </a>
 </div>
-
+<br>
 ### The [Game Gallery](https://bobkoto.github.io/bob-site/image02) has screen shots and videos of open source Android games built with Unity, along with their links to Github. 
 
 <div style="text-align: center;">
 <span>
        <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
-             style="height:15%; width:15%; display: inline; margin = 10px" 
+             style="height:25%; width:25%; display: inline; margin = 10px" 
              alt="A pinball game"> 
 </span>
 <span>
         <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
-             style="height:15%; width:15%; display: inline; margin = 10px" 
+             style="height:25%; width:25%; display: inline; margin = 10px" 
              alt="A 3D Arcade game">
 
 </span>
 <span>
         <img src="{{ site.baseurl }}/assets/memory1GameOpenScreen.jpg"
-             style="height:15%; width:15%; display: inline;" 
+             style="height:25%; width:25%; display: inline;" 
              alt="A memotry game">
 </span>
 </div>
