@@ -20,13 +20,13 @@ weight: 10
 <div style="text-align: center;">
 <span>
         <img src="{{ site.baseurl }}/assets/CubeTestPlaying1.png"
-             style="height:50%; width:40%; display: inline; margin = 10px" 
+             style="height:50%; width:40%; display: flex; margin = 40px" 
              alt="A 3D Arcade game">
 
 </span>
 <span>
        <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
-             style="height:25%; width:25%; display: inline; margin = 10px" 
+             style="height:25%; width:25%; display: flex;" 
              alt="A pinball game"> 
 </span>
 </div>
