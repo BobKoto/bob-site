@@ -34,7 +34,7 @@ weight: 10
 </span>
 <span>
         <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
-             style="height:25%; width:25%; display: inline; margin = 10px" 
+             style="height:50%; width:50%; display: inline; margin = 10px" 
              alt="A 3D Arcade game">
 
 </span>
