@@ -16,6 +16,21 @@ weight: 10
 
 ### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games anyone can play right now in their browser. No ads or anything, just games you can enjoy for absolutely free.
 
+
+<div style="text-align: center;">
+<span>
+        <img src="{{ site.baseurl }}/assets/CubeTestPlaying1.png"
+             style="height:50%; width:40%; display: inline; margin = 10px" 
+             alt="A 3D Arcade game">
+
+</span>
+<span>
+       <img src="{{ site.baseurl }}/assets/IllusionPinball.jpg" 
+             style="height:25%; width:25%; display: inline; margin = 10px" 
+             alt="A pinball game"> 
+</span>
+</div>
+
 ### The [Showcase](https://bobkoto.github.io/bob-site/showcase) is a mini metaverse where you can see some pics, WEBGL games, and invite others and voice chat... well, just check it out. Courtesy of Croquet.io. Maybe interesting multiplayer things to come.
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
@@ -34,7 +49,7 @@ weight: 10
 </span>
 <span>
         <img src="{{ site.baseurl }}/assets/Spacergy1.jpg"
-             style="height:50%; width:50%; display: inline; margin = 10px" 
+             style="height:50%; width:40%; display: inline; margin = 10px" 
              alt="A 3D Arcade game">
 
 </span>
