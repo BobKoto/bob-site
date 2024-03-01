@@ -28,12 +28,12 @@ weight: 30
 <br><br><br>
 
 
-**Immaculate Interception:** A casual arcade game to see how fast you can intercept the onrushing spheres. It may not look like it but the game always runs with the very same pattern of sphere motion and direction... The more you play it the more you'll see the pattern! But will you ever master it? Finish in about 10 or 15 seconds? Or is that even possible? 
+**Immaculate Interception:** A casual arcade game to see how fast you can intercept the 50 onrushing spheres. It may not look like it but the game always runs with the very same pattern of sphere motion and direction... The more you play it the more you'll see the pattern! But will you ever master it? Finish in about 10 or 15 seconds? Or is that even possible? 
 <br><br>
 <div style="display:flex; justify-content:center; align-items:center; width: 100%;">
     <a href="https://bobkoto.github.io/bob-site/game01" style="display:flex; height:100; width:100%; justify-content:center; align-items:center" 
     title="Intercept the Spheres. Click to play..."> 
-        <img src="{{ site.baseurl }}/assets/CubeTestStartPage.png" 
+        <img src="{{ site.baseurl }}/assets/CubeTestPlaying1.png" 
              style="height:50; width:50%; justify-content:center; align-items:center" 
              alt="A sphere intercept arcade game"> 
     </a>
