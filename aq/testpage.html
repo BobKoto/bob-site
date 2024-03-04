@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+    <meta name="description" content="Test Page. Learn.">
+ <!--    <link rel="manifest" href="azmanifest.json" />
+
+   <link rel = "icon" href="intericon256.png" />   this errors out -->
+    <link rel = "icon" href="pinball512.png" />
+
+    <style>
+      body {
+        font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        color: #111;
+        background-color: #fdfdfd;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-feature-settings: "kern" 1;
+        -moz-font-feature-settings: "kern" 1;
+        -o-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        font-kerning: normal;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        flex-direction: column
+      }
+    
+      body {
+        background-color: black;
+        color: greenyellow;
+        text-align: center;     /*wtf changed below*/
+        padding: auto;
+      }
+
+      body {
+        /*h1, h2, h3, div, p, a, button */
+        text-align: left;
+      }
+    </style>
+    <style>
+      .buttonA {
+        margin-left: 10px;
+        border: 2px solid lightblue;
+        justify-items: right;
+      }
+      .buttonB {
+        /*margin-left: 10px;*/
+        border: 2px solid lightblue;
+        background-color: greenyellow;
+        color: black; 
+        display: block; 
+        margin: 0 auto;
+        justify-items: right;
+        width: 100px; 
+        height: 30px;
+        font-size: 18px; 
+      }
+    .installButton {
+      background-color: chartreuse;
+      color: black;
+      display: block; 
+      margin: 0 auto;
+    }
+    .notNowButton {
+      background-color: yellow;
+      color: black;
+      display: block;
+      margin: 0 auto;
+    }
+    </style>
+    <style>
+      /* Style for the modal */
+      .dialogstyle {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 600px;
+        max-height: 800px;
+        background-color: rgb(0, 0, 0);
+      }
+      .dialog-heading {
+                            /*h2, h3, div, p, a, button */
+        align-items : center;
+        text-align: center;
+      }
+      .dialog-content {
+        background-color: rgb(0, 0, 0);
+        color: greenyellow;
+        padding: 10px;
+        width: 80%;
+        max-width: 600px;
+        max-height: 800px;
+        overflow-y: auto;
+      }
+    </style>
+    <title>Illusion Pinball</title>
+</head>
+<body>
+  <br><br>
+    <h1>Illusion Pinball</h1>
+    <!-- *****The Local VERSION to update***** -->
+
+
+    <img src="IllusionPinball.jpg" alt="game screenshot" width="180px" height="340px"> <!-- style="border: lightblue;">    -->
+    
+   <a href='https://bobkoto.github.io/bob-site/aq/pinball01/index.html'> <!-- starts the Unity Game -->
+    <button class="buttonB"><em>  Play  ></em></button> 
+    </a> 
+    <br>
+    <div id="message-container"></div>
+    <br><br><br>
+    <div>This game is Open Source and free to play and install as an offline web app.</div><br>
+    <div>Local VERSION TEST  &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br>
+   
+    <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
+      <div class="screenshot"></div>    <!-- not used? -->
+    
+      <section class="dialog-content">
+        <h1 class="dialog-heading">Illusion Pinball <br>
+          <img class="logo" src="IllusionPinball.jpg"
+            style=" width: 180px; height: 320px; justify-content:center; align-items:center" alt="Game Screen Shot" />
+        </h1>
+        <br>
+        <form class="actions" method="dialog">
+          <button value="install" id="install-button" class="installButton">Install as a web app so I can play offline</button>
+          <br>
+          <button value="cancel" class="notNowButton">Not now just play</button>
+          <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        </form>
+
+        <div style = "text-align: center" >
+       <!--  
+        <p>
+          Illusion Pinball 
+        </p>  -->
+        <p>
+          <em style="color: #e62c2c"> Relaxing &nbsp; </style></em><em style="color: #ebeb10"> Trancy &nbsp; </style></em><em> Easy to play</em> 
+        </p>
+       <!-- <p>
+          When do you stay still or move around to intercept more
+          spheres? You'll need to figure that out!
+        </p> -->
+        <p>
+          You can install this app and play it offline or just play it 
+          online.
+        </p>
+        </div>      
+     </section>   
+       <!-- <div>This game is Open Source and free to play and install as an offline web app.</div><br> -->
+
+    </dialog>
+
+<!--
+   <script src="RegisterServiceWorker.js"></script>  -->
+ 
+  <script>
+    const aboutDialog = document.getElementById("about-dialog");
+    const installButton = document.getElementById("install-button");
+    var dialogContent = document.querySelector('.dialog-content');
+    aboutDialog.showModal();
+    dialogContent.scrollTop = 0;
+
+  </script>
+  <!--
+    <script>
+      function showInstallPromptSection() {
+          var section = document.getElementById('installPromptSection');
+          section.style.display = 'block';
+          console.log('SHOW PWA install prompt');
+      }
+  </script>  -->
+
+    <script>
+        // Function to update the displayed time
+        function updateTime() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            // Add leading zero if needed
+            hours = (hours < 10 ? "0" : "") + hours;
+            minutes = (minutes < 10 ? "0" : "") + minutes;
+            seconds = (seconds < 10 ? "0" : "") + seconds;
+    
+            // Display the time in the "localTime" element
+            document.getElementById("localTime").innerHTML = hours + ":" + minutes;
+        }
+        // Call updateTime initially when the page loads or is refreshed
+        updateTime();
+    </script>
+<!--
+<script>
+  let deferredPrompt;
+  // Check if the app is already installed (runs when the page loads)
+  if (window.matchMedia('(display-mode: standalone)').matches) {
+    hideInstallPromptSection();
+    console.log('display-mode = standalone so we are in PWA');
+   }
+  else {
+  console.log('display-mode is NOT standalone so we are online and NOT PWA. Proceed with addListener for beforeinstallprompt for PWA');
+  window.addEventListener('beforeinstallprompt', (event) => {
+    // Prevent the default behavior and Stash the event in deferredPrompt so it can be triggered later.
+    event.preventDefault();
+    deferredPrompt = event;
+    // Show the install button or take any other action  //document.getElementById('installButton').style.display = 'block';
+    showInstallPromptSection();
+    console.log('the deferred prompt INSIDE the addEventListener block is ', deferredPrompt);
+  });
+  console.log('the deferred prompt OUTSIDE the addEventListener block is ', deferredPrompt, ' now listen on the installButton');
+  document.getElementById('installButton').addEventListener('click', () => {
+    // Show the installation prompt
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      // Wait for the user to respond to the prompt
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('User accepted the install prompt');
+          // Hide the install button after successful installation
+          hideInstallPromptSection();
+        } else {
+          console.log('User dismissed the install prompt');
+          hideInstallPromptSection();
+         // document.getElementById('notNowButton').style.display = 'none';
+        }
+        // Reset the deferredPrompt
+        deferredPrompt = null;
+      });
+    }
+  });
+// Check if the app is already installed (runs when the page loads)
+//  if (window.matchMedia('(display-mode: standalone)').matches) {
+//    //document.getElementById('installButton').style.display = 'none';
+//    hideInstallPromptSection();
+  }
+</script>
+
+    <script>
+    document.getElementById('notNowButton').addEventListener('click', () => {
+        console.log('User clicked notNow ');
+        hideInstallPromptSection();
+      //  -document.getElementById('notNowButton').style.display = 'none';
+      //  document.getElementById('installButton').style.display = 'none';  
+      });
+      </script>  -->
+
+<!--   <script>
+    document.getElementById('enterButton').addEventListener('click', () => {
+        console.log('User pressed ****ENTER****');
+      });
+      </script> -->
+</body>
+
+</html>
