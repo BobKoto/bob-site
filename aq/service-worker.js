@@ -1,12 +1,11 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a001';    //change index.html too!!! for now
+var VERSION = 'version_0a002';    //change index.html too!!! for now
 var GHPATH = '/bob-site/aq';
 const CACHE_NAME = 'IPinballCache';
 var APP_PREFIX = 'ipball01appprefix_';
 const urlsToCache = [
 "https://bobkoto.github.io/bob-site/aq/",
 "https://bobkoto.github.io/bob-site/aq/index.html",
-"https://bobkoto.github.io/bob-site/aq/AppPageTemp/theAppPage.html",
 "https://bobkoto.github.io/bob-site/aq/aqmanifest.json",   
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball.jpg",
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball2.jpg",
@@ -144,7 +143,6 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/aq/pinball01/Build/pinball01/.framework.js.unityweb",
 "https://bobkoto.github.io/bob-site/aq/pinball01/Build/pinball01/.loader.js",
 "https://bobkoto.github.io/bob-site/aq/pinball01/Build/pinball01/.wasm.unityweb",
-"https://bobkoto.github.io/bob-site/aq/pinball01/StreamingAssets/UnityServicesProjectConfiguration.json",
 ];
 
 //"${GHPATH}/",
