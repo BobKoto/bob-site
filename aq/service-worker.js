@@ -7,7 +7,7 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/aq/",
 "https://bobkoto.github.io/bob-site/aq/index.html",
 "https://bobkoto.github.io/bob-site/aq/AppPageTemp/theAppPage.html",
-"https://bobkoto.github.io/bob-site/aq/azmanifest.json",   
+"https://bobkoto.github.io/bob-site/aq/aqmanifest.json",   
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball.jpg",
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball2.jpg",
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball2.png",
