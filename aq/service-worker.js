@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a007';    //change index.html too!!! for now
+var VERSION = 'version_0a008';    //change index.html too!!! for now
 var GHPATH = '/bob-site/aq';
 const CACHE_NAME = 'IPinballCache';
 var APP_PREFIX = 'ipball01appprefix_';
@@ -10,6 +10,7 @@ const urlsToCache = [
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball.jpg",
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball2.jpg",
 "https://bobkoto.github.io/bob-site/aq/IllusionPinball2.png",
+"https://bobkoto.github.io/bob-site/aq/pinball01/Build/pinball01.jpg",
 "https://bobkoto.github.io/bob-site/aq/pwaicons/android/android-launchericon-512-512.png",
 "https://bobkoto.github.io/bob-site/aq/pwaicons/android/android-launchericon-192-192.png",
 "https://bobkoto.github.io/bob-site/aq/pwaicons/android/android-launchericon-144-144.png",
