@@ -4,6 +4,7 @@
     "start_url": "https://bobkoto.github.io/bob-site/aq/",
     "scope": "https://bobkoto.github.io/bob-site/aq/",
     "display": "standalone",
+    "orientation": "portrait",
     "background_color": "#ffffff",
     "theme_color": "#000000",
       "icons": [
