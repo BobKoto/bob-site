@@ -112,7 +112,7 @@
     <br><br><br>
     <div>This game is Open Source and free to play and install as an offline web app.</div><br>
         <!-- *****The Local VERSION to update***** -->
-    <p> Local VER. a015 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
+    <p> Local VER. a016 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
     <!--<div>Local VERSION TEST  &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br>--> 
    
     <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
@@ -181,9 +181,9 @@
   const installButton = document.getElementById("install-button");
   var dialogContent = document.querySelector('.dialog-content');
 
-      const displayMode2 = window.matchMedia
-        ('(display-mode: fullscreen), (display-mode: standalone), (display-mode: minimal-ui), (display-mode: browser)').matches ? 'PWA' : 'Browser';
-      console.log(' ################# Display mode2:', displayMode2);
+  const displayMode = window.matchMedia('(display-mode)').media;
+  console.log('Display mode:', displayMode);
+
 
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
