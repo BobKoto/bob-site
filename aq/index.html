@@ -112,7 +112,7 @@
     <br><br><br>
     <div>This game is Open Source and free to play and install as an offline web app.</div><br>
         <!-- *****The Local VERSION to update***** -->
-    <p> Local VER. a012 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
+    <p> Local VER. a013 &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br></p><br> <!-- Change the SW too!!!-->
     <!--<div>Local VERSION TEST  &nbsp;&nbsp; Time:  <span id="localTime"></span></div><br><br>--> 
    
     <dialog id="about-dialog" class="dialogstyle"> <!--class="dialogstyle"> -->
@@ -180,6 +180,16 @@
   const aboutDialog = document.getElementById("about-dialog");
   const installButton = document.getElementById("install-button");
   var dialogContent = document.querySelector('.dialog-content');
+
+    const displayModeQuery = window.matchMedia('(display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui), (display-mode: browser)');
+    const displayMode = displayModeQuery.media === '(display-mode: standalone)' ? 'standalone' :
+      displayModeQuery.media === '(display-mode: fullscreen)' ? 'fullscreen' :
+        displayModeQuery.media === '(display-mode: minimal-ui)' ? 'minimal-ui' :
+          displayModeQuery.media === '(display-mode: browser)' ? 'browser' :
+            'unknown';
+    console.log('###############  Display mode:', displayMode);
+
+
   // Check if the app is already installed (runs when the page loads)
   if (window.matchMedia('(display-mode: standalone)').matches) {
     console.log('display-mode = standalone so we are in PWA... NOW do aboutDialog.style.display = none  to make it go away.');
