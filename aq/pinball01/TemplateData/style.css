@@ -18,8 +18,8 @@ body { padding: 0; margin: 0 }
   body {
     margin: 0;
     border: 2px solid black;
-    height: 600;
-    width: 400;
+    height: 600px;
+    width: 400px;
     display: flex;
   }
 }
