@@ -109,8 +109,36 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
+          // BK 3/13/24 Set canvas to aspect ratio
+          // Get the screen width and height
+          const screenWidth = window.innerWidth;
+          const screenHeight = window.innerHeight;
 
-      } else {
+          // Calculate the aspect ratio
+          const aspectRatio = screenWidth / screenHeight;
+
+          // Desired aspect ratio of canvas content
+          const desiredAspectRatio = 18 / 9;
+
+          // Adjust canvas dimensions based on aspect ratio
+          let canvasWidth, canvasHeight;
+          if (aspectRatio > desiredAspectRatio) {
+            // Screen is wider than desired aspect ratio
+            canvasWidth = screenWidth;
+            canvasHeight = screenWidth / desiredAspectRatio;
+          } else {
+            // Screen is taller than desired aspect ratio
+            canvasWidth = screenHeight * desiredAspectRatio;
+            canvasHeight = screenHeight;
+          }
+
+          // Set the canvas dimensions
+          const resizedcanvas = document.getElementById('unity-canvas');
+          resizedcanvas.width = canvasWidth;
+          resizedcanvas.height = canvasHeight;
+          // END OF BK 3/13/24 Set canvas to aspect ratio
+
+        } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         canvas.style.width = "400px";
