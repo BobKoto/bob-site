@@ -110,16 +110,11 @@
         // config.devicePixelRatio = 1;
 
           // BK 3/13/24 Set canvas to aspect ratio
-          // Get the screen width and height
           const screenWidth = window.innerWidth;
           const screenHeight = window.innerHeight;
-
-          // Calculate the aspect ratio
           const aspectRatio = screenWidth / screenHeight;
-
-          // Desired aspect ratio of canvas content
           const desiredAspectRatio = 18 / 9;
-
+          console.log (' width: ', screenWidth, '  hgt: ', screenHeight, '  a/r: ', aspectRatio, '  desired a/r: ', desiredAspectRatio);
           // Adjust canvas dimensions based on aspect ratio
           let canvasWidth, canvasHeight;
           if (aspectRatio > desiredAspectRatio) {
@@ -133,9 +128,11 @@
           }
 
           // Set the canvas dimensions
-          const resizedcanvas = document.getElementById('unity-canvas');
+          const resizedcanvas = document.getElementById('#unity-canvas');
           resizedcanvas.width = canvasWidth;
           resizedcanvas.height = canvasHeight;
+          console.log ('new canvas width:', canvasWidth, 'new canvas hgt: ', canvasHeight);
+
           // END OF BK 3/13/24 Set canvas to aspect ratio
 
         } else {
