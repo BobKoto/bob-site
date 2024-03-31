@@ -10,7 +10,9 @@ weight: 10
 <link rel="shortcut icon" type="image/png"  href="favicon.png">
 <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
 
-## *Everything on a website is a placeholder for something better, right?*
+## *Games you can play now and some kinda quirky blogs you can read about 'em... Enjoy*
+
+In the spirit of sharing knowledge everything on this site, the games, the website, etc. is open source and available on Github. 
 
 ### The PWA  [PWA lab](https://bobkoto.github.io/bob-site/pwalab) has games anyone can play or download to their browser. No ads or anything, just games you can enjoy for absolutely free. The "download" part is what a PWA is/does.
 
