@@ -38,9 +38,19 @@ In the spirit of sharing knowledge everything on this site, the games, the websi
              style="height:40%; width:40%; justify-content:center; align-items:center" 
              alt="Web Showcase pic"> 
 </div>
+<br><br>
 
-### The PWA  [PWA lab](https://bobkoto.github.io/bob-site/pwalab) has games anyone can play or download to their browser. No ads or anything, just games you can enjoy for absolutely free. The "download" part is what a PWA is/does.
+### The PWA  [PWA lab](https://bobkoto.github.io/bob-site/pwalab) has open source games anyone can play or download to their browser. No ads or anything, just games you can enjoy for absolutely free. The "download" part is what a PWA is/does, simply runs games in your browser that, if you want, you can also download and play offline.
 
+
+<div style="text-align: center;">
+<span>
+        <img src="{{ site.baseurl }}/assets/CubeTestPlaying1.png"
+             style="height:50%; width:40%; display: inline; margin = 40px" 
+             alt="A 3D Arcade game">
+
+</span>
+</div>
 <br>
 ### The [Game Gallery](https://bobkoto.github.io/bob-site/image02) has screen shots and videos of open source Android games built with Unity, along with their links to Github. 
 
