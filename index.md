@@ -14,8 +14,6 @@ weight: 10
 
 In the spirit of sharing knowledge everything on this site, the games, the website, etc. is open source and available on Github. 
 
-### The PWA  [PWA lab](https://bobkoto.github.io/bob-site/pwalab) has games anyone can play or download to their browser. No ads or anything, just games you can enjoy for absolutely free. The "download" part is what a PWA is/does.
-
 ### The WebGL [Game Lab](https://bobkoto.github.io/bob-site/gamelab) has games anyone can play right now in their browser. No ads or anything, just games you can enjoy for absolutely free.
 
 
@@ -40,6 +38,9 @@ In the spirit of sharing knowledge everything on this site, the games, the websi
              style="height:40%; width:40%; justify-content:center; align-items:center" 
              alt="Web Showcase pic"> 
 </div>
+
+### The PWA  [PWA lab](https://bobkoto.github.io/bob-site/pwalab) has games anyone can play or download to their browser. No ads or anything, just games you can enjoy for absolutely free. The "download" part is what a PWA is/does.
+
 <br>
 ### The [Game Gallery](https://bobkoto.github.io/bob-site/image02) has screen shots and videos of open source Android games built with Unity, along with their links to Github. 
 
