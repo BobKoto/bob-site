@@ -1,5 +1,5 @@
 // Service Worker   in most cases be sure to edit VERSION to update/add cached content
-var VERSION = 'version_0a041';    //change index.html too!!! for now
+var VERSION = 'version_0a038';    //change index.html too!!! for now
 var GHPATH = '/bob-site/aq';
 const CACHE_NAME = 'IPinballCache';
 var APP_PREFIX = 'ipball01appprefix_';
